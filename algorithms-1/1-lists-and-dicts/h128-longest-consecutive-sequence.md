@@ -2,33 +2,32 @@
 
 Adapted from https://leetcode.com/problems/longest-consecutive-sequence/solution/.
 
-0. Brute force: counting up from every number in list. 
+0. **Brute force:** counting up from every number in list. 
     We count up and stop when n+1 isnt in the list. 
     Not only does every lookup take O(N) since we look through the entire list, we might we repeat a sequence already found [2,3,4] when counting from 1. So O(N^2).
     
     So we need a way to lookup quicker, and to not repeat sequences. 
 
 
-1. Smart Count: Counting up from every number in set,
+1. **Smart Count:** Counting up from every number in set,
     [1] Get set of nums. 
     [2] For every num, count up. 
     [3] TRICK: But if num-1 exists, don't start counting. This implies num is part of some other sequence, that we either have counted, or will eventually count. 
 
-2. Sequence Dictionary: Updating and merging sequences stored in dicts
+2. **Sequence Dictionary:** Updating and merging sequences stored in dicts
     - We store a dict of consecutive sequences, which each have length and point to the left and right of the entire sequence they are connected to. 
     - For every num, we check if num-1 and num+1 are present in the dict. If they are, we can find the left and right of a sequence that num can be connected to. Then, either we append num to the left, to the right, or merge two sequences.
     - We can always assume any edge element has updated information, because either they added themselves or they were updated by the other end. 
 
-    [1] If we've seen it, do nothing. 
-    [2] If both num+1 and num-1 are present, merge the two by updating the left and right. 
-    [3] If only num+1 is present, append to the left by updating num and r.
-    [4] If only num-1 is present, append to the right by updating l and num. 
-    [5] If neither num+1 or num-1 are present, just register num as length, left, right = 1, num, num. 
-
-    [6] For case [2], we want to update num, l and r. 
-        For case [3], l = num so seen[l] = seen[num].
-        For case [4], r = num so seen[r] = seen[num]. 
-        For case [5], the seen[l] and seen[r] do nothing.
+    [1] If we've seen it, do nothing.  
+    [2] If both num+1 and num-1 are present, merge the two by updating the left and right.  
+    [3] If only num+1 is present, append to the left by updating num and r.  
+    [4] If only num-1 is present, append to the right by updating l and num.  
+    [5] If neither num+1 or num-1 are present, just register num as length, left, right = 1, num, num.  
+    [6] For case [2], we want to update num, l and r.  
+        For case [3], l = num so seen[l] = seen[num].  
+        For case [4], r = num so seen[r] = seen[num].  
+        For case [5], the seen[l] and seen[r] do nothing.  
 
 ```python
 from typing import List
