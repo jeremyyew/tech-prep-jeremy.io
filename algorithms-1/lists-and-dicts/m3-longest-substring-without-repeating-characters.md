@@ -1,23 +1,18 @@
 # M3-longest-substring-without-repeating-characters
 
+Adapted from [https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/](https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/).
+
+1. Brute force: search for repeat characters in current sequence. 
+
+   * Constantly checking entire substring for every new r.
+   * O\(N^2\) time and O\(N\) space.
+
+2. Set Window. 
+   * \[1\] No need to search the whole current substring. Store window as set. 
+   * \[2\] If there is a repeat element, don't have to find index. Just remove element s\[l\] and start again with l+1.
+   * r traverses all elements exactly once. l traverses all elements at most once. So O\(N\) time. O\(N\) space for set \(or O\(min\(k,N\)\) where k is the set of distinct characters.
+
 ```python
-'''
-Adapted from https://leetcode.com/problems/longest-substring-without-repeating-characters/solution/.
-
-1. Brute force: search for repeat characters in current sequence
-    - Constantly checking entire substring for every new r.
-    - O(N^2) time and O(N) space.
-
-2. Set Window.
-    [1] No need to search the whole current substring. Store window as set. 
-    [2] If there is a repeat element, don't have to find index. Just remove element s[l] and start again with l+1.  
-    
-    r traverses all elements exactly once. l traverses all elements at most once. So O(N) time. 
-    O(N) space for set (or O(min(k,N)) where k is the set of distinct characters.
-
-'''
-
-
 class Solution:
     def lengthOfLongestSubstring(self, s):
         N = len(s)

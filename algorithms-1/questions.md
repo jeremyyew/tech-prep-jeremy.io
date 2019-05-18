@@ -38,22 +38,28 @@
    3. [x] [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
    4. [x] [https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
    5. [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
-   6. [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
-   7. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
-   8. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
-6. [ ] 17th
-   1. [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-   2. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+6. [ ] 18th
+   1. [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
+
+   * [ ] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+   * [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
+   * [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
+   * [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+
+   1. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
+   2. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
+   3. [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
+   4. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms). 
 
 ### **DP**
 
 * [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-* [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
-* [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+* [x] [Coin Change](https://leetcode.com/problems/coin-change/)
+* [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 * [ ] [Longest Common Subsequence](https://github.com/yangshun/tech-interview-handbook/blob/master/algorithms)
-* [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)
+* [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
 * [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 * [ ] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 * [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
@@ -80,9 +86,9 @@ See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms]
 * [ ] [Binary Tree Maximum Path ](https://leetcode.com/problems/binary-tree-maximum-path-sum/)\(hard\)
 * [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) \(E\)
 * [ ] [Construct Binary Tree from Preorder and Inorder Travers](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-* [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-* [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-* [ ] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+* [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+* [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+* [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
 ### **Misc** 
 

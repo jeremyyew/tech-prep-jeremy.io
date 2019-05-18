@@ -1,6 +1,7 @@
 # E226-invert-binary-tree
 
 ```python
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
