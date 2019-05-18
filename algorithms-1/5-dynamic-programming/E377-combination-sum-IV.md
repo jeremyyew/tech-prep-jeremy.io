@@ -1,21 +1,36 @@
-# E377-combination-sum-IV
-
-We can obtain the number of combinations that form a target i by checking how many combinations form each sub-target k, where k + n = i and n is a number we add to combinations of k to form i.  
-
-More formally: 
-    `dp[i] = sum{dp[i-n] where i > n, and if i == n then 1}`
-
-Time complexity: `O(target * |nums|)`. 
+# E674-longest-continuous-increasing-subarray
 
 ```python
+'''
+DP, iterative and linear.
+Let OPT_WITH(i) be the maximum length of a continuous increasing sequence that ends in nums[i].
+Let OPT(i) be the maximum length of all continuous increasing sequences in nums from 0 to i.
+
+To compute the next OPT_WITH(i), we need OPT_WITH(i-1) to decide whether we can extend the current increasing sequence with nums[i], or start over from nums[i].
+    - If nums[i-1] < nums[i], it is still an increasing sequence so we can append nums[i] and increase the length by 1. This will always be better than not appending.
+    - If nums[i-1] >= nums[i], we can't append nums[i], so we have to start from nums[i] and set OPT_WITH(i) to 0.
+
+To compute the next OPT(i), we need OPT(i-1) and OPT_WITH(i) to decide whether we have found a new max, or keep the current max.
+
+More formally:
+    OPT_WITH(i) = if nums[i-1] < nums[i]
+                  then OPT_WITH(i-1) + 1
+                  else 1
+
+    OPT(i) = max(OPT(i-1), OPT_WITH(i))
+'''
+
+
 class Solution:
-    def combinationSum4(self, nums: List[int], target: int) -> int:
-        if target < 1:
-            return 0
-        dp = [0] * (target + 1)
-        dp[0] = 1
-        for i in range(1, target + 1):
-            for n in nums:
-                dp[i] += dp[i-n] if i >= n else 0
-        return dp[target]
+    def findLengthOfLCIS(self, nums: List[int]) -> int:
+        N = len(nums)
+        if N <= 1:
+            return N
+        OPT_WITH = OPT = 1
+        for i in range(1, N):
+            OPT_WITH = OPT_WITH + 1 if nums[i-1] < nums[i] else 1
+            OPT = max(OPT, OPT_WITH)
+        return OPT
+
 ```
+
