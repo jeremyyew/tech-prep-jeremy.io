@@ -1,7 +1,5 @@
 # H128-longest-consecutive-sequence
 
-```python
-'''
 Adapted from https://leetcode.com/problems/longest-consecutive-sequence/solution/.
 
 0. Brute force: counting up from every number in list. 
@@ -32,9 +30,7 @@ Adapted from https://leetcode.com/problems/longest-consecutive-sequence/solution
         For case [4], r = num so seen[r] = seen[num]. 
         For case [5], the seen[l] and seen[r] do nothing.
 
-
-'''
-
+```python
 from typing import List
 
 
