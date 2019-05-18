@@ -10,6 +10,7 @@
   * [E1-two-sum](algorithms/1-lists-and-dicts/e001-two-sum.md)
   * [E7-reverse-integer](algorithms/1-lists-and-dicts/e007-reverse-integer.md)
   * [E21-merge-two-sorted-lists](algorithms/1-lists-and-dicts/e21-merge-two-sorted-lists.md)
+  * [E198-house-robber](algorithms/1-lists-and-dicts/e198-house-robber.md)
   * [E217-contains-duplicate](algorithms/1-lists-and-dicts/e217-contains-duplicate.py.md)
   * [E268-missing-number](algorithms/1-lists-and-dicts/e268-missing-number.md)
   * [E448-find-all-numbers-disappeared-in-an-array](algorithms/1-lists-and-dicts/e448-find-all-numbers-disappeared-in-an-array.md)
