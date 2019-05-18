@@ -1,4 +1,4 @@
-# e377-combination-sum-IV
+# E377-combination-sum-IV
 
 We can obtain the number of combinations that form a target i by checking how many combinations form each sub-target k, where k + n = i and n is a number we add to combinations of k to form i.
 
