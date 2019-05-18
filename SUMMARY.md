@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress \(Daily\): 0/2 Easy, 0/8 Medium](algorithms/progress.md)
+* [Progress \(Daily\): 1/2 Easy, 2/8 Medium](algorithms/progress.md)
 * [1. Lists and Dicts](algorithms/1-lists-and-dicts/README.md)
   * [E1-two-sum](algorithms/1-lists-and-dicts/e001-two-sum.md)
   * [E7-reverse-integer](algorithms/1-lists-and-dicts/e007-reverse-integer.md)

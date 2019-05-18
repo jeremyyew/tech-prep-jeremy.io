@@ -1,11 +1,11 @@
-# Progress \(Daily\): 0/2 Easy, 0/8 Medium
+# Progress \(Daily\): 1/2 Easy, 2/8 Medium
 
 {% hint style="info" %}
-## **Progress \(Milestone\): 23/75 Easy, 20/75 Medium.**
+## **Progress \(Milestone\): 24/75 Easy, 22/75 Medium.**
 {% endhint %}
 
 {% hint style="info" %}
-## **Progress \(Total\): 43/200**
+## **Progress \(Total\): 44/200**
 {% endhint %}
 
 1. [x] 13th
@@ -39,9 +39,9 @@
    4. [x] [https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
    5. [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
 6. [ ] 18th
-   1. [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
+   1. [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 
-   * [ ] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+   * [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
    * [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
    * [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
    * [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
