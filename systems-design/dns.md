@@ -33,7 +33,7 @@ A DNS name server simply stores DNS records for a specific domain; it responds t
 
 {% hint style="info" %}
 ### What is a DNS query? 
-A DNS query is made **from a DNS client (the browser) to a DNS server**, expecting a specific type of response. In a typical DNS lookup three types of queries occur. By using a combination of these queries, the process can be optimized. Ideally records will be cached, which allows DNS name servers to return a non-recursive query.
+A DNS query is made **from a DNS client (the browser) to a DNS server**, expecting a specific type of response. In a typical DNS lookup two types of queries occur. By using a combination of these queries, the process can be optimized. Ideally records will be cached, which allows DNS name servers to return a non-recursive query.
 
 1. **Recursive query**
     Recursive DNS queries occur when a DNS client requests information from a DNS server that is set to query subsequent DNS servers until a definitive answer is returned to the client. The queries made to subsequent DNS servers from the recursor are iterative queries.
@@ -71,17 +71,23 @@ A DNS query is made **from a DNS client (the browser) to a DNS server**, expecti
 
 Now that the browser has established a IP address via its DNS query, it can make **HTTP requests** to the IP address. 
 
-## What are some disadvantages?
+## How does DNS caching work?
+
+## What are some disadvantages of DNS in general?
 
 ## What are some risks of recursive DNS queries? 
 A DNS server that supports recursive resolution is vulnerable to DOS (denial of service) attacks, DNS cache poisoning, unauthorized use of resources, and root name server performance degradation.
 
 **1. DOS attacks**
   - Servers supporting recursive DNS queries are vulnerable to phony requests that flood a particular IP address with the results of each server's query. This can overwhelm the IP address with a volume of traffic too large to be processed.
+  
 **2. DNS cache poisoning**
    - Cache poisoning results from someone tricking a DNS server into believing that a fake DNS query response is authentic. Because responses are normally cached, this false information can be distributed to users of that server.
+
 **3. Unauthorized use of resources**
    - With recursive DNS queries enabled, a server is more easily hijacked and its performance compromised.
+
+
 **4. Root name server performance degradation**
    - When DNS servers are not configured correctly, queries using RFC1918 addressing (also known as "private" addressing) may be leaked to the root name servers, causing a degradation in service for legitimate queries to those servers.
 
@@ -97,9 +103,6 @@ A DNS server that supports recursive resolution is vulnerable to DOS (denial of 
 {% endhint %}
 
 {% hint style="info" %}
-### What's the difference between a recursive DNS query and a recursive DNS resolver? 
-A recursive query is sent as a **request** to a **resolver**. A DNS recursive resolver resolves the query by making additional requests to other servers.
-{% endhint %}
 
 {% hint style="info" %}
 ### What is the difference between URL and URI? 
@@ -109,6 +112,9 @@ A recursive query is sent as a **request** to a **resolver**. A DNS recursive re
 - https://en.wikipedia.org/wiki/Domain_Name_System
 - https://www.cloudflare.com/learning/dns/what-is-dns/
 - https://sg.godaddy.com/help/what-risks-are-associated-with-recursive-dns-queries-1184
+- http://www.zytrax.com/books/dns/ch2/
+- https://www.home.neustar/blog/recursive-dns-what-it-is-and-why-you-should-care
+- https://www.cloudflare.com/learning/dns/dns-server-types/
 
 {% hint style="info" %}
 {% endhint %}
