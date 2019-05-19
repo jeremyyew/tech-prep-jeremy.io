@@ -1,12 +1,10 @@
-
 # E377-combination-sum-IV
 
-We can obtain the number of combinations that form a target i by checking how many combinations form each sub-target k, where k + n = i and n is a number we add to combinations of k to form i.  
+We can obtain the number of combinations that form a target i by checking how many combinations form each sub-target k, where k + n = i and n is a number we add to combinations of k to form i.
 
-More formally: 
-    `dp[i] = sum{dp[i-n] where i > n, and if i == n then 1}`
+More formally: `dp[i] = sum{dp[i-n] where i > n, and if i == n then 1}`
 
-Time complexity: `O(target * |nums|)`. 
+Time complexity: `O(target * |nums|)`.
 
 ```python
 class Solution:
@@ -20,3 +18,4 @@ class Solution:
                 dp[i] += dp[i-n] if i >= n else 0
         return dp[target]
 ```
+
