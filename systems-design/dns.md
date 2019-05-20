@@ -22,9 +22,9 @@ Some key characteristics of the DNS are:
 ## How might a DNS request (or 'lookup') be processed?
 The DNS doesn't always "translate" a hostname to an IP address immediately. Sometimes it has to repeatedly "resolve" intermediate, more general addresses until it obtains the final exact address. 
 
-After that, though, results may be **cached** either in the client or some intermediate server (with some time-to-live expiration setting), which will make the process much faster. 
+After that, though, results will be **cached** either in the browser or OS (with some time-to-live expiration setting), which will make the process much faster. 
 
-Thus, process of **DNS resolution** begins from the main request made by a client, and involves 4 DNS servers, as such: **Client -> Recursor -> Root -> TLD -> Authoritative**.  These entities communicate via the **client-server model**: clients make **requests** to servers in the form of **DNS queries**, expecting a **response**. 
+Thus, process of **DNS resolution** from an empty cache begins from the main request made by a client, and involves 4 DNS servers, as such: **Client -> Recursor -> Root -> TLD -> Authoritative**.  These entities communicate via the **client-server model**: clients make **requests** to servers in the form of **DNS queries**, expecting a **response**. 
 
 {% hint style="info" %}
 ### What is a name server?   
@@ -51,24 +51,26 @@ A DNS query is made **from a DNS client (the browser) to a DNS server**, expecti
 {% endhint %}
 
 1. **DNS recursor** AKA "recursive resolver", "recursive DNS resolver", etc.
-    Receives initial **recursive query** from client (browser), `wwww.example.com`. From here on, it acts as a client, making **iterative queries** to other servers on behalf of the user. 
+    > Goes to any one of 13 root name servers, asking: "Who do I go to to get the IP address of `jeremys-blog.blogger.com`"?  
     
-    Goes to some root nameserver asking: where can I get help resolving queries for addresses in the top-level domain `com`?  
-
-    - Receives initial **recursive query** from client, and is capable of making additional requests until it tracks down the correct **DNS record** in some authoritative nameserver and can return the correct IP address. 
+    - Receives initial **recursive query** from client. From here on, it acts as a client, making **iterative queries** to other servers on behalf of the user until it tracks down the correct **DNS record** in some authoritative nameserver and can return the correct IP address.
     - It times out or returns an error if no record is found.
 
-
 2. **Root nameserver**
-    Replies "Ask this guy, he is in charge of `com`". Responds to recursor with address of the appropriate TLD server, since he knows all the TLD guys. 
+    > Replies to resolver: "Ok, I have the list of all TLD servers. The guy in charge of `.com` is at this address, go ask him". 
+    - There are 13 independently maintained DNS root nameservers, and all of them are known to every recursive resolver (installed in system). **Each of them hold an identical list of TLD servers, they are there for redundancy**.
+    - A root nameserver responds to a resolver's query by directing the recursive resolver to a TLD nameserver, based on the extension of the domain name requested (.com, .net, .org, etc.). 
+    - There are 13 types of root nameservers, but lots of instances all over the world, which use a system called **Anycast routing** to provide speedy responses.
+    - The root nameservers are overseen by a nonprofit called the Internet Corporation for Assigned Names and Numbers (ICANN).
 
 3. **TLD nameserver**
-    Receives query from recursor asking for the authoritative nameserver for the domain name `example`. Replies since he knows everything under `com`. 
+    > Replies to resolver: "Yes I am the authority for `.com`. Here is the address of the server of the company who owns `blogger.com`, go ask them.  
 
 4. **Authoritative nameserver** 
-    Receives query from recurser asking for IP address for the domain name `example`. Returns IP address to recursor. 
+    > Replies to resolver: "Yes I am the company that owns blogger.com, this nameserver is where I store the address of my web server that will be able to serve you content from jeremys-blog.blogger.com."
+    - Can delegate, IN ANY WAY THEY WANT, ANYTHING to the LEFT of the Domain Name they own (were delegated). That means they can either give you the IP address of the server that can directly serve your request, or refer you to a sub-delegated nameserver. 
 
-Now that the browser has established a IP address via its DNS query, it can make **HTTP requests** to the IP address. 
+Eventually once the resolver has established a IP address via its DNS query and returned that to the browser, the browser can make **HTTP requests** to that IP address. 
 
 ## How does DNS caching work?
 
@@ -83,6 +85,7 @@ Both the **browser and OS** will cache DNS records, and both will be checked bef
 
 
 ## What are some disadvantages of DNS in general?
+TODO. 
 
 ## What are some risks of recursive DNS queries? 
 A DNS server that supports recursive resolution is vulnerable to DOS (denial of service) attacks, DNS cache poisoning, unauthorized use of resources, and root name server performance degradation.
@@ -101,20 +104,23 @@ A DNS server that supports recursive resolution is vulnerable to DOS (denial of 
    - When DNS servers are not configured correctly, queries using RFC1918 addressing (also known as "private" addressing) may be leaked to the root name servers, causing a degradation in service for legitimate queries to those servers.
 
 ## What are some managed DNS services?
-
+TODO. 
 
 {% hint style="info" %}
 ### What is IP?  
+TODO. 
 {% endhint %}
 
 {% hint style="info" %}
 ### What is IPv4 and IPv6? 
+TODO. 
 {% endhint %}
 
 {% hint style="info" %}
 
 {% hint style="info" %}
 ### What is the difference between URL and URI? 
+TODO. 
 {% endhint %}
 
 ## Sources:
@@ -125,6 +131,4 @@ A DNS server that supports recursive resolution is vulnerable to DOS (denial of 
 - https://www.home.neustar/blog/recursive-dns-what-it-is-and-why-you-should-care
 - https://www.cloudflare.com/learning/dns/dns-server-types/
 
-{% hint style="info" %}
-{% endhint %}
 
