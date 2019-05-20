@@ -50,8 +50,7 @@ A DNS query is made **from a DNS client (the browser) to a DNS server**, expecti
     
 {% endhint %}
 
-1. **DNS recursor**
-    AKA "recursive resolver", "recursive DNS resolver", etc.
+1. **DNS recursor** AKA "recursive resolver", "recursive DNS resolver", etc.
     Receives initial **recursive query** from client (browser), `wwww.example.com`. From here on, it acts as a client, making **iterative queries** to other servers on behalf of the user. 
     
     Goes to some root nameserver asking: where can I get help resolving queries for addresses in the top-level domain `com`?  
@@ -72,6 +71,16 @@ A DNS query is made **from a DNS client (the browser) to a DNS server**, expecti
 Now that the browser has established a IP address via its DNS query, it can make **HTTP requests** to the IP address. 
 
 ## How does DNS caching work?
+
+Both the **browser and OS** will cache DNS records, and both will be checked before the query is sent out to a **recursive resolver**, which also has a cache with special features. 
+
+1. **Modern web browsers** are designed by default to cache DNS records for a set amount of time. When a query is made, the browser cache is the **first** location checked for the requested record.
+2. **The operating system level DNS resolver** is the **second and last** local stop before a DNS query leaves your machine. The process inside your operating system that is designed to handle this query is commonly called a **“stub resolver” or DNS client**. Only if we get a cache miss does it send a DNS query (with a recursive flag set), outside the local network to a DNS recursive resolver inside the Internet service provider (ISP).
+3. **The DNS recursive resolver** has its own cache. It can skip some levels of querying depending on what kind of records it has: 
+    - If the resolver does not have the A records, but does have the **NS records** for the authoritative nameservers, it will query those servers directly.
+    - If the resolver does not have the NS records, it will usually have the **TLD records** and will send a query directly to the TLD servers, skipping the root server. 
+    - Otherwise it will query the **root servers** - but this typically occurs after a DNS cache has been purged.
+
 
 ## What are some disadvantages of DNS in general?
 
