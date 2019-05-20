@@ -13,10 +13,12 @@ The functionality of DNS is provided via a distributed database service - thus, 
 
 Some key characteristics of the DNS are: 
 - **Hierarchical**
-  - For each domain, an authoritative name server is assigned. 
+  - TODO.
 - **Distributed**
+  - TODO.
   - *This gives it high availability as a service across physical regions, and avoids service bottlenecks that would occur if all requests had to be directed to specific servers.*
 - **Decentralized**
+  - TODO.
   - This makes it fault-tolerant; there is no central database that will 'break the internet' if it crashes. 
 
 ## How might a DNS request (or 'lookup') be processed?
@@ -115,8 +117,6 @@ TODO.
 ### What is IPv4 and IPv6? 
 TODO. 
 {% endhint %}
-
-{% hint style="info" %}
 
 {% hint style="info" %}
 ### What is the difference between URL and URI? 
