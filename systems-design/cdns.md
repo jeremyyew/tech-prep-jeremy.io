@@ -64,3 +64,6 @@ Origin servers are the origin of data. Edge servers get data from the origin ser
 # Sources:
 https://github.com/donnemartin/system-design-primer#content-delivery-network
 https://www.keycdn.com/support/how-does-a-cdn-work
+
+# Read more: 
+https://www.keycdn.com/blog/cdn-cache
