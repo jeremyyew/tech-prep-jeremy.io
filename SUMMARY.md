@@ -74,7 +74,7 @@
 * [Overview](systems-design/systems-design.md)
 * [Scalability & Performance](systems-design/scalability-and-performance.md)
 * [Latency vs Throughput](systems-design/latency-vs-throughput.md)
-* [Consistency, Availability, Partition Tolerance \(CAP\)](systems-design/consistency-availability-partition-tolerance-cap.md)
+* [Consistency, Availability, Partition Tolerance \(CAP\) \(incomplete\)](systems-design/consistency-availability-partition-tolerance-cap.md)
 * [DNS](systems-design/dns.md)
 * [CDN's](systems-design/cdns.md)
 * [Databases](systems-design/databases/README.md)

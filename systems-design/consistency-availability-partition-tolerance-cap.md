@@ -1,4 +1,4 @@
-# Consistency, Availability, Partition Tolerance \(CAP\)
+# Consistency, Availability, Partition Tolerance \(CAP\) \(incomplete\)
 
 ## What is consistency? What patterns of consistency are there? When should we use each? 
 
