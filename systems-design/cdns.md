@@ -41,7 +41,8 @@ Generally, **static files** such as HTML/CSS/JS, photos, and videos are served f
       </td>
       <td style="text-align:left">Generally <b>easier to configure </b>(your server needs no update logic).
         In some cases, all you have to do is provide your FQDN (fully qualified
-        domain name) and the CDN will automatically pull.</td>
+        domain name) and the CDN will automatically pull. (Of course you also need
+        to rewrite URLs to point to the CDN servers).</td>
       <td style="text-align:left">Might require <b>more configuration</b> (when to update, what data to push).</td>
     </tr>
     <tr>
