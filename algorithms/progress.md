@@ -42,14 +42,14 @@
    1. [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 
    * [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-   * [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
-   * [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
-   * [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
-
-   1. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
-   2. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
-   3. [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
-   4. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+7. [ ] 21st
+   1. [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)
+   2. [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
+   3. [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+   4. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
+   5. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
+   6. [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
+   7. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
 See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms). 
 
@@ -60,9 +60,9 @@ See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms]
 * [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 * [ ] [Longest Common Subsequence](https://github.com/yangshun/tech-interview-handbook/blob/master/algorithms)
 * [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
-* [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
-* [ ] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-* [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
+* [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
+* [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+* [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 * [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
 * [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 
