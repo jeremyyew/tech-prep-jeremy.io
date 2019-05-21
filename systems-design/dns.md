@@ -53,15 +53,15 @@ A DNS name server simply stores DNS records for a specific domain; it responds t
 * There are 13 types of root nameservers, but lots of instances all over the world, which use a system called **Anycast routing** to provide speedy responses.
 * The root nameservers are overseen by a nonprofit called the Internet Corporation for Assigned Names and Numbers \(ICANN\).
 
-1. **TLD nameserver**
+**3. TLD nameserver**
 
-   > Replies to resolver: "Yes I am the authority for `.com`. Here is the address of the server of the company who owns `blogger.com`, go ask them.
+> Replies to resolver: "Yes I am the authority for `.com`. Here is the address of the server of the company who owns `blogger.com`, go ask them.
 
-2. **Authoritative nameserver**
+**4. Authoritative nameserver**
 
-   > Replies to resolver: "Yes I am the company that owns blogger.com, this nameserver is where I store the address of my web server that will be able to serve you content from jeremys-blog.blogger.com."
+> Replies to resolver: "Yes I am the company that owns blogger.com, this nameserver is where I store the address of my web server that will be able to serve you content from jeremys-blog.blogger.com."
 
-   * Can delegate, IN ANY WAY THEY WANT, ANYTHING to the LEFT of the Domain Name they own \(were delegated\). That means they can either give you the IP address of the server that can directly serve your request, or refer you to a sub-delegated nameserver.
+* Can delegate, IN ANY WAY THEY WANT, ANYTHING to the LEFT of the Domain Name they own \(were delegated\). That means they can either give you the IP address of the server that can directly serve your request, or refer you to a sub-delegated nameserver.
 
 Eventually once the resolver has established a IP address via its DNS query and returned that to the browser, the browser can make **HTTP requests** to that IP address.
 
