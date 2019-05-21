@@ -37,25 +37,6 @@ Thus, process of **DNS resolution** from an empty cache begins from the main req
 A DNS name server simply stores DNS records for a specific domain; it responds to queries from clients looking for a specific domain name. A DNS recursor is not a name server, it's just a server, even though "DNS server" and "DNS name server" are sometimes used interchangeably. A DNS recursor also acts as a client on behalf of the user.
 {% endhint %}
 
-{% hint style="info" %}
-**What is a DNS query?**
-
-A DNS query is made **from a DNS client \(the browser\) to a DNS server**, expecting a specific type of response. In a typical DNS lookup two types of queries occur. By using a combination of these queries, the process can be optimized. Ideally records will be cached, which allows DNS name servers to return a non-recursive query.
-
-1. **Recursive query** 
-
-* Recursive DNS queries occur when a DNS client requests information from a DNS server that is set to query subsequent DNS servers until a definitive answer is returned to the client. The queries made to subsequent DNS servers from the recursor are iterative queries. 
-* Typically made from the browser to a DNS recursor. 
-* Requires either the **requested resource record or an error message**.
-
-1. **Iterative query** 
-
-* Iterative DNS queries are ones in which a DNS server is queried and returns an answer **without querying other DNS servers**. Even if it cannot provide a definitive answer i.e. an IP address, it will return a "best answer", i.e. a referral to a server for a lower-level domain namespace, or possibly an error. 
-* Also called a **non-recursive** query. 
-{% endhint %}
-
-\*\*\*\*
-
 1. **DNS recursor** AKA "recursive resolver", "recursive DNS resolver", etc.
 
    > Goes to any one of 13 root name servers, asking: "Who do I go to to get the IP address of `jeremys-blog.blogger.com`"?
@@ -67,24 +48,37 @@ A DNS query is made **from a DNS client \(the browser\) to a DNS server**, expec
 
    > Replies to resolver: "Ok, I have the list of all TLD servers. The guy in charge of `.com` is at this address, go ask him".
 
+* There are 13 independently maintained DNS root nameservers, and all of them are known to every recursive resolver \(installed in system\). **Each of them hold an identical list of TLD servers, they are there for redundancy**.
+* A root nameserver responds to a resolver's query by directing the recursive resolver to a TLD nameserver, based on the extension of the domain name requested \(.com, .net, .org, etc.\). 
+* There are 13 types of root nameservers, but lots of instances all over the world, which use a system called **Anycast routing** to provide speedy responses.
+* The root nameservers are overseen by a nonprofit called the Internet Corporation for Assigned Names and Numbers \(ICANN\).
 
-
-   * There are 13 independently maintained DNS root nameservers, and all of them are known to every recursive resolver \(installed in system\). **Each of them hold an identical list of TLD servers, they are there for redundancy**.
-   * A root nameserver responds to a resolver's query by directing the recursive resolver to a TLD nameserver, based on the extension of the domain name requested \(.com, .net, .org, etc.\). 
-   * There are 13 types of root nameservers, but lots of instances all over the world, which use a system called **Anycast routing** to provide speedy responses.
-   * The root nameservers are overseen by a nonprofit called the Internet Corporation for Assigned Names and Numbers \(ICANN\).
-
-3. **TLD nameserver**
+1. **TLD nameserver**
 
    > Replies to resolver: "Yes I am the authority for `.com`. Here is the address of the server of the company who owns `blogger.com`, go ask them.
 
-4. **Authoritative nameserver**
+2. **Authoritative nameserver**
 
    > Replies to resolver: "Yes I am the company that owns blogger.com, this nameserver is where I store the address of my web server that will be able to serve you content from jeremys-blog.blogger.com."
 
    * Can delegate, IN ANY WAY THEY WANT, ANYTHING to the LEFT of the Domain Name they own \(were delegated\). That means they can either give you the IP address of the server that can directly serve your request, or refer you to a sub-delegated nameserver.
 
 Eventually once the resolver has established a IP address via its DNS query and returned that to the browser, the browser can make **HTTP requests** to that IP address.
+
+{% hint style="info" %}
+#### What is a DNS query? 
+
+A DNS query is made **from a DNS client \(the browser\) to a DNS server**, expecting a specific type of response. In a typical DNS lookup two types of queries occur. By using a combination of these queries, the process can be optimized. Ideally records will be cached, which allows DNS name servers to return a non-recursive query.
+
+1. **Recursive query**
+   * Recursive DNS queries occur when a DNS client requests information from a DNS server that is set to **query subsequent DNS servers until a definitive answer is returned** to the client. The queries made to subsequent DNS servers from the recursor are iterative queries.
+   * Typically made from the browser to a DNS recursor. 
+   * Requires either the **requested resource record or an error message** as a response.
+2. **Iterative query**
+   * Iterative DNS queries are ones in which a DNS server is queried and returns an answer **without querying other DNS servers**. 
+   * Even if it cannot provide a definitive answer i.e. an IP address, it will return a "best answer", i.e. a referral to a server for a lower-level domain namespace, or possibly an error.
+   * Also called a **non-recursive** query.
+{% endhint %}
 
 ## How does DNS caching work?
 
