@@ -44,6 +44,7 @@
 * [5. Dynamic Programming](algorithms/5-dynamic-programming/README.md)
   * [E121-buy-sell-stock](algorithms/5-dynamic-programming/e121-buy-sell-stock.md)
   * [E198-house-robber](algorithms/5-dynamic-programming/e198-house-robber-1.md)
+  * [M62-unique-paths](algorithms/5-dynamic-programming/m62-unique-paths.md)
   * [M91-decode-ways](algorithms/5-dynamic-programming/m91-decode-ways.md)
   * [M213-house-robber-II](algorithms/5-dynamic-programming/m213-house-robber-ii.md)
   * [E377-combination-sum-IV](algorithms/5-dynamic-programming/e377-combination-sum-iv.md)

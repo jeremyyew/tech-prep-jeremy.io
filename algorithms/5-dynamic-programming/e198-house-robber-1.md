@@ -1,16 +1,20 @@
 # E198-house-robber
 
-* The max value of robbing houses from house 0 to i, dp\(i\), depends on whether to rob house i. 
-* If we rob house i, we should rob as much as we can except house i-1. It doesn't matter which combination of houses we rob, as long as we avoid house i-1; this is given by dp\(i-2\). 
-* If dp\(i-2\) leaves out i-2 that's fine too because it still gives a larger value than including it. 
-* In the case where dp\(i-1\) doesn't actually include i-1 either, then dp\(i-1\) = dp\(i-2\) and our condition passes, so we know we definitely should rob nums\[i\]. 
-* So, we rob house i if doing so is a bigger increase from i-2 than i-1 \(in a way, i-2 decides between i-1 and i\).
+{% hint style="info" %}
+We rob house `i` if doing so is a bigger increase from `i-2` than sticking with`i-1`. 
+{% endhint %}
+
+* The max value of robbing houses from house `0` to `i`, `dp(i)`, depends on whether to rob house `i`. 
+* If we rob house `i`, we should rob as much as we can from every house except house `i-1`. It doesn't matter which combination of houses we rob, as long as we avoid house `i-1`; this is given by `dp(i-2)`. 
+  * If `dp(i-2)` actually happens to leave out `i-2`, that's fine because that means it still gives a larger value than including `i-2`, so we still get the maximum out of houses `0`to `i-2`.
+  * In the case where `dp(i-1)` doesn't actually include `i-1` either, then we should definitely rob house `i`, and this will happen since `dp(i-2) == dp(i-1)`.
+* So, we rob house `i` if `nums[i] + dp(i-2) > dp(i-1)`. 
 
 Formally, 
 
-$$
-dp(i) = max(nums[i] + dp(i-2), dp(i-1))
-$$
+```text
+dp(i) = max(nums[i] + dp(i-2), dp(i-1)). 
+```
 
 Below is 'level 4' solution, iterative + N variables.
 
