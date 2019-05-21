@@ -19,11 +19,11 @@ Generally, **static files** such as HTML/CSS/JS, photos, and videos are served f
 
 ## What is the difference between pull and push CDNs?
 
-**Pull CDN: CDN pulls from server on user request, then cache until expiry.**
+**Pull CDN:** CDN pulls from server on user request, then cache until expiry.
 
-**Push CDN's: Server pushes updates to CDN only on change/when specified.**
+**Push CDN's:** Server pushes updates to CDN only on change/when specified.
 
-\*\*\*\*
+
 
 <table>
   <thead>
@@ -95,7 +95,7 @@ Generally, **static files** such as HTML/CSS/JS, photos, and videos are served f
     </tr>
   </tbody>
 </table>{% hint style="info" %}
-## Pull CDN Use-Case: 
+#### Pull CDN Use-Case: 
 
 Sites/services with **heavy traffic**, **lots of data** \(particularly with **non-uniform/unpredictable distribution of demand across different data**\), and/or **unpredictable demand for data over time**, can benefit from a pull CDN, since it distributes traffic by **pulling only what is requested**, and **serving frequent requests from its cache.**
 
@@ -103,7 +103,7 @@ Examples: image/video hosting site, social network.
 {% endhint %}
 
 {% hint style="info" %}
-## Push CDN Use-Case:
+#### Push CDN Use-Case:
 
 Sites/services with **infrequently updated data**, **big files \(e.g. 10mb or more\)**, **predictable/uniform distribution of demand across data** \(e.g. users will often want a fixed set of data\), **consistent demand for data over time**, or **low traffic** can benefit from a pull CDN. Or, sites/services with **real-time consistency requirements**.
 
@@ -117,7 +117,7 @@ Examples: blogs, archives, podcasts.
 * In particular, TTL/push frequency must be configured appropriately or users get stale data.
 
 {% hint style="info" %}
-### Additional terminology: Origin and Edge servers
+#### Additional terminology: Origin and Edge servers
 
 Origin servers are the origin of data. Edge servers get data from the origin server. A POP \(point of presence\) is a single physical location that consists of one or multiple edge servers.
 {% endhint %}
