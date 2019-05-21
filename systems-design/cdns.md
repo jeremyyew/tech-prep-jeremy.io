@@ -15,7 +15,7 @@ Generally, **static files** such as HTML/CSS/JS, photos, and videos are served f
 * **Improved SEO rankings**: Based on faster load speeds.
 * **Added security**: Some CDNs can mitigate DDOS attacks. 
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ## What is the difference between pull and push CDNs?
 
