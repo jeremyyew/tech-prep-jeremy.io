@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress \(Daily\): 1/2 Easy, 2/8 Medium](algorithms/progress.md)
+* [Progress Tracker](algorithms/progress.md)
 * [1. Lists and Dicts](algorithms/1-lists-and-dicts/README.md)
   * [E1-two-sum](algorithms/1-lists-and-dicts/e001-two-sum.md)
   * [E7-reverse-integer](algorithms/1-lists-and-dicts/e007-reverse-integer.md)
@@ -49,11 +49,12 @@
   * [M213-house-robber-II](algorithms/5-dynamic-programming/m213-house-robber-ii.md)
   * [E377-combination-sum-IV](algorithms/5-dynamic-programming/e377-combination-sum-iv.md)
   * [E674-longest-continuous-increasing-subarray](algorithms/5-dynamic-programming/e674-longest-continuous-increasing-subarray.md)
-  * [M322-coin-change](algorithms/5-dynamic-programming/m322-coin-change.md)
   * [M11-container-with-most-water](algorithms/5-dynamic-programming/m11-container-with-most-water.md)
+  * [M55-jump-game](algorithms/5-dynamic-programming/m55-jump-game.md)
   * [M139-word-break](algorithms/5-dynamic-programming/m139-word-break.md)
   * [M152-maximum-product-subarray](algorithms/5-dynamic-programming/m152-maximum-product-subarray.md)
   * [M300-longest-increasing-subsequence](algorithms/5-dynamic-programming/m300-longest-increasing-subsequence.md)
+  * [M322-coin-change](algorithms/5-dynamic-programming/m322-coin-change.md)
   * [M673-number-of-longest-increasing-subsequence](algorithms/5-dynamic-programming/m673-number-of-longest-increasing-subsequence.md)
 * [6. Divide & Conquer](algorithms/6-divide-and-conquer/README.md)
   * [E53-maximum-subarray](algorithms/6-divide-and-conquer/e53-maximumsubarray.md)
