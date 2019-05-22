@@ -1,3 +1,15 @@
+'''
+To serialize, we append to a string while using depth-first pre-order (XLR) traversal. 
+To deserialize, we simply reconstruct the tree in depth-first pre-order (XLR) as well, popping from the front of the string (or reverse and pop from the end). 
+
+Example: 
+`[1,2,3,null,null,4,5]`
+-> `'1,2,None,None,3,4,None,None,5,None,None,'`
+
+[1] Remember to strip the trailing comma from serialized string.
+
+
+'''
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -14,12 +26,16 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        if not root:
-            return None
-        serial = "{},{},{}".format(root.val,
-                                   self.serialize(root.left),
-                                   self.serialize(root.right))
-        return serial
+        def buildString(node):
+            if node is None:
+                self.s += 'None,'
+            else:
+                self.s += f'{node.val},'
+                buildString(node.left)
+                buildString(node.right)
+        self.s = ''
+        buildString(root)
+        return self.s.rstrip(',')  # [1]
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -27,16 +43,14 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
-        # Your Codec object will be instantiated and called as such:
-        # codec = Codec()
-        # codec.deserialize(codec.serialize(root))
-        nodes = data.split(",")
-        return self.constructTree(nodes)
-
-    def constructTree(self, nodes):
-        head = TreeNode(None)
-        head.val = nodes[0]
-        m = (len(nodes) - 1)//2
-        head.left = self.deserialize(nodes[1:m])
-        head.right = self.deserialize(nodes[m:])
-        return head
+        def buildTree():
+            val = self.nodes.pop(0)
+            if val == 'None':
+                return None
+            else:
+                node = TreeNode(int(val))
+                node.left = buildTree()
+                node.right = buildTree()
+                return node
+        self.nodes = data.split(',')
+        return buildTree()
