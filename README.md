@@ -9,7 +9,7 @@
 {% endhint %}
 
 {% hint style="warning" %}
-## **May 13-Jun 1st \(20d\): 60 Easy, 100 Medium.** 
+## **May 13-Jun 1st \(20d\): 50 Easy, 75 Medium.** 
 {% endhint %}
 
 {% hint style="info" %}

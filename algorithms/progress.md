@@ -8,7 +8,7 @@
 ## **Progress \(Total\): 46/200**
 {% endhint %}
 
-1. [ ] **22nd \(0/2 Easy, 1/8 Medium\)**
+1. [ ] **22nd \(0/2 Easy, 1/6 Medium\)**
    1. [x] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
    2. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
    3. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
