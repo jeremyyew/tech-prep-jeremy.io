@@ -8,39 +8,44 @@
 ## **Progress \(Total\): 46/200**
 {% endhint %}
 
-1. [ ] 21st \(0/2 Easy, 2/8 Medium\)
+1. [ ] **22nd \(0/2 Easy, 1/8 Medium\)**
+   1. [x] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
+   2. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
+   3. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
+   4. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+2. [x] 2**1st \(0/2 Easy, 3/8 Medium\)**
    1. [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)
    2. [x] [Unique Paths](https://leetcode.com/problems/unique-paths/)
    3. [x] [Jump Game](https://leetcode.com/problems/jump-game/)
-   4. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
-   5. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
-   6. [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
-   7. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-2. [x] 18th \(1/2 Easy, 2/8 Medium\) 1. \[x\] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
-   * [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-3. [x] 17th \(1/2 Easy, 4/8 Medium\)
+3. [x] **18th \(1/2 Easy, 2/8 Medium\)** 
+   1. [x]  [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
+   2. [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+4. [x] **17th \(1/2 Easy, 4/8 Medium\)**
    1. [x] [https://leetcode.com/problems/longest-continuous-increasing-subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) \(E\)
    2. [x] [https://leetcode.com/problems/longest-consecutive-sequence/](https://leetcode.com/problems/longest-consecutive-sequence/) \(H\)
    3. [x] [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
    4. [x] [https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
    5. [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
-4. [x] 16th \(1/2 Easy, 5/8 Medium\) 1. \[x\] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 2. \[x\] [kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 3. \[x\] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) \(E\)
-   * [x] [Coin Change](https://leetcode.com/problems/coin-change/)
-   * [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-   * [x] [https://leetcode.com/problems/number-of-longest-increasing-subsequence/](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
-5. [x] 15th \(1/2 Easy, 3/8 Medium\)
+5. [x] **16th \(1/2 Easy, 5/8 Medium\)** 
+   1. [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 
+   2. [x]  [kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
+   3. [x]  [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) \(E\)
+   4. [x] [Coin Change](https://leetcode.com/problems/coin-change/)
+   5. [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+   6. [x] [https://leetcode.com/problems/number-of-longest-increasing-subsequence/](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
+6. [x] **15th \(1/2 Easy, 3/8 Medium\)**
    1. [x] [Missing Number](https://leetcode.com/problems/missing-number/) \(Easy\)
    2. [x] [https://leetcode.com/problems/remove-nth-node-from-end-of-list/](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
    3. [x] [Counting Bi](https://leetcode.com/problems/counting-bits/)[ts](https://leetcode.com/problems/linked-list-cycle/)
    4. [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-6. [x] 14th \(0/2 Easy, 6/8 Medium\)
+7. [x] **14th \(0/2 Easy, 6/8 Medium\)**
    1. [x] [https://leetcode.com/problems/3sum](https://leetcode.com/problems/3sum/)
    2. [x] [https://leetcode.com/problems/maximum-product-subarray/](https://leetcode.com/problems/maximum-product-subarray/)
    3. [x] [https://leetcode.com/problems/reorder-list/](https://leetcode.com/problems/reorder-list/)
    4. [x] [https://leetcode.com/problems/container-with-most-wate](https://leetcode.com/problems/container-with-most-water/)[r/](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
    5. [x] [https://leetcode.com/problems/find-minimum-in-rotated-sorted-arra](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)[y/](https://leetcode.com/problems/search-in-rotated-sorted-array/)
    6. [x] [https://leetcode.com/problems/search-in-rotated-sorted-array/](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-7. [x] 13th \(0/2 Easy, 1/8 Medium\)
+8. [x] **13th \(0/2 Easy, 1/8 Medium\)**
    1. [x] [https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/) \(divide & conquer version\)
 
 See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms).
@@ -55,8 +60,8 @@ See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms]
 * [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 * [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 * [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)
-* [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
-* [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+* [x] [Unique Paths](https://leetcode.com/problems/unique-paths/)
+* [x] [Jump Game](https://leetcode.com/problems/jump-game/)
 
 ### **Bits \(Easy\)**
 
