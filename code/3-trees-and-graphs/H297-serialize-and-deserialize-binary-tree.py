@@ -1,6 +1,6 @@
 '''
-To serialize, we append to a string while using depth-first pre-order (XLR) traversal. 
-To deserialize, we simply reconstruct the tree in depth-first pre-order (XLR) as well, popping from the front of the string (or reverse and pop from the end). 
+To serialize, we append to a string while using depth-first pre-order (XLR) traversal.  
+To deserialize, we simply reconstruct the tree in depth-first pre-order (XLR) as well, dequeing i.e. popping from the front of the string (or reverse and pop from the end). 
 
 Example: 
 `[1,2,3,null,null,4,5]`
