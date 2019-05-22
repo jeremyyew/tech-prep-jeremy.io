@@ -1,4 +1,4 @@
-# 4. Dynamic Programming
+# 4. Dynamic Programming \(4E, 10M\)
 
 ## DP Strategies
 

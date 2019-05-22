@@ -1,4 +1,4 @@
-# 3. Trees and Graphs
+# 3. Trees and Graphs \(6E, 6M, 1H\)
 
 
 

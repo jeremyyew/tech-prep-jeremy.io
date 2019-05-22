@@ -1,2 +1,2 @@
-# 5. Divide & Conquer
+# 5. Divide & Conquer \(1E\)
 
