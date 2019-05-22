@@ -41,6 +41,7 @@
   * [M114-flatten-binary-tree](algorithms/4-trees-and-graphs/m114-flatten-binary-tree.md)
   * [M230-kth-smallest-element-in-a-BST](algorithms/4-trees-and-graphs/m230-kth-smallest-element-in-a-bst.md)
   * [M652-find-duplicate-subtrees](algorithms/4-trees-and-graphs/m652-find-duplicate-subtrees-incomplete.md)
+  * [H297-serialize-and-deserialize-binary-tree](algorithms/4-trees-and-graphs/h297-serialize-and-deserialize-binary-tree.md)
 * [5. Dynamic Programming](algorithms/5-dynamic-programming/README.md)
   * [E121-buy-sell-stock](algorithms/5-dynamic-programming/e121-buy-sell-stock.md)
   * [E198-house-robber](algorithms/5-dynamic-programming/e198-house-robber-1.md)

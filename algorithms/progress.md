@@ -16,9 +16,7 @@
    5. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
    6. [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
    7. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-2. [x] 18th \(1/2 Easy, 2/8 Medium\)
-   1. [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
-
+2. [x] 18th \(1/2 Easy, 2/8 Medium\) 1. \[x\] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
    * [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 3. [x] 17th \(1/2 Easy, 4/8 Medium\)
    1. [x] [https://leetcode.com/problems/longest-continuous-increasing-subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) \(E\)
@@ -26,11 +24,7 @@
    3. [x] [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
    4. [x] [https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
    5. [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
-4. [x] 16th \(1/2 Easy, 5/8 Medium\)
-   1. [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-   2. [x] [kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-   3. [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) \(E\)
-
+4. [x] 16th \(1/2 Easy, 5/8 Medium\) 1. \[x\] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 2. \[x\] [kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 3. \[x\] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) \(E\)
    * [x] [Coin Change](https://leetcode.com/problems/coin-change/)
    * [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
    * [x] [https://leetcode.com/problems/number-of-longest-increasing-subsequence/](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
@@ -49,7 +43,7 @@
 7. [x] 13th \(0/2 Easy, 1/8 Medium\)
    1. [x] [https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/) \(divide & conquer version\)
 
-See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms). 
+See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms).
 
 ### **DP**
 
@@ -88,11 +82,7 @@ See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms]
 * [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 * [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
-### **Misc** 
+### **Misc**
 
 * [ ] [https://leetcode.com/problems/implement-trie-prefix-tree/](https://leetcode.com/problems/implement-trie-prefix-tree/)  
-
-
-
-
 
