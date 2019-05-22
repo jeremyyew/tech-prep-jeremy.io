@@ -1,4 +1,4 @@
-# 5. Dynamic Programming
+# 4. Dynamic Programming
 
 ## DP Strategies
 
