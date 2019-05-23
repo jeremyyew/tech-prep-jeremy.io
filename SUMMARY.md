@@ -21,6 +21,7 @@
   * [M33-search-in-rotated-sorted-array](algorithms/1-lists-and-dicts/m33-search-in-rotated-sorted-array.md)
   * [M153-find-minimum-in-rotated-sorted-array](algorithms/1-lists-and-dicts/m153-find-minimum-in-rotated-sorted-array.md)
   * [M238-product-of-array-except-self](algorithms/1-lists-and-dicts/m238-product-of-array-except-self.md)
+  * [M395-longest-substring-with-at-least-K-repeating-characters](algorithms/1-lists-and-dicts/m395-longest-substring-with-at-least-k-repeating-characters.md)
   * [H76-minimum-window-substring](algorithms/1-lists-and-dicts/h76-minimum-window-substring.md)
   * [H128-longest-consecutive-sequence](algorithms/1-lists-and-dicts/h128-longest-consecutive-sequence.md)
 * [2. Linked Lists \(2E, 2M\)](algorithms/2-linked-lists/README.md)
