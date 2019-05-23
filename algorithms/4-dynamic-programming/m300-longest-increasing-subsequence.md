@@ -14,7 +14,6 @@ More formally:
 - Even if lengths[i] isn't a new max, we still need to save it, since it may end up being part of a new max later on. 
 '''
 
-
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if not nums:
@@ -22,9 +21,10 @@ class Solution:
         lengths = [None for _ in range(len(nums))]
         lengths[0] = 1
         for i in range(1, len(nums)):
-            subseq_i_len = max([lengths[j]
-                                for j in range(i) if nums[j] < nums[i]] or [0]) + 1
-            lengths[i] = subseq_i_len
+            lengths[i] = 1 + max(
+                [lengths[j]
+                 for j in range(i)
+                 if nums[j] < nums[i]] or [0])
         return max(lengths)
 
 
