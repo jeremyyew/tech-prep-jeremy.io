@@ -1,10 +1,10 @@
-# Progress Tracker \(26/50 E, 25/70 M, 3/5H\)
+# Progress Tracker \(26/50 E, 26/70 M, 3/5H\)
 
-## **Total: 26 + 25 + 3 = 54/200.**
+## **Total: 26 + 26 + 3 = 55/200.**
 
-1. [x] **23rd  \(0/2 Easy, 0/6 Medium\)**
-   1. [ ] [https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)
-   2. [ ] [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+1. [x] **23rd  \(0/2 Easy, 1/6 Medium\)**
+   1. [x] [https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)
+   2. [x] [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
    3. [ ] [https://leetcode.com/problems/longest-palindromic-subsequence/](https://leetcode.com/problems/longest-palindromic-subsequence/)
    4. [ ] [https://leetcode.com/problems/maximum-length-of-repeated-subarray/](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
    5. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)

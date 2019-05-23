@@ -5,8 +5,8 @@
 
 ## Algorithms
 
-* [Progress Tracker \(26/50 E, 25/70 M, 3/5H\)](algorithms/progress.md)
-* [1. Lists, Dicts, Strings \(9E, 5M, 2H\)](algorithms/1-lists-and-dicts/README.md)
+* [Progress Tracker \(26/50 E, 26/70 M, 3/5H\)](algorithms/progress.md)
+* [1. Lists, Dicts, Strings \(9E, 6M, 2H\)](algorithms/1-lists-and-dicts/README.md)
   * [E1-two-sum](algorithms/1-lists-and-dicts/e001-two-sum.md)
   * [E7-reverse-integer](algorithms/1-lists-and-dicts/e007-reverse-integer.md)
   * [E21-merge-two-sorted-lists](algorithms/1-lists-and-dicts/e21-merge-two-sorted-lists.md)

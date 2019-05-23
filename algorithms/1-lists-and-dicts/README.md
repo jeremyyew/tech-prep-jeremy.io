@@ -1,4 +1,4 @@
-# 1. Lists, Dicts, Strings \(9E, 5M, 2H\)
+# 1. Lists, Dicts, Strings \(9E, 6M, 2H\)
 
 ## 'Sliding Window' technique for substring/subarray problems: 
 
