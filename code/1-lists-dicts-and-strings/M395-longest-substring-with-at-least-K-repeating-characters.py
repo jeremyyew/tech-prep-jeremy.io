@@ -6,6 +6,10 @@
 5. Use `re.split()` to split by multiple chars. This is better than splitting single chars at a time as per Stefan's solution.
 6. Use `join()`` to obtain the delimiter expression.
 
+## Time complexity: O(N)
+For each recursive call we take O(N) to count all elements of substring s, and check which ones are less than k. The combined work of a set of recursive calls from sis at most O(N), since we are counting elements of substrings.
+Each time we split, each substring has at least one less unique less-than-k character, and we only have 26 unique lowercase letters; so the maximum level of recursion is 26. So O(26N) = O(N). 
+
 Adapted from https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/87768/4-lines-Python
 '''
 
