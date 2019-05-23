@@ -16,24 +16,26 @@ Time complexity is O(N^2).
 
 The implementation here uses O(N) space instead of O(N^2), so the recurrence relation is not clearly reflected in the indexing in the code; we save the previous row of values `dp(j, i-1)` as `prev`.
 
-Adapted from https://leetcode.com/problems/longest-palindromic-subsequence/discuss/99117/Python-standard-DP-beats-100-(with-%22pre-processing%22). 
+Adapted from https://leetcode.com/problems/longest-palindromic-subsequence/discuss/99117/Python-standard-DP-beats-100-(with-%22pre-processing%22).
+
+Other notes:  
+[3] If it is already a palindrome, return whole string. (For beating TLE on Leetcode.)  
+[4] Base case j=i=0: the max length of any palindromic substring from j to i is 1, as dp[0] itself forms a 1-length palindromic substring.  
+[5] Copy previous row, for reference.  
+[6] Base case j=i>0: Same as j=i=0, dp[j] itself forms a 1-length palindromic substring.  
 '''
 
 
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
-        # [3] If it is already a palindrome, return whole string. (For beating TLE on Leetcode.)
-        if s == s[::-1]:
+        if s == s[::-1]:  # [3]
             return len(s)
         S = len(s)
         dp = [0] * S
-        # [4] Base case j=i=0: the max length of any palindromic substring from j to i is 1, as dp[0] itself forms a 1-length palindromic substring.
-        dp[0] = 1
+        dp[0] = 1  # [4]
         for i in range(1, S):
-            # [5] Copy previous row, for reference.
-            prev = dp[:]
-            # [6] Base case j=i>0: Same as j=i=0, dp[j] itself forms a 1-length palindromic substring.
-            dp[i] = 1
+            prev = dp[:]  # [5]
+            dp[i] = 1  # [6]
             for j in range(i-1, -1, -1):
                 if s[i] == s[j]:  # [1]
                     dp[j] = 2 + prev[j+1]
