@@ -17,10 +17,10 @@
 {% endhint %}
 
 {% hint style="info" %}
-## **June 3rd-31st \(28d\): 100 Easy, 100 Medium, 5 Difficult.** 
+## **June 3rd-31st \(28d\): 100 Easy, 100 Medium, 10 Difficult.** 
 {% endhint %}
 
 {% hint style="info" %}
-## **July 1st-30th: Start** TripleByte, line up ~6 SG interviews for August.
+## **July 1st-30th: Start making company list. 10 SDQs, complete topic notes.** 
 {% endhint %}
 
