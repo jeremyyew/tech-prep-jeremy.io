@@ -68,6 +68,7 @@
   * [E461-hamming-distance](algorithms/7-bitwise-manipulation/e461-hamming-distance.md)
   * [M338-counting-bits](algorithms/7-bitwise-manipulation/m338-counting-bits.md)
 * [8. Miscellaneous \(2E\)](algorithms/8-miscellaneous/README.md)
+  * [M208-implement-trie](algorithms/8-miscellaneous/m208-implement-trie.md)
   * [E202-happy-number](algorithms/8-miscellaneous/e202-happy-number.md)
   * [E892-surface-area-3D](algorithms/8-miscellaneous/e892-surface-area-3d.md)
 * [Templates & Patterns](algorithms/templates/README.md)
