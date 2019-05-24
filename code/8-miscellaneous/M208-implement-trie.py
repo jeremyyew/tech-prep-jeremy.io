@@ -1,8 +1,26 @@
 '''
-Here we implement a simple trie data structure that allows you to:
-- insert a word into the trie;
-- search if a word is in the trie; 
-- search if any words with a prefix is in the trie. 
+Here we implement a simple trie data structure with the following methods:
+- `insert`, insert a word into the trie;
+- `search`, check if a word is in the trie; 
+- `startsWith`, check if any words in the trie has a prefix
+
+The basic steps for implementing each are as such: 
+- `insert`: 
+    - check if char in node
+    - if no, create it
+    - traverse into it, repeat till last char
+    - mark last node as an ending
+- `search`: 
+    - check if char in node
+    - if no, return False
+    - traverse into it, repeat till last char
+    - return True if last node is an ending   
+- `startsWith`: 
+    - check if char in node
+    - if no, return False
+    - traverse into it, repeat till last char
+    - return True if there was a child node for every char
+
 
 There are two underlying node implementations provided: 
 - `TrieNodeWithArray` stores child keys as an array of length 26 (and is meant to be mapped specifically to the 26 lowercase characters)
