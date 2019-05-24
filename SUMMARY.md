@@ -77,7 +77,7 @@
 
 ## Systems Design
 
-* [Example Questions \(0/3\)](systems-design/example-questions-0-3/README.md)
+* [Example Questions \(0/4\)](systems-design/example-questions-0-3/README.md)
   * [URL Shortener](systems-design/example-questions-0-3/url-shortener.md)
 * [Overview \(3/14 Topics covered\)](systems-design/systems-design.md)
 * [Scalability & Performance](systems-design/scalability-and-performance.md)

@@ -17,7 +17,7 @@
    1. [ ] **System Design 2**
    2. [ ] **Go move fridge** 
 10. [ ] **24th**
-    1. [ ] **System Design 1**
+    1. [ ] **System Design 1** 
     2. [ ] **Aaron Dinner**
 11. [x] **23rd  \(0/2 Easy, 3/6 Medium\)**
     1. [x] [https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)
@@ -27,6 +27,9 @@
     5. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
     6. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
     7. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+    8. [ ] [https://leetcode.com/problems/implement-trie-prefix-tree/solution/](https://leetcode.com/problems/implement-trie-prefix-tree/solution/)
+    9. [ ] [https://leetcode.com/problems/add-and-search-word-data-structure-design/](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
+    10. [ ] [https://leetcode.com/tag/trie/](https://leetcode.com/tag/trie/)
 12. [x] **22nd \(0/2 Easy, 2/6 Medium\)**
     1. [x] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
     2. [x] [https://leetcode.com/problems/minimum-window-substring/](https://leetcode.com/problems/minimum-window-substring/)
@@ -106,5 +109,11 @@ See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms]
 
 ### **Misc**
 
+### Tries
+
+* [ ] [https://www.geeksforgeeks.org/trie-insert-and-search/](https://www.geeksforgeeks.org/trie-insert-and-search/)
 * [ ] [https://leetcode.com/problems/implement-trie-prefix-tree/](https://leetcode.com/problems/implement-trie-prefix-tree/)  
+* [ ] [https://stackoverflow.com/questions/11015320/how-to-create-a-trie-in-python/11015381\#11015381](https://stackoverflow.com/questions/11015320/how-to-create-a-trie-in-python/11015381#11015381)
+* [ ] [https://tutorialedge.net/compsci/data-structures/getting-started-with-tries-in-python/](https://tutorialedge.net/compsci/data-structures/getting-started-with-tries-in-python/)
+* [ ] [https://towardsdatascience.com/implementing-a-trie-data-structure-in-python-in-less-than-100-lines-of-code-a877ea23c1a1](https://towardsdatascience.com/implementing-a-trie-data-structure-in-python-in-less-than-100-lines-of-code-a877ea23c1a1)
 
