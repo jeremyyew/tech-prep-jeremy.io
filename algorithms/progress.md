@@ -6,14 +6,19 @@
 2. [ ] **1st Algos + System Design Review** 
 3. [ ] **31st Algos Review**
 4. [ ] **30th**
+   1. [ ] System Design Topic 4
 5. [ ] **29th**
+   1. [ ] System Design 8, 9, Topic 3, 4
 6. [ ] **28th**
-   1. [ ] **Github + website revamp** 
+   1. [ ] Github revamp 
+   2. [ ] System Design 6,7, Topic 1,2
 7. [ ] **27th**
-   1. [ ] **System Design 4**
+   1. [ ] Go move fridge, meet malik  
+   2. [ ] Grokking P2 
 8. [ ] **26th**
-   1. [ ] **System Design 3**
-9. [x] **25th**
+   1. [ ]  Grokking Pt1
+   2. [ ] System Design 4, 5
+9. [x] **25th \(1/2 Easy, 0/6 Medium\)**
    1. [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
    2. [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) \(E\)
    3. [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) \(E\)
@@ -23,8 +28,7 @@
    7. [ ] [https://leetcode.com/problems/map-sum-pairs/](https://leetcode.com/problems/map-sum-pairs/)
    8. [ ] h[ttps://leetcode.com/problems/maximum-length-of-repeated-subarray/](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
    9. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-   10. [ ] **System Design 2, 3**
-   11. [ ] **Go move fridge** 
+   10. [x] **System Design 2, 3**
 10. [x] **24th \(0/2 Easy, 2/6 Medium\)**
     1. [x] **System Design 1** 
     2. [x] [https://leetcode.com/problems/implement-trie-prefix-tree/solution/](https://leetcode.com/problems/implement-trie-prefix-tree/solution/)
