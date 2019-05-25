@@ -17,19 +17,18 @@
    1. [ ] **System Design 2**
    2. [ ] **Go move fridge** 
 10. [ ] **24th**
-    1. [ ] **System Design 1** 
-    2. [ ] **Aaron Dinner**
+    1. [x] **System Design 1** 
+    2. [x] [https://leetcode.com/problems/implement-trie-prefix-tree/solution/](https://leetcode.com/problems/implement-trie-prefix-tree/solution/)
+    3. [x] [https://leetcode.com/problems/add-and-search-word-data-structure-design/](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
+    4. [ ] [https://leetcode.com/tag/trie/](https://leetcode.com/tag/trie/)
+    5. [ ] h[ttps://leetcode.com/problems/maximum-length-of-repeated-subarray/](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
+    6. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
+    7. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
+    8. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 11. [x] **23rd  \(0/2 Easy, 3/6 Medium\)**
     1. [x] [https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)
     2. [x] [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
     3. [x] [https://leetcode.com/problems/longest-palindromic-subsequence/](https://leetcode.com/problems/longest-palindromic-subsequence/)
-    4. [ ] [https://leetcode.com/problems/maximum-length-of-repeated-subarray/](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
-    5. [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/) \(E\)
-    6. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
-    7. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-    8. [ ] [https://leetcode.com/problems/implement-trie-prefix-tree/solution/](https://leetcode.com/problems/implement-trie-prefix-tree/solution/)
-    9. [ ] [https://leetcode.com/problems/add-and-search-word-data-structure-design/](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
-    10. [ ] [https://leetcode.com/tag/trie/](https://leetcode.com/tag/trie/)
 12. [x] **22nd \(0/2 Easy, 2/6 Medium\)**
     1. [x] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
     2. [x] [https://leetcode.com/problems/minimum-window-substring/](https://leetcode.com/problems/minimum-window-substring/)
