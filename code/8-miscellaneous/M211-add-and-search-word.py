@@ -1,3 +1,7 @@
+'''
+If word[i] == '.', then return the result of a search from each existing child, beginning from word[i+1], as if that was the correct child. 
+'''
+
 
 class TrieNode:
     def __init__(self):
@@ -36,8 +40,6 @@ class WordDictionary:
     def searchRec(self, word: str, node: TrieNode) -> bool:
         for i in range(len(word)):
             if word[i] == '.':
-                if i == len(word) - 1:
-                    return True
                 for child in node.getAllChildren():
                     if self.searchRec(word[i+1:], child):
                         return True
