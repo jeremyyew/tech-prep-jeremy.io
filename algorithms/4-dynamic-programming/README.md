@@ -1,5 +1,37 @@
 # 4. Dynamic Programming \(4E, 10M\)
 
+## Memoization 
+
+### Built-in: 
+
+```python
+import functools
+@functools.lru_cache()
+def fn_to_memoize(n):
+    pass
+```
+
+### From scratch:  
+
+A simple `memoize` decorator from scratch, with unbounded storage.
+
+* Always use built-in cache, faster and more options.  
+* Unbounded storage not good. 
+* If writing your own decorator remember to put @functools.wraps\(func\), this will allow the decorated fn to retain its identity.
+
+```python
+def memoize(func):
+    cache = dict()
+    @functools.wraps(func)
+    def memoized_func(*args):
+        if args in cache:
+            return cache[args]
+        result = func(*args)
+        cache[args] = result
+        return result
+    return memoized_func
+```
+
 ## DP Strategies
 
 From [https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.](https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.) 

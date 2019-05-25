@@ -1,5 +1,9 @@
 # 8. Miscellaneous \(2E\)
 
+## Memo 
+
+See Coin Flip. 
+
 ## Tries
 
 ## Heaps
