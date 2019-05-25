@@ -1,5 +1,5 @@
 '''
-If word[i] == '.', then return the result of a search from each existing child, beginning from word[i+1], as if that was the correct child. 
+If `word[i] == '.'`, then return the result of a search from each existing child, beginning from `word[i+1]`, as if that was the correct child. 
 '''
 
 
