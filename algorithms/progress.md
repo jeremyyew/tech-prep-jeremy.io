@@ -1,6 +1,6 @@
-# Progress Tracker \(26/50 E, 28/70 M, 3/5H\)
+# Progress Tracker \(27/50 E, 30/70 M, 3/5H\)
 
-**Total: 26 + 28 + 3 = 57/200.**
+**Total: 27+ 30 + 3 = 60/200.**
 
 1. [ ] **2nd Mock Interview** 
 2. [ ] **1st Algos + System Design Review** 
@@ -13,8 +13,8 @@
    1. [ ] **System Design 4**
 8. [ ] **26th**
    1. [ ] **System Design 3**
-9. [ ] **25th**
-   1. [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
+9. [x] **25th**
+   1. [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
    2. [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) \(E\)
    3. [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) \(E\)
    4. [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/) \(E\)
@@ -25,7 +25,7 @@
    9. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
    10. [ ] **System Design 2, 3**
    11. [ ] **Go move fridge** 
-10. [ ] **24th**
+10. [x] **24th \(0/2 Easy, 2/6 Medium\)**
     1. [x] **System Design 1** 
     2. [x] [https://leetcode.com/problems/implement-trie-prefix-tree/solution/](https://leetcode.com/problems/implement-trie-prefix-tree/solution/)
     3. [x] [https://leetcode.com/problems/add-and-search-word-data-structure-design/](https://leetcode.com/problems/add-and-search-word-data-structure-design/)

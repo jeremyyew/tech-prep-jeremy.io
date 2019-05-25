@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(26/50 E, 28/70 M, 3/5H\)](algorithms/progress.md)
+* [Progress Tracker \(27/50 E, 30/70 M, 3/5H\)](algorithms/progress.md)
 * [1. Lists, Dicts, Strings \(9E, 7M, 2H\)](algorithms/1-lists-and-dicts/README.md)
   * [E1-two-sum](algorithms/1-lists-and-dicts/e001-two-sum.md)
   * [E7-reverse-integer](algorithms/1-lists-and-dicts/e007-reverse-integer.md)
@@ -43,7 +43,8 @@
   * [M236-lowest-common-ancestor-of-a-binary-tree](algorithms/3-trees-and-graphs/m236-lowest-common-ancestor-of-a-binary-tree.md)
   * [M652-find-duplicate-subtrees](algorithms/3-trees-and-graphs/m652-find-duplicate-subtrees-incomplete.md)
   * [H297-serialize-and-deserialize-binary-tree](algorithms/3-trees-and-graphs/h297-serialize-and-deserialize-binary-tree.md)
-* [4. Dynamic Programming \(4E, 10M\)](algorithms/4-dynamic-programming/README.md)
+* [4. Dynamic Programming \(5E, 10M\)](algorithms/4-dynamic-programming/README.md)
+  * [E70-climbing-stairs](algorithms/4-dynamic-programming/e70-climbing-stairs.md)
   * [E121-buy-sell-stock](algorithms/4-dynamic-programming/e121-buy-sell-stock.md)
   * [E198-house-robber](algorithms/4-dynamic-programming/e198-house-robber-1.md)
   * [E377-combination-sum-IV](algorithms/4-dynamic-programming/e377-combination-sum-iv.md)
@@ -67,10 +68,11 @@
 * [7. Bitwise Manipulation \(1E, 1M\)](algorithms/7-bitwise-manipulation/README.md)
   * [E461-hamming-distance](algorithms/7-bitwise-manipulation/e461-hamming-distance.md)
   * [M338-counting-bits](algorithms/7-bitwise-manipulation/m338-counting-bits.md)
-* [8. Miscellaneous \(2E\)](algorithms/8-miscellaneous/README.md)
-  * [M208-implement-trie](algorithms/8-miscellaneous/m208-implement-trie.md)
+* [8. Miscellaneous \(2E, 2M\)](algorithms/8-miscellaneous/README.md)
   * [E202-happy-number](algorithms/8-miscellaneous/e202-happy-number.md)
   * [E892-surface-area-3D](algorithms/8-miscellaneous/e892-surface-area-3d.md)
+  * [M208-implement-trie](algorithms/8-miscellaneous/m208-implement-trie.md)
+  * [M211-add-and-search-word](algorithms/8-miscellaneous/m211-add-and-search-word.md)
 * [Templates & Patterns](algorithms/templates/README.md)
   * [Searching and Sorting](algorithms/templates/search-and-sort.md)
 * [Python](algorithms/python.md)
