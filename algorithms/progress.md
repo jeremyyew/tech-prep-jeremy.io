@@ -1,8 +1,8 @@
 ---
-description: 'Total: 27+ 30 + 3 = 60/200.'
+description: 'Total: 27+ 31 + 3 = 61/200.'
 ---
 
-# Progress Tracker \(27/50 E, 30/70 M, 3/5H\)
+# Progress Tracker \(27/50 E, 31/70 M, 3/5H\)
 
 1. [ ] **2nd Mock Interview** 
 2. [ ] **1st Algos + System Design Review** 
@@ -17,8 +17,8 @@ description: 'Total: 27+ 30 + 3 = 60/200.'
 7. [ ] **27th**
    1. [ ] Go move fridge, meet malik  
    2. [ ] Grokking P2 
-8. [ ] **26th**
-   1. [ ]  Grokking Pt1
+8. [ ] **26th \(0/2 Easy, 1/6 Medium\)**
+   1. [ ] Grokking Pt1
    2. [ ] System Design 4, 5
    3. [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) \(E\)
    4. [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) \(E\)
@@ -81,29 +81,6 @@ description: 'Total: 27+ 30 + 3 = 60/200.'
 
 See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms).
 
-## Techniques
-
-1. [ ] Bits
-   1. [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-   2. [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-   3. [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)\*\*\*\*
-2. [ ] **Linked Lists**
-   1. [x] [Reverse a Linked Lis](https://leetcode.com/problems/reverse-linked-list/)t
-   2. [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
-   3. [x] [Merge Two Sorted L](https://leetcode.com/problems/merge-two-sorted-lists/)[ist](https://leetcode.com/problems/merge-k-sorted-lists/)
-3. [ ] Trees
-   1. [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) \(E\)
-   2. [ ] [Same Tree](https://leetcode.com/problems/same-tree/) \(E\)
-   3. [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) \(E\)
-   4. [ ] [Binary Tree Maximum Path ](https://leetcode.com/problems/binary-tree-maximum-path-sum/)\(hard\)
-   5. [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) \(E\)
-   6. [ ] [Construct Binary Tree from Preorder and Inorder Travers](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-   7. [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-   8. [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-   9. [ ] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
-4. [ ] Tries
-   1. [ ] 
-
 By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355968](https://www.educative.io/collection/5668639101419520/5671464854355968)
 
 * [ ] **1.Sliding Window**
@@ -146,5 +123,30 @@ By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355
   * [ ] [Reconstructing a Sequence \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5792384199688192/preview)
   * [ ] [Minimum Height Trees \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6545337986580480/preview)
 
-## Other Topics
+## **Other Topics**
+
+1. [ ] Bits
+   1. [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+   2. [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+   3. [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)\*\*\*\*
+2. [ ] **Linked Lists**
+   1. [x] [Reverse a Linked Lis](https://leetcode.com/problems/reverse-linked-list/)t
+   2. [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
+   3. [x] [Merge Two Sorted L](https://leetcode.com/problems/merge-two-sorted-lists/)[ist](https://leetcode.com/problems/merge-k-sorted-lists/)
+3. [ ] Trees
+   1. [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) \(E\)
+   2. [ ] [Same Tree](https://leetcode.com/problems/same-tree/) \(E\)
+   3. [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) \(E\)
+   4. [ ] [Binary Tree Maximum Path ](https://leetcode.com/problems/binary-tree-maximum-path-sum/)\(hard\)
+   5. [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) \(E\)
+   6. [ ] [Construct Binary Tree from Preorder and Inorder Travers](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+   7. [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+   8. [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+   9. [ ] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+4. [ ] Tries
+   1. [ ] [https://leetcode.com/problems/replace-words/](https://leetcode.com/problems/replace-words/)
+   2. [ ] [https://leetcode.com/problems/implement-magic-dictionary/](https://leetcode.com/problems/implement-magic-dictionary/)
+   3. [ ] [https://leetcode.com/problems/map-sum-pairs/](https://leetcode.com/problems/map-sum-pairs/)
+
+
 
