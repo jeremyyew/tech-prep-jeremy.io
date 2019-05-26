@@ -1,6 +1,10 @@
+---
+description: 'Total: 27+ 30 + 3 = 60/200.'
+---
+
 # Progress Tracker \(27/50 E, 30/70 M, 3/5H\)
 
-**Total: 27+ 30 + 3 = 60/200.**
+## **Daily Progress**
 
 1. [ ] **2nd Mock Interview** 
 2. [ ] **1st Algos + System Design Review** 
@@ -27,7 +31,7 @@
    6. [ ] [https://leetcode.com/problems/implement-magic-dictionary/](https://leetcode.com/problems/implement-magic-dictionary/)
    7. [ ] [https://leetcode.com/problems/map-sum-pairs/](https://leetcode.com/problems/map-sum-pairs/)
    8. [ ] h[ttps://leetcode.com/problems/maximum-length-of-repeated-subarray/](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
-   9. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+   9. [ ] [Construct Binary Tree from Preorder and Inorder Travers](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
    10. [x] **System Design 2, 3**
 10. [x] **24th \(0/2 Easy, 2/6 Medium\)**
     1. [x] **System Design 1** 
@@ -77,49 +81,70 @@
 
 See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms).
 
-### **DP**
+## Techniques
 
-* [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-* [x] [Coin Change](https://leetcode.com/problems/coin-change/)
-* [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-* [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
-* [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
-* [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-* [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)
-* [x] [Unique Paths](https://leetcode.com/problems/unique-paths/)
-* [x] [Jump Game](https://leetcode.com/problems/jump-game/)
+By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355968](https://www.educative.io/collection/5668639101419520/5671464854355968)
 
-### **Bits \(Easy\)**
+* [ ] **1.Sliding Window**
+* [ ] **2. Two Pointers**
+* [ ] **3. Fast and Slow Pointers**
+* [ ] **4. Merge Intervals**
+* [ ] **5. Cyclic Sort**
+* [ ] **6. In-place Reversal of Linked List**
+* [ ] **7. Trees BFS** 
+* [ ] **8. Trees DFS**
+* [ ] **9. Two Heaps**
+* [ ] **10. Subsets** 
+* [ ] **11. Modified Binary Search** 
+* [ ] **12. Top 'K' Elements**
+* [ ] **13. K-way merge** 
+* [ ] **14. DP**
+  * [ ] **Leetcode**
+    * [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+    * [x] [Coin Change](https://leetcode.com/problems/coin-change/)
+    * [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+    * [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
+    * [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
+    * [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+    * [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)
+    * [x] [Unique Paths](https://leetcode.com/problems/unique-paths/)
+    * [x] [Jump Game](https://leetcode.com/problems/jump-game/)
+  * [ ] **Grokking**
+    * [ ] [0/1 Knapsack \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5008218180812800/preview)
+    * [ ] [Equal Subset Sum Partition \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6336012772966400/preview)
+    * [ ] [Subset Sum \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6126968124735488/preview)
+    * [ ] [Minimum Subset Sum Difference \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5390739594805248/preview)
+    * [ ] [Count of Subset Sum \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/4874044023242752/preview)
+    * [ ] [Target Sum \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/4686075182186496/preview)
+* [ ] **15. Topological Sort**
+  * [ ] [Topological Sort \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6010387461832704/preview)
+  * [ ] [Tasks Scheduling \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5590021564268544/preview)
+  * [ ] [Tasks Scheduling Order \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5066018374287360/preview)
+  * [ ] [All Tasks Scheduling Orders \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/4994209155121152/preview)
+  * [ ] [Alien Dictionary \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6610306698575872/preview)
+  * [ ] [Reconstructing a Sequence \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5792384199688192/preview)
+  * [ ] [Minimum Height Trees \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6545337986580480/preview)
 
-1. [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-2. [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-3. [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+## Other Topics
 
-### **Linked Lists**
-
-1. [x] [Reverse a Linked Lis](https://leetcode.com/problems/reverse-linked-list/)
-2. [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
-3. [x] [Merge Two Sorted L](https://leetcode.com/problems/merge-two-sorted-lists/)[ist](https://leetcode.com/problems/merge-k-sorted-lists/)
-
-### Trees
-
-* [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) \(E\)
-* [ ] [Same Tree](https://leetcode.com/problems/same-tree/) \(E\)
-* [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) \(E\)
-* [ ] [Binary Tree Maximum Path ](https://leetcode.com/problems/binary-tree-maximum-path-sum/)\(hard\)
-* [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) \(E\)
-* [ ] [Construct Binary Tree from Preorder and Inorder Travers](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-* [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-* [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-* [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
-
-### **Misc**
-
-### Tries
-
-* [ ] [https://www.geeksforgeeks.org/trie-insert-and-search/](https://www.geeksforgeeks.org/trie-insert-and-search/)
-* [ ] [https://leetcode.com/problems/implement-trie-prefix-tree/](https://leetcode.com/problems/implement-trie-prefix-tree/)  
-* [ ] [https://stackoverflow.com/questions/11015320/how-to-create-a-trie-in-python/11015381\#11015381](https://stackoverflow.com/questions/11015320/how-to-create-a-trie-in-python/11015381#11015381)
-* [ ] [https://tutorialedge.net/compsci/data-structures/getting-started-with-tries-in-python/](https://tutorialedge.net/compsci/data-structures/getting-started-with-tries-in-python/)
-* [ ] [https://towardsdatascience.com/implementing-a-trie-data-structure-in-python-in-less-than-100-lines-of-code-a877ea23c1a1](https://towardsdatascience.com/implementing-a-trie-data-structure-in-python-in-less-than-100-lines-of-code-a877ea23c1a1)
+1. [ ] Bits
+   1. [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+   2. [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+   3. [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)\*\*\*\*
+2. [ ] **Linked Lists**
+   1. [x] [Reverse a Linked Lis](https://leetcode.com/problems/reverse-linked-list/)t
+   2. [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
+   3. [x] [Merge Two Sorted L](https://leetcode.com/problems/merge-two-sorted-lists/)[ist](https://leetcode.com/problems/merge-k-sorted-lists/)
+3. [ ] Trees
+   1. [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) \(E\)
+   2. [ ] [Same Tree](https://leetcode.com/problems/same-tree/) \(E\)
+   3. [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) \(E\)
+   4. [ ] [Binary Tree Maximum Path ](https://leetcode.com/problems/binary-tree-maximum-path-sum/)\(hard\)
+   5. [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) \(E\)
+   6. [ ] [Construct Binary Tree from Preorder and Inorder Travers](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+   7. [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+   8. [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+   9. [ ] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+4. [ ] Tries
+   1. [ ] 
 

@@ -1,2 +1,2 @@
-# 2. Linked Lists \(2E, 2M\)
+# Linked Lists \(2E, 2M\)
 

@@ -1,4 +1,4 @@
-# 4. Dynamic Programming \(5E, 10M\)
+# Dynamic Programming \(5E, 10M\)
 
 ## Memoization 
 
