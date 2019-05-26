@@ -5,15 +5,16 @@
 
 ## Algorithms
 
-* [Progress Tracker \(27/50 E, 31/70 M, 3/5H\)](algorithms/progress.md)
+* [Progress Tracker \(27/50 E, 32/70 M, 3/5H\)](algorithms/progress.md)
 * [Sliding Window \(0E, 2M, 1H\)](algorithms/sliding-window/README.md)
   * [M3-longest-substring-without-repeating-characters](algorithms/sliding-window/m3-longest-substring-without-repeating-characters.md)
   * [M395-longest-substring-with-at-least-K-repeating-characters](algorithms/sliding-window/m395-longest-substring-with-at-least-k-repeating-characters.md)
   * [H76-minimum-window-substring](algorithms/sliding-window/h76-minimum-window-substring.md)
 * [Two Pointers \(0E, 1M\)](algorithms/two-pointers/README.md)
   * [M15-three-sum](algorithms/two-pointers/m15-three-sum.md)
-* [Merge Intervals \(0E, 1M\)](algorithms/merge-intervals/README.md)
+* [Merge Intervals \(0E, 2M\)](algorithms/merge-intervals/README.md)
   * [M56-merge-intervals](algorithms/merge-intervals/m56-merge-intervals.md)
+  * [M57-insert-interval](algorithms/merge-intervals/m57-insert-interval.md)
 * [Searching and Sorting](algorithms/searching-and-sorting.md)
 * [Lists, Dicts, Strings \(9E, 4M, 1H\)](algorithms/1-lists-and-dicts/README.md)
   * [E1-two-sum](algorithms/1-lists-and-dicts/e001-two-sum.md)
