@@ -1,8 +1,8 @@
 ---
-description: 'Total: 27+ 32 + 3 = 62/200.'
+description: 'Total: 27+ 33 + 3 = 63/200.'
 ---
 
-# Progress Tracker \(27/50 E, 32/70 M, 3/5H\)
+# Progress Tracker \(27/50 E, 33/70 M, 3/5H\)
 
 1. [ ] **2nd Mock Interview** 
 2. [ ] **1st Algos + System Design Review** 
@@ -14,7 +14,7 @@ description: 'Total: 27+ 32 + 3 = 62/200.'
 6. [ ] **28th**
    1. [ ] Github revamp 
    2. [ ] System Design 6,7, Topic 1,2
-7. [ ] **27th** 
+7. [ ] **27th \(0/2 Easy, 1/6 Medium\)**
    1. [ ] Go move fridge, meet malik  
    2. [ ] Grokking P2 
 8. [ ] **26th \(0/2 Easy, 2/6 Medium\)**
@@ -89,7 +89,7 @@ By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355
 * [ ] **4. Merge Intervals**
   * [x] **Merge Intervals**
   * [x] **Insert Intervals**
-  * [ ] [Intervals Intersection \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6518042546667520)[Preview](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6518042546667520)
+  * [x] [Intervals Intersection \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6518042546667520)[Preview](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6518042546667520)
   * [ ] [Conflicting Appointments \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5690964005879808/preview)
 * [ ] **5. Cyclic Sort**
 * [ ] **6. In-place Reversal of Linked List**
