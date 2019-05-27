@@ -88,6 +88,7 @@
 ## Systems Design
 
 * [Example Questions \(3/6\)](systems-design/example-questions-0-3/README.md)
+  * [Instagram](systems-design/example-questions-0-3/instagram.md)
   * [Twitter](systems-design/example-questions-0-3/twitter.md)
   * [URL Shortener](systems-design/example-questions-0-3/url-shortener.md)
   * [Texting App](systems-design/example-questions-0-3/texting-app.md)
