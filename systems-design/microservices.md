@@ -1,2 +1,0 @@
-# Microservices vs Monolithic Architecture
-
