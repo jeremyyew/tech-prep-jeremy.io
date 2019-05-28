@@ -56,7 +56,7 @@ class SolutionCollectBitMask:
 
 class SolutionCyclicSort:
     def missingNumber(self, nums):
-        i, n = 0, len(nums)
+        n = len(nums)
         for i in range(n):  # [1]
             if i >= n or nums[i] == i:  # [3]
                 pass
@@ -97,5 +97,6 @@ class Solution:
             else:
                 l = m + 1  # [4]
         return l
+
 ```
 
