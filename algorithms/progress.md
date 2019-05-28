@@ -13,7 +13,7 @@ description: 'Total: 27+ 33 + 3 = 63/200.'
 5. [ ] **29th**
    1. [ ] SDQ 5
    2. [ ] Servers and Load balancing. 
-6. [ ] **28th \(0/2 Easy, 1/6 Medium\)**
+6. [ ] **28th \(1/2 Easy, 0/6 Medium\)**
    1. [ ] SDQ 4
    2. [ ] Databases, CAP 
 7. [x] **27th \(0/2 Easy, 1/6 Medium\)**
@@ -85,6 +85,11 @@ By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355
   * [ ] [https://leetcode.com/problems/non-overlapping-intervals/](https://leetcode.com/problems/non-overlapping-intervals/)
   * [ ] [Conflicting Appointments \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5690964005879808/preview)
 * [ ] **5. Cyclic Sort**
+  * [x] \*\*\*\*[**https://leetcode.com/problems/missing-number/**](https://leetcode.com/problems/missing-number/)\*\*\*\*
+  * [x] \*\*\*\*[**https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/**](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)\*\*\*\*
+  * [ ] \*\*\*\*[**https://leetcode.com/problems/find-the-duplicate-number/**](https://leetcode.com/problems/find-the-duplicate-number/)\*\*\*\*
+  * [ ] \*\*\*\*[**https://leetcode.com/problems/find-all-duplicates-in-an-array/**](https://leetcode.com/problems/find-all-duplicates-in-an-array/)\*\*\*\*
+  * [ ] \*\*\*\*[**https://leetcode.com/problems/first-missing-positive/**](https://leetcode.com/problems/first-missing-positive/)\*\*\*\*
 * [ ] **6. In-place Reversal of Linked List**
 * [ ] **7. Trees BFS** 
 * [ ] **8. Trees DFS**
