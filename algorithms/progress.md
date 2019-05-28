@@ -8,26 +8,18 @@ description: 'Total: 27+ 33 + 3 = 63/200.'
 2. [ ] **1st Algos + System Design Review** 
 3. [ ] **31st Algos Review**
 4. [ ] **30th**
-   1. [ ] System Design Topic 4
+   1. [ ] SDQ 6
+   2. [ ] Github Update. 
 5. [ ] **29th**
-   1. [ ] System Design 8, 9, Topic 3, 4
-6. [ ] **28th**
-   1. [ ] Github revamp 
-   2. [ ] System Design 6,7, Topic 1,2
-7. [ ] **27th \(0/2 Easy, 1/6 Medium\)**
-   1. [ ] Go move fridge, meet malik  
-   2. [ ] Grokking P2 
-8. [ ] **26th \(0/2 Easy, 2/6 Medium\)**
-   1. [ ] Grokking Pt1
-   2. [ ] System Design 4, 5
-   3. [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) \(E\)
-   4. [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) \(E\)
-   5. [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/) \(E\)
-   6. [ ] [https://leetcode.com/problems/top-k-frequent-words/submissions/](https://leetcode.com/problems/top-k-frequent-words/submissions/)
-   7. [ ] [https://leetcode.com/problems/implement-magic-dictionary/](https://leetcode.com/problems/implement-magic-dictionary/)
-   8. [ ] [https://leetcode.com/problems/map-sum-pairs/](https://leetcode.com/problems/map-sum-pairs/)
-   9. [ ] h[ttps://leetcode.com/problems/maximum-length-of-repeated-subarray/](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
-   10. [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+   1. [ ] SDQ 5
+   2. [ ] Servers and Load balancing. 
+6. [ ] **28th \(0/2 Easy, 1/6 Medium\)**
+   1. [ ] SDQ 4
+   2. [ ] Databases, CAP 
+7. [x] **27th \(0/2 Easy, 1/6 Medium\)**
+   1. [x] Go move fridge, meet malik  
+8. [x] **26th \(0/2 Easy, 2/6 Medium\)**
+   1. [x] System Design 4
 9. [x] **25th \(1/2 Easy, 0/6 Medium\)**
    1. [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
    2. [x] **System Design 2, 3**
@@ -77,9 +69,7 @@ description: 'Total: 27+ 33 + 3 = 63/200.'
 19. [x] **13th \(0/2 Easy, 1/8 Medium\)**
     1. [x] [https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/) \(divide & conquer version\)
 
-## **Daily Progress**
-
-See [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms).
+## Techniques
 
 By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355968](https://www.educative.io/collection/5668639101419520/5671464854355968)
 
@@ -141,19 +131,26 @@ By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355
    2. [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
    3. [x] [Merge Two Sorted L](https://leetcode.com/problems/merge-two-sorted-lists/)[ist](https://leetcode.com/problems/merge-k-sorted-lists/)
 3. [ ] Trees
-   1. [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) \(E\)
+   1. [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) \(E\)
    2. [ ] [Same Tree](https://leetcode.com/problems/same-tree/) \(E\)
-   3. [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) \(E\)
+   3. [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/) \(E\)
    4. [ ] [Binary Tree Maximum Path ](https://leetcode.com/problems/binary-tree-maximum-path-sum/)\(hard\)
    5. [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) \(E\)
    6. [ ] [Construct Binary Tree from Preorder and Inorder Travers](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-   7. [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-   8. [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-   9. [ ] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+   7. [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+   8. [x] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+   9. [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 4. [ ] Tries
    1. [ ] [https://leetcode.com/problems/replace-words/](https://leetcode.com/problems/replace-words/)
    2. [ ] [https://leetcode.com/problems/implement-magic-dictionary/](https://leetcode.com/problems/implement-magic-dictionary/)
    3. [ ] [https://leetcode.com/problems/map-sum-pairs/](https://leetcode.com/problems/map-sum-pairs/)
+   4. [ ] [https://leetcode.com/problems/top-k-frequent-words/submissions/](https://leetcode.com/problems/top-k-frequent-words/submissions/)
+   5. [ ] h[ttps://leetcode.com/problems/maximum-length-of-repeated-subarray/](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
+   6. [x] add and search word
+
+## Sources
+
+*  [https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms](https://github.com/yangshun/tech-interview-handbook/tree/master/algorithms).
 
 
 
