@@ -9,6 +9,26 @@
 * **400 requests per second = 1 billion requests per month**
 * Reading 1 MB sequentially from memory takes about 250 microseconds, while reading from SSD takes 4x and from disk takes 80x longer.[1](https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know)
 
+| char | 1 byte | -128 to 127 or 0 to 255 |
+| :--- | :--- | :--- |
+| **unsigned char** | **1 byte** | **0 to 255** |
+| **unsigned int** | **2 or 4 bytes** | **0 to 65,535 or 0 to 4,294,967,295** |
+| signed char | 1 byte | -128 to 127 |
+| int | 2 or 4 bytes | -32,768 to 32,767 or -2,147,483,648 to 2,147,483,647 |
+| short | 2 bytes | -32,768 to 32,767 |
+| unsigned short | 2 bytes | 0 to 65,535 |
+| long | 8 bytes | -9223372036854775808 to 9223372036854775807 |
+| unsigned long | 8 bytes | 0 to 18446744073709551615 |
+
+| Unit | In Bytes |
+| :--- | :--- |
+| **Byte** | **1** |
+| **KB**  | **10^3** |
+| **MB**  | **10^6** |
+| **GB** | **10^9** |
+| **TB** | **10^12** |
+| **PB** | **10^15** |
+
 ## Sources:
 
 * Donne Martin's Primer

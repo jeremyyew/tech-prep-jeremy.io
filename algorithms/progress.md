@@ -90,6 +90,9 @@ By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355
   * [x] **Merge Intervals**
   * [x] **Insert Intervals**
   * [x] [Intervals Intersection \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6518042546667520)[Preview](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6518042546667520)
+  * [ ] [https://leetcode.com/problems/task-scheduler/](https://leetcode.com/problems/task-scheduler/)
+  * [ ] [https://leetcode.com/problems/my-calendar-i/](https://leetcode.com/problems/my-calendar-i/)
+  * [ ] [https://leetcode.com/problems/non-overlapping-intervals/](https://leetcode.com/problems/non-overlapping-intervals/)
   * [ ] [Conflicting Appointments \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5690964005879808/preview)
 * [ ] **5. Cyclic Sort**
 * [ ] **6. In-place Reversal of Linked List**
