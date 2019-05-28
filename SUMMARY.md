@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(27/50 E, 33/70 M, 3/5H\)](algorithms/progress.md)
+* [Progress Tracker \(27/50 Easy, 33/70 Medium, 3/5 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -100,13 +100,13 @@
 
 ## Systems Design
 
-* [Overview \(3/14 Topics covered\)](systems-design/systems-design.md)
-* [Example Questions \(3/6\)](systems-design/example-questions-0-3/README.md)
+* [Overview](systems-design/systems-design.md)
+* [Example Questions \(4/6\)](systems-design/example-questions-0-3/README.md)
   * [Instagram](systems-design/example-questions-0-3/instagram.md)
   * [Twitter](systems-design/example-questions-0-3/twitter.md)
   * [URL Shortener](systems-design/example-questions-0-3/url-shortener.md)
   * [Texting App](systems-design/example-questions-0-3/texting-app.md)
-* [Topics](systems-design/topics/README.md)
+* [Topics \(2/7\)](systems-design/topics/README.md)
   * [Consistency, Availability, Partition Tolerance \(CAP\) \(incomplete\)](systems-design/topics/consistency-availability-partition-tolerance-cap/README.md)
     * [Scalability & Performance](systems-design/topics/consistency-availability-partition-tolerance-cap/scalability-and-performance.md)
     * [Latency vs Throughput](systems-design/topics/consistency-availability-partition-tolerance-cap/latency-vs-throughput.md)

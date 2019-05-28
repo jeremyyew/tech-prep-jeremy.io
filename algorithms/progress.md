@@ -2,7 +2,7 @@
 description: 'Total: 27+ 33 + 3 = 63/200.'
 ---
 
-# Progress Tracker \(27/50 E, 33/70 M, 3/5H\)
+# Progress Tracker \(27/50 Easy, 33/70 Medium, 3/5 Hard\)
 
 1. [ ] **2nd Mock Interview** 
 2. [ ] **1st Algos + System Design Review** 

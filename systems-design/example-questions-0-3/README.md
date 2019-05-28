@@ -1,4 +1,4 @@
-# Example Questions \(3/6\)
+# Example Questions \(4/6\)
 
 ## Handy ballpark figures
 
