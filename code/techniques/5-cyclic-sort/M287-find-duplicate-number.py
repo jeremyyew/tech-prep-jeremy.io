@@ -27,10 +27,6 @@ class Solution:
         return i
 
 
-r = Solution().findDuplicate([1, 3, 4, 2, 2])
-print(r)
-
-
 class SolutionDetectCycle:
     def findDuplicate(self, nums):
         slow = fast = nums[0]
