@@ -1,11 +1,11 @@
 '''
-1. Collect with set: O(N) time, O(N) space
-2. Sort then scan: O(NlogN) time, O(N) or O(1) space
-2. Cyclic Sort: O(N) time, O(1) space (modify input array)
+1. **Collect with set**: O(N) time, O(N) space
+2. **Sort then scan**: O(NlogN) time, O(N) or O(1) space
+2. **Cyclic Sort**: O(N) time, O(1) space (modify input array) (Submitted)
     - Cyclic sort until we enter the cycle (see the same value).
     - We write each value to its exact index (as opposed to i+1 such as in E268 Missing Number) starting from 0. Since there is no zero value, we will be constantly shifting values from the first step until we hit a duplicate.  
     - The commented out line can replace the three lines in the loop. It's really pretty but tricky: even though the order of getting values on the RHS doesn't matter, on the LHS you MUST assign `nums[i]` first before `i` (left-to-right), since we want to assign to the old `i` position before changing `i`. 
-3. Detect Cycle:O(N) time, O(1) space (Submitted)
+3. **Detect Cycle**: O(N) time, O(1) space 
     - Treat the array slots as linked list nodes whose values point to indices of the array.
     - Since all values are between 1 to n, we can never go out of bounds, so the path starting from index 0 will go on infinitely, i.e. it contains a cycle.
     - However, the entire path cannot be a cycle, since we start from index 0.
