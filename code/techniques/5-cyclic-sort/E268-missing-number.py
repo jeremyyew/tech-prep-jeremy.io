@@ -79,12 +79,11 @@ class Solution:
         for i in range(n):  # [1]
             if i >= n or nums[i] == i:  # [3]
                 pass
-            else:
-                k = nums[i]
-                while k < n and k != nums[k]:  # [2], [3]
-                    j = nums[k]
-                    nums[k] = k
-                    k = j
+            k = nums[i]
+            while k < n and k != nums[k]:  # [2], [3]
+                j = nums[k]
+                nums[k] = k
+                k = j
         for i in range(n):  # [4]
             if nums[i] != i:
                 return i
