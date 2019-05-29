@@ -27,7 +27,9 @@
 See [https://leetcode.com/articles/missing-number](https://leetcode.com/articles/missing-number).
 
 ```python
+
 from collections import Counter
+
 
 class SolutionCollectCounter:
     def missingNumber(self, nums):
@@ -59,16 +61,15 @@ class SolutionCollectBitMask:
 
 class Solution:
     def missingNumber(self, nums):
-        n = len(nums)
+        i, n = 0, len(nums)
         for i in range(n):  # [1]
             if i >= n or nums[i] == i:  # [3]
                 pass
-            else:
-                k = nums[i]
-                while k < n and k != nums[k]:  # [2], [3]
-                    j = nums[k]
-                    nums[k] = k
-                    k = j
+            k = nums[i]
+            while k < n and k != nums[k]:  # [2], [3]
+                j = nums[k]
+                nums[k] = k
+                k = j
         for i in range(n):  # [4]
             if nums[i] != i:
                 return i

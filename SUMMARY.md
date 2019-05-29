@@ -19,6 +19,7 @@
     * [M56-merge-intervals](algorithms/techniques/4-merge-intervals/m56-merge-intervals.md)
     * [M57-insert-interval](algorithms/techniques/4-merge-intervals/m57-insert-interval.md)
   * [5. Cyclic Sort \(1E, 0M\)](algorithms/techniques/5-cyclic-sort/README.md)
+    * [M287-find-duplicate-number](algorithms/techniques/5-cyclic-sort/m287-find-duplicate-number.md)
     * [E268-missing-number](algorithms/techniques/5-cyclic-sort/e268-missing-number.md)
     * [E448-find-all-numbers-disappeared-in-an-array](algorithms/techniques/5-cyclic-sort/e448-find-all-numbers-disappeared-in-an-array.md)
   * [6. In-place Reversal Of Linked List](algorithms/techniques/6-in-place-reversal-of-linked-list.md)
