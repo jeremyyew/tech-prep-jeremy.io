@@ -1,2 +1,2 @@
-# 4. Merge Intervals \(0E, 2M\)
+# 4. Merge Intervals \(0E, 3M\)
 

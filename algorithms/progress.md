@@ -1,5 +1,5 @@
 ---
-description: 'Total: 27+ 33 + 3 = 63/200.'
+description: 'Total: 27 + 35 + 3 = 63/200.'
 ---
 
 # Progress Tracker \(27/50 Easy, 33/70 Medium, 3/5 Hard\)
@@ -10,12 +10,12 @@ description: 'Total: 27+ 33 + 3 = 63/200.'
 4. [ ] **30th**
    1. [ ] SDQ 6
    2. [ ] Github Update. 
+   3. [ ] Servers and load balancing. 
 5. [ ] **29th**
    1. [ ] SDQ 5
-   2. [ ] Servers and Load balancing. 
-6. [ ] **28th \(1/2 Easy, 0/6 Medium\)**
-   1. [ ] SDQ 4
    2. [ ] Databases, CAP 
+6. [x] **28th \(1/2 Easy, 2/6 Medium\)**
+   1. [x] SDQ 4
 7. [x] **27th \(0/2 Easy, 1/6 Medium\)**
    1. [x] Go move fridge, meet malik  
 8. [x] **26th \(0/2 Easy, 2/6 Medium\)**
