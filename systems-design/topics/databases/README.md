@@ -1,4 +1,4 @@
-# Databases
+# Databases \(TODO\)
 
 ## What is ACID? 
 
@@ -7,8 +7,6 @@
 ## **What is master-slave replication? What is master-master replication?**
 
 ## **What is federation?** 
-
-## **What is sharding?**
 
 ## **What is denormalization?** 
 
