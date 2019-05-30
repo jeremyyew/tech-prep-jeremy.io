@@ -6,7 +6,7 @@
    1. Basically, putting different rows into different tables/DB servers. 
    2. Also called data sharding/range-based partition. 
    3. Key problem: potentially imbalanced servers. 
-2. **Vertical Partitioning**
+2. **Vertical Partitioning \(Federation\)**
    1. Basically, putting data related to each distinct feature into different DB servers.
    2. With additional growth, it may still be necessary to further partition a feature specific DB across various servers. 
 3. **Directory Based Partitioning**

@@ -19,6 +19,14 @@ Basically, **keeping multiple components consistent** via updates. Redundancy is
 * [Replication](https://en.wikipedia.org/wiki/Replication_%28computing%29) means **sharing information to ensure consistency between redundant resources**, such as software or hardware components, to improve **reliability,** [**fault-tolerance**](https://en.wikipedia.org/wiki/Fault_tolerance)**, or accessibility.**
 * Replication is widely used in many database management systems \(DBMS\), usually with a master-slave relationship between the original and the copies. The master gets all the updates, which then ripple through to the slaves. Each slave outputs a message stating that it has received the update successfully, thus allowing the sending of subsequent updates.
 
+**Disadvantage\(s\): replication**
+
+* There is a potential for loss of data if the master fails before any newly written data can be replicated to other nodes.
+* Writes are replayed to the read replicas. If there are a lot of writes, the read replicas can get bogged down with replaying writes and can't do as many reads.
+* The more read slaves, the more you have to replicate, which leads to greater replication lag.
+* On some systems, writing to the master can spawn multiple threads to write in parallel, whereas read replicas only support writing sequentially with a single thread.
+* Replication adds more hardware and additional complexity.
+
 ## What are some examples of services that provide redundancy and/or replication, as well as some that don't? 
 
 ## Sources

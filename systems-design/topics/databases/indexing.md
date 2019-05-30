@@ -16,10 +16,18 @@ Example: A library catalog.
 * Works well for datasets with large size but small payloads \(i.e. search criteria\). 
   * E.g. data sets that are many terabytes in size, but have very small payloads \(e.g., 1 KB\). Finding a small payload in such a large dataset can be a real challenge, since we can’t possibly iterate over that much data in any reasonable time. Furthermore, it is very likely that such a large data set is spread over several physical devices—this means we need some way to find the correct physical location of the desired data. Indexes are the best way to do this.
 
+## What is compound indexing? 
+
+## What are the tradeoffs of DB indexing? 
+
 ## How do Indexes decrease write performance?
 
 * Inserting and updating data requires the indexes to be update and inserted as well, so more write operations. 
 * Applies to all insert, update, and delete operations for the table. 
 * Adding unnecessary indexes on tables should be avoided and indexes that are no longer used should be removed.
-* If write is higher than read, may not be worth it.  
+* If write is higher than read, may not be worth it. 
+
+## How might a database index be implemented?
+
+
 
