@@ -99,7 +99,7 @@ Posts {
     * UserID \(4 bytes\) + 500 \* FollowerID \(4 bytes\) = 2000 bytes 
     * 500 million \* 2000 bytes = 10 \* 10^11 bytes =  1TB
   * Total db storage = 6TB 
-* Web Servers: 
+* **Web Servers:** 
   * Separate services for reads and writes, since writes will be much slower. 
 * **Shard DB by UserID**
   * Easy to retrieve all related user data
@@ -108,6 +108,20 @@ Posts {
     * non-uniform distribution of followers, and of photos
     * Will it take longer to always request users across shards
     * Availability: if that shard is down with no replicas then that user is completely unavailable
-* Shard DB by PhotoID 
-  * 
+* **Shard DB by PhotoID** 
+  * If we can generate unique PhotoIDs first and then find a shard number through “PhotoID % 10”, the above problems will have been solved. We would not need to append ShardID with PhotoID in this case as PhotoID will itself be unique throughout the system.
+  * Generate via DB instance just for autoincrement ids, or double DB instance with even and odd ids for each. 
+  * Or, Key Generation Service \(KGS\). 
+* **KGS** 
+  * Generate beforehand, store in DB, hand out on request \(mark as used\). 
+  * No worries about duplications or collisions.
+  * Performance
+    * Mark a set of keys as used, keep them in memory, and give them out instantly \(no query, no write lag\). 
+    * It's okay if the service dies and we lose them. 
+    * Or give each server a bunch of keys at once, even. 
+    * To improve key lookup, we can also move used keys to a separate DB to decrease index size. But perhaps key to url mapping should be stored in the generateURL service/application server itself. 
+  * Concurrency
+    * Make the `withdrawKey` operation atomic. 
+    * If we are using memory, then definitely need a lock on the list of keys. 
+  * SPOF: Yes, so replicate and standby. 
 
