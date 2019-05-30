@@ -1,4 +1,4 @@
-# Consistency, Availability, Partition Tolerance \(CAP\) \(TODO\)
+# Consistency, Availability, Partition Tolerance \(CAP\)
 
 ## What is CAP?
 

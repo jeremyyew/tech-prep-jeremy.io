@@ -2,10 +2,10 @@
 
 ## What is DB indexing?
 
-* Basically, store a sorted index of a data table, by one or more column. 
-* It is one way of improving **DB read times without scaling horizontally.** 
-* You create an index on ****a particular table in a database to make it faster to search through the table and find the row or rows that we want. 
-* Indexes can be created using one or more columns of a database table, and **can help both  random lookups and lookups of ordered records.**
+* It is one way of improving **DB read times without scaling horizontally.**
+* Basically, you create an index on **one or more columns** \(usually, the ones you query on\) in a particular table in a database to make it faster to search through the table and find the row or rows that we want. 
+* You trade off read speed \(on certain columns\) for write speed \(extra work to update indexes\). 
+* Indices are usually represented as **self-balancing** [**B-tree**](https://en.wikipedia.org/wiki/B-tree) **that keeps data sorted and allows searches, sequential access, insertions, and deletions in logarithmic time.**
 
 ## How does it work? 
 
@@ -16,9 +16,13 @@ Example: A library catalog.
 * Works well for datasets with large size but small payloads \(i.e. search criteria\). 
   * E.g. data sets that are many terabytes in size, but have very small payloads \(e.g., 1 KB\). Finding a small payload in such a large dataset can be a real challenge, since we can’t possibly iterate over that much data in any reasonable time. Furthermore, it is very likely that such a large data set is spread over several physical devices—this means we need some way to find the correct physical location of the desired data. Indexes are the best way to do this.
 
-## What is compound indexing? 
-
 ## What are the tradeoffs of DB indexing? 
+
+
+
+* Placing an index can keep the data in memory, requiring more space.
+* Writes could also be slower since the index also needs to be updated.
+* When loading large amounts of data, it might be faster to disable indices, load the data, then rebuild the indices.
 
 ## How do Indexes decrease write performance?
 
@@ -27,7 +31,13 @@ Example: A library catalog.
 * Adding unnecessary indexes on tables should be avoided and indexes that are no longer used should be removed.
 * If write is higher than read, may not be worth it. 
 
+## What is compound indexing? 
+
 ## How might a database index be implemented?
+
+
+
+
 
 
 

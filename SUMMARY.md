@@ -108,7 +108,7 @@
   * [URL Shortener](systems-design/example-questions-0-3/url-shortener.md)
   * [Texting App](systems-design/example-questions-0-3/texting-app.md)
 * [Topics \(2/7\)](systems-design/topics/README.md)
-  * [Consistency, Availability, Partition Tolerance \(CAP\) \(TODO\)](systems-design/topics/consistency-availability-partition-tolerance-cap/README.md)
+  * [Consistency, Availability, Partition Tolerance \(CAP\)](systems-design/topics/consistency-availability-partition-tolerance-cap/README.md)
     * [Scalability & Performance \(TODO\)](systems-design/topics/consistency-availability-partition-tolerance-cap/scalability-and-performance.md)
     * [Latency vs Throughput \(TODO\)](systems-design/topics/consistency-availability-partition-tolerance-cap/latency-vs-throughput.md)
   * [Databases \(TODO\)](systems-design/topics/databases/README.md)

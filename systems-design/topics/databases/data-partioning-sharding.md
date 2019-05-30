@@ -1,5 +1,13 @@
 # Data Partitioning
 
+## Why do we partition data? 
+
+* Improve database performance. When data is distributed across databases in some manner, there is: 
+  * less read and write traffic per server
+  * less amount of replication for each server \(less replication lag\)
+  * smaller index size, so faster read/writes 
+  * more data that can fit in memory, so more cache hits due to improved cache locality
+
 ## What data partition schemes are there?
 
 1. **Horizontal Partitioning**
@@ -8,13 +16,14 @@
    3. Key problem: potentially imbalanced servers. 
 2. **Vertical Partitioning \(Federation\)**
    1. Basically, putting data related to each distinct feature into different DB servers.
-   2. With additional growth, it may still be necessary to further partition a feature specific DB across various servers. 
+   2. However, with additional growth, it may still be necessary to further partition a feature specific DB across various servers. 
+   3. Bonus: _when writing separate pieces of data to multiple DB's, we can write in parallel, increasing throughput._ 
 3. **Directory Based Partitioning**
    1. A lookup service which abstracts the current partitioning scheme from DB access code.
    2. So, to find out where a particular data entity resides, we query the directory server that holds the mapping between each tuple key to its DB server. 
    3. We can add servers or change scheme without downtime or re-deployment of every app server. 
 
-## What are some criteria we can use to distribute data across partitions? 
+## What are some criteria or methods we can use to distribute data across partitions? 
 
 1. **Key or Hash-based partitioning:**
    1. Apply a hash function to some key attributes of the entity we are storing to obtain a partition key. 
@@ -35,7 +44,7 @@
 ## What are some common challenges associated with data partitioning?
 
 1. **Join operations**
-   1.  **Join operations are inefficient when they must compile data from different servers.** 
+   1.  **Join operations are inefficient when they must compile data from different servers.** Either you make the join in application code or use some built-in SQL feature, such as a server link.
    2. One solution is to denormalize data so that all the required data is still within one table. 
    3. Denormalization has its own issues, such as data inconsistency.
 2.  **Data integrity**
