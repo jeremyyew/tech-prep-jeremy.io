@@ -7,13 +7,11 @@ description: 'Total: 27 + 35 + 3 = 63/200.'
 1. [ ] **2nd Mock Interview** 
 2. [ ] **1st Algos + System Design Review** 
 3. [ ] **31st Algos Review**
-4. [ ] **30th**
-   1. [ ] SDQ 6
-   2. [ ] Github Update. 
-   3. [ ] Servers and load balancing. 
-5. [ ] **29th**
+4. [ ] **30th \(0/2 Easy, 0/6 Medium\)**
    1. [ ] SDQ 5
-   2. [ ] Databases, CAP 
+   2. [ ] Indexing, Data Partitioning
+5. [x] **29th \(0/2 Easy, 0/6 Medium\)**
+   1. [x] Databases, CAP
 6. [x] **28th \(1/2 Easy, 2/6 Medium\)**
    1. [x] SDQ 4
 7. [x] **27th \(0/2 Easy, 1/6 Medium\)**
