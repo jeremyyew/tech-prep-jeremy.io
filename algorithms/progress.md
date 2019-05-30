@@ -1,8 +1,8 @@
 ---
-description: 'Total: 27 + 35 + 3 = 63/200.'
+description: 'Total: 27 + 37 + 3 = 57/200.'
 ---
 
-# Progress Tracker \(27/50 Easy, 33/70 Medium, 3/5 Hard\)
+# Progress Tracker \(27/50 Easy, 35/70 Medium, 3/5 Hard\)
 
 1. [ ] **2nd Mock Interview** 
 2. [ ] **1st Algos + System Design Review** 
