@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(27/50 Easy, 35/70 Medium, 3/5 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(28/50 Easy, 35/70 Medium, 3/5 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -29,7 +29,7 @@
   * [10. Subsets \(0E, 2M\)](algorithms/techniques/10-subsets/README.md)
     * [M78-subsets](algorithms/techniques/10-subsets/m78-subsets.md)
     * [M90-subsets-II](algorithms/techniques/10-subsets/m90-subsets-ii.md)
-  * [11. Modified Binary Search](algorithms/techniques/11-modified-binary-search.md)
+  * [11. Modified Binary Search \(1E, 0M\)](algorithms/techniques/11-modified-binary-search.md)
   * [12. Top K elements](algorithms/techniques/12-top-k-elements.md)
   * [13. K-way Merge](algorithms/techniques/13.-k-way-merge.md)
   * [14. Dynamic Programming \(5E, 11M\)](algorithms/techniques/14-dynamic-programming/README.md)
