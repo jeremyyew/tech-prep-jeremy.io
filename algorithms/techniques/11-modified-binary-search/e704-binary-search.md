@@ -1,4 +1,4 @@
-# 11. Modified Binary Search \(1E, 0M\)
+# E704-binary-search
 
 1. Simply set a flag to False, that will be replaced with the target if found. 
 2. Remember to avoid integer overflow when getting midpoint. 
