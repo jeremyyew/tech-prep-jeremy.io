@@ -124,4 +124,13 @@ Posts {
     * Make the `withdrawKey` operation atomic. 
     * If we are using memory, then definitely need a lock on the list of keys. 
   * SPOF: Yes, so replicate and standby. 
+* **Generating the Feed**
+  * We need to fetch posts from every followed user, rank them by recency/popularity/etc, and then return the top posts to the user. This may be expensive. 
+  * We can speed this up by constantly pre-generating the feed and storing it in a dedicated server. We can then communicate via: 
+    * **Pull:** Clients can pull the News Feed contents from the server on a regular basis or manually whenever they need it. 
+      * New data might not be shown to the users until clients issue a pull request
+      * Most of the time pull requests will result in an empty response if there is no new data.
+    * **Push:** Servers can push new data to the users as soon as it is available. To efficiently manage this, users have to maintain a [Long Poll](https://en.wikipedia.org/wiki/Push_technology#Long_polling) request with the server for receiving the updates. 
+      * A user who follows a lot of people or a celebrity user who has millions of followers will generate a ton of pushes. 
+    * **Hybrid:** Push to most, pull for those who follow alot. Or, push up to certain frequency, and still allow for manual pull. 
 
