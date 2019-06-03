@@ -1,12 +1,16 @@
-# Indexing \(TODO\)
+# Indexing
 
 ## What is DB indexing?
 
+{% hint style="info" %}
+In a **relational database**, an **index** is a **data structure** that increases retrieval speed at the expense of decreasing write speed as well as using more storage space.
+{% endhint %}
+
+* Indices are usually represented as **self-balancing** [**B-tree**](https://en.wikipedia.org/wiki/B-tree) ****that keeps data sorted and allows **searches, sequential access, insertions, and deletions** in **logarithmic time.**
 * It is one way of improving **DB read times without scaling horizontally.**
-* Basically, you create an index on **one or more columns** \(usually, the ones you query on\) in a particular table in a database to make it faster to search through the table and find the row or rows that we want. 
-* You trade off read speed \(on certain columns\) for write speed \(extra work to update indexes\). 
-* Indices are usually represented as **self-balancing** [**B-tree**](https://en.wikipedia.org/wiki/B-tree) **that keeps data sorted and allows searches, sequential access, insertions, and deletions in logarithmic time.**
-* Understand **what to index & how the indexing is going to boost the query response time**. For doing that you need to **understand how you are going to query your database tables.**
+* Note: A b-tree is NOT a binary tree. [**https://en.wikipedia.org/wiki/B-tree**](https://en.wikipedia.org/wiki/B-tree)\*\*\*\*
+  * The B-tree is a generalization of a [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree) - a node can have more than two children.
+  * Each node's keys act as separation values which define the range of values contained by each of its [subtrees](https://en.wikipedia.org/wiki/Subtree). 
 
 ## How does it work? 
 
@@ -21,34 +25,38 @@ Example: A library catalog.
 
 * More memory. 
 * Slower writes due to updating index.
+  * Inserting and updating data requires the indexes to be update and inserted as well, so more write operations. 
+  * Applies to all insert, update, and delete operations for the table. 
 
-## How do Indexes decrease write performance?
+## When to use single indexes? 
 
-* Inserting and updating data requires the indexes to be update and inserted as well, so more write operations. 
-* Applies to all insert, update, and delete operations for the table. 
-
-Therefore: 
-
-* If write is higher than read, may not be worth it. 
-* Indexes that are no longer used should be removed.
-* When loading large amounts of data, it might be faster to disable indices, load the data, then rebuild the indices.
-* Cardinality is important — cardinality means the number of distinct values in a column. If you create an index in a column that has low cardinality, that’s not going to be beneficial since the index should reduce search space. Low cardinality does not significantly reduce search space.  Example: if you create an index on a boolean \( `int` `1` or `0` only \) type column, the index will be very skewed since cardinality is less \(cardinality is 2 here\). But if this boolean field can be combined with other columns to produce high cardinality, go for that index when necessary.
+* High read, low write. 
+  * If write is higher than read, may not be worth it. 
+* **High cardinality.** 
+  * If you create an index in a column that has low cardinality, that’s not going to be beneficial since the index should reduce search space. Low cardinality does not significantly reduce search space.  Example: if you create an index on a boolean \( `int` `1` or `0` only \) type column, the index will be very skewed since cardinality is less \(cardinality is 2 here\). But if this boolean field can be combined with other columns to produce high cardinality, go for that index when necessary.
+* Other tips: 
+  * Indexes that are no longer used should be removed.
+  * When loading large amounts of data, it might be faster to disable indices, load the data, then rebuild the indices.
+  * By the way, you can enforce uniqueness by creating a unique index. 
 
 ## What is compound indexing? 
 
-Let’s say we have an index defined on 4 columns — `col1`, `col2`, `col3`, `col4`. With a composite index, we have search capability on `col1`, `(col1, col2)` , `(col1, col2, col3)` , `(col1, col2, col3, col4)`. So we can use any left side prefix of the indexed columns, but we can’t omit a column from the middle & use that like — `(col1, col3)` or `(col1, col2, col4)` or `col3` or `col4` etc. These are invalid combinations.
+* Index on multiple columns in specific order, used when queries have conditions on columns in the same order. 
+* The columns used in composite indices are concatenated together, and those concatenated keys are stored in sorted order using a B+ Tree. 
+* **Only left prefixes, in correct order.** 
+  * Composite on `col1`, `col2`, `col3`, `col4`. 
+  * Valid: `col1`, `(col1, col2)` , `(col1, col2, col3)` , `(col1, col2, col3, col4)`. 
+  * Invalid: `(col1, col3)` or `(col1, col2, col4)` or `col3` , `col4`, `(col2, col1)`
+  * When you perform a search, concatenation of your search keys is matched against those of the composite index. Then if there is any mismatch between the ordering of your search keys & ordering of the composite index columns, the index can’t be used.
 
-The columns used in composite indices are concatenated together, and those concatenated keys are stored in sorted order using a B+ Tree. When you perform a search, concatenation of your search keys is matched against those of the composite index. Then if there is any mismatch between the ordering of your search keys & ordering of the composite index columns, the index can’t be used.
+## **When to use composite indexing?** 
 
-**How to identify if you need a composite index:**
-
-* Analyze your queries first according to your use cases. If you see certain fields are **appearing together in many queries**, you may consider creating a composite index.
+* Certain fields are **appearing together in many queries.**
 * If you are creating a composite index in \(`col1`, `col2`\)**, you don't need to create an index on col1.**  `col1` alone can be served by the composite index itself since it’s a left side prefix of the index.
 * If columns used in the composite index end up **having high cardinality together,** they are good candidate for the composite index.
 
 ## Sources
 
 * [https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/](https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/)
-
-
+* [https://medium.com/@User3141592/single-vs-composite-indexes-in-relational-databases-58d0eb045cbe](https://medium.com/@User3141592/single-vs-composite-indexes-in-relational-databases-58d0eb045cbe)
 
