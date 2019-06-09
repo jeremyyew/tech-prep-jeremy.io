@@ -1,8 +1,8 @@
 ---
-description: 'Total: 28 + 35 + 3 = 66/200.'
+description: 'Total: 28 + 35 + 4 = 67/200.'
 ---
 
-# Progress Tracker \(28/50 Easy, 35/70 Medium, 3/5 Hard\)
+# Progress Tracker \(28/50 Easy, 35/70 Medium, 4/5 Hard\)
 
 1. [ ] 9th 
 2. [x] **2nd Mock Interview** 
