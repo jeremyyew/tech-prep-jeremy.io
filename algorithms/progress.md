@@ -1,15 +1,13 @@
 ---
-description: 'Total: 27 + 35 + 3 = 63/200.'
+description: 'Total: 28 + 35 + 3 = 66/200.'
 ---
 
-# Progress Tracker \(27/50 Easy, 33/70 Medium, 3/5 Hard\)
+# Progress Tracker \(28/50 Easy, 35/70 Medium, 3/5 Hard\)
 
-1. [ ] **2nd Mock Interview** 
-2. [ ] **1st Algos + System Design Review** 
-3. [ ] **31st Algos Review**
-4. [ ] **30th \(0/2 Easy, 0/6 Medium\)**
-   1. [ ] SDQ 5
-   2. [ ] Indexing, Data Partitioning
+1. [ ] 9th 
+2. [x] **2nd Mock Interview** 
+3. [x] **1st Algos + System Design Review** 
+4. [x] **31st Algos Review30th \(0/2 Easy, 0/6 Medium\)**
 5. [x] **29th \(0/2 Easy, 0/6 Medium\)**
    1. [x] Databases, CAP
 6. [x] **28th \(1/2 Easy, 2/6 Medium\)**
@@ -67,6 +65,11 @@ description: 'Total: 27 + 35 + 3 = 63/200.'
 19. [x] **13th \(0/2 Easy, 1/8 Medium\)**
     1. [x] [https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/) \(divide & conquer version\)
 
+## From Daniel: 
+
+* [http://www.ardendertat.com/2012/01/09/programming-interview-questions/](http://www.ardendertat.com/2012/01/09/programming-interview-questions/)
+* [https://jeremyaguilon.me/blog/ranking\_interview\_questions\_by\_cram\_score](https://jeremyaguilon.me/blog/ranking_interview_questions_by_cram_score)
+
 ## Techniques
 
 By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355968](https://www.educative.io/collection/5668639101419520/5671464854355968)
@@ -92,6 +95,7 @@ By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355
 * [ ] **7. Trees BFS** 
 * [ ] **8. Trees DFS**
 * [ ] **9. Two Heaps**
+  * [ ] \*\*\*\*
 * [ ] **10. Subsets** 
 * [ ] **11. Modified Binary Search** 
 * [ ] **12. Top 'K' Elements**
