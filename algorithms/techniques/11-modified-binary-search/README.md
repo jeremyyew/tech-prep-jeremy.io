@@ -1,4 +1,4 @@
-# 11. Modified Binary Search \(1E, 2M\)
+# 11. Modified Binary Search \(1E, 3M\)
 
 1. Simply set a flag to False, that will be replaced with the target if found. 
 2. Remember to avoid integer overflow when getting midpoint. 

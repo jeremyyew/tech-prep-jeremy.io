@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(28/50 Easy, 35/70 Medium, 3/5 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(28/50 Easy, 36/70 Medium, 4/5 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -25,11 +25,13 @@
   * [6. In-place Reversal Of Linked List](algorithms/techniques/6-in-place-reversal-of-linked-list.md)
   * [7. Trees BFS](algorithms/techniques/7-trees-bfs.md)
   * [8. Trees DFS](algorithms/techniques/8-trees-dfs.md)
-  * [9. Two Heaps](algorithms/techniques/9-two-heaps.md)
+  * [9. Two Heaps \(0E, 0M, 1H\)](algorithms/techniques/9-two-heaps/README.md)
+    * [H295-find-median-from-data-stream](algorithms/techniques/9-two-heaps/h295-find-median-from-data-stream.md)
   * [10. Subsets \(0E, 2M\)](algorithms/techniques/10-subsets/README.md)
     * [M78-subsets](algorithms/techniques/10-subsets/m78-subsets.md)
     * [M90-subsets-II](algorithms/techniques/10-subsets/m90-subsets-ii.md)
-  * [11. Modified Binary Search \(1E, 2M\)](algorithms/techniques/11-modified-binary-search/README.md)
+  * [11. Modified Binary Search \(1E, 3M\)](algorithms/techniques/11-modified-binary-search/README.md)
+    * [M34-find-first-and-last-position-of-element-in-sorted-array](algorithms/techniques/11-modified-binary-search/m34-find-first-and-last-position-of-element-in-sorted-array.md)
     * [E704-binary-search](algorithms/techniques/11-modified-binary-search/e704-binary-search.md)
     * [M153-find-minimum-in-rotated-sorted-array](algorithms/techniques/11-modified-binary-search/m153-find-minimum-in-rotated-sorted-array.md)
     * [M33-search-in-rotated-sorted-array](algorithms/techniques/11-modified-binary-search/m33-search-in-rotated-sorted-array.md)
