@@ -1,12 +1,14 @@
 ---
-description: 'Total: 29 + 37 + 4 = 70/200.'
+description: 'Total: 30 + 38 + 4 = 71/200.'
 ---
 
-# Progress Tracker \(29/50 Easy, 37/70 Medium, 4/5 Hard\)
+# Progress Tracker \(30/50 Easy, 38/70 Medium, 4/5 Hard\)
 
 1. [ ] 1-20th 
    1. [ ] E13-roman-to-int
    2. [ ] M12-integer-to-roman
+   3. [ ] M86-partition-list
+   4. [ ] E14-longest-common-prefix
 2. [x] **2nd Mock Interview** 
 3. [x] **1st Algos + System Design Review** 
 4. [x] **31st Algos Review30th \(0/2 Easy, 0/6 Medium\)**
