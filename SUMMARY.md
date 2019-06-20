@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(28/50 Easy, 36/70 Medium, 4/5 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(29/50 Easy, 37/70 Medium, 4/5 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -57,14 +57,16 @@
   * [15. Topological Sort](algorithms/techniques/15-topological-sort.md)
 * [Topics](algorithms/topics/README.md)
   * [1. Searching and Sorting](algorithms/topics/1-searching-and-sorting.md)
-  * [2. Lists, Dicts, Strings \(7E, 1M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
+  * [2. Lists, Dicts, Strings \(8E, 2M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
     * [E1-two-sum](algorithms/topics/2-lists-dicts-strings/e001-two-sum.md)
     * [E7-reverse-integer](algorithms/topics/2-lists-dicts-strings/e007-reverse-integer.md)
+    * [E13-roman-to-integer](algorithms/topics/2-lists-dicts-strings/e13-roman-to-integer.md)
     * [E21-merge-two-sorted-lists](algorithms/topics/2-lists-dicts-strings/e21-merge-two-sorted-lists.md)
     * [E205-isomorphic-strings](algorithms/topics/2-lists-dicts-strings/e205-isomorphic-strings.md)
     * [E217-contains-duplicate](algorithms/topics/2-lists-dicts-strings/e217-contains-duplicate.py.md)
     * [E599-minimum-index](algorithms/topics/2-lists-dicts-strings/e599-minimum-index.md)
     * [E771-jewels-and-stones](algorithms/topics/2-lists-dicts-strings/e771-jewels-and-stones.md)
+    * [M12-integer-to-roman](algorithms/topics/2-lists-dicts-strings/m12-integer-to-roman.md)
     * [M238-product-of-array-except-self](algorithms/topics/2-lists-dicts-strings/m238-product-of-array-except-self.md)
     * [H128-longest-consecutive-sequence](algorithms/topics/2-lists-dicts-strings/h128-longest-consecutive-sequence.md)
   * [3. Linked Lists \(2E, 2M\)](algorithms/topics/3-linked-lists/README.md)
