@@ -1,2 +1,2 @@
-# 2. Lists, Dicts, Strings \(7E, 1M, 1H\)
+# 2. Lists, Dicts, Strings \(9E, 2M, 1H\)
 

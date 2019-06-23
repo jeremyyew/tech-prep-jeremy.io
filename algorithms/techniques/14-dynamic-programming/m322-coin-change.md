@@ -1,29 +1,27 @@
 # M322-coin-change
 
+Let `num(v)` be the number of coins needed to form value `v`, and let `C = {c_1, c_2...c_n}` be the set of coin values. Then,
+
+1. `num(v) = min{num(v - c) for all c <= v in C} + 1`. 
+2. `num(0) = 0`. 
+3. We use the base case 0 to express the other base cases \(where `c = v`\). 
+4. Remember to only subtract `c <= v`. Since we are doing list comprehension, we have to return some `num` for every `c`, even when `c > v`, so we use `inf` since we cant `min` on `None`. 
+
+As it turns out, for this problem, recursive version is an absolute no, even with LRU cache, due to exponential branching on large N.
+
+1. Iterative version 
+
+   Decent speed. Always `N` iterations, which is a good thing. Only slower than \[2\] and \[3\] on nice inputs.
+
+2. Recursive version with self-written memoize 
+
+   MUST memoize, otherwise lots of overlap. It may be less calls depending on input, e.g. `n=100` and `coins == [10]` \(we jump to 0 in 10 calls\). But takes too long on large N with weird coins.
+
+3. Recursive version with LRU cache 
+
+   Also takes too long on large `N` with weird coins. 
+
 ```python
-
-'''
-Let num(v) be the number of coins needed to form value v, and let C = {c_1, c_2...c_n} be the set of coin values. Then, 
-
-[1] num(v) = min{num(v - c) for all c <= v in C} + 1. 
-[2] num(0) = 0. 
-[3] We use the base case 0 to express the other base cases (where c = v). 
-[4] Remember to only subtract c <= v. Since we are doing list comprehension, we have to return some num for every c, even when c > v, so we use inf since we cant min on None. 
-
-
-As it turns out, for this problem, recursive version is an absolute no, even with LRU cache, due to exponential branching on large N.  
-
-1. Iterative version
-Decent speed. Always N iterations, which is a good thing in . Only slower than [2] and [3] on nice inputs. 
-
-2. Recursive version with self-written memoize
-MUST memoize, otherwise lots of overlap. It may be less calls depending on input, e.g. n=100 and coins == [10] (we jump to 0 in 10 calls). But takes too long on large N with weird coins. 
-
-
-3. Recursive version with LRU cache
-Also takes too long on large N with weird coins. 
-
-'''
 import math
 from typing import List
 import functools
