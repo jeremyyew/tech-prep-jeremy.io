@@ -1,8 +1,8 @@
 ---
-description: 'Total: 30 + 38 + 4 = 71/200.'
+description: 'Total: 30 + 39 + 4 = 72/200.'
 ---
 
-# Progress Tracker \(30/50 Easy, 38/70 Medium, 4/5 Hard\)
+# Progress Tracker \(30/50 Easy, 39/70 Medium, 4/5 Hard\)
 
 1. [ ] 23rd **\(1/6\)**
    1. [x] [https://leetcode.com/problems/course-schedule/](https://leetcode.com/problems/course-schedule/)
