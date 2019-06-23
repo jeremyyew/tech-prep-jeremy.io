@@ -1,16 +1,12 @@
 # E13-roman-to-integer
 
+* For each roman numeral, if the current value is less than the next numeral's value, we are at a 'boundary' number e.g. 4, 9, 40, 90, etc.
+* If so, then instead of adding the value, we simply subtract that value.
+
 ```python
-'''
-- For each roman numeral, if the current value is less than the next numeral's value, we are at a 'boundary' number e.g. 4, 9, 40, 90, etc. 
-
-- If so, then instead of adding the value, we simply subtract that value. 
-
-'''
-
 class Solution:
     def romanToInt(self, s) -> int:
-        res = 0 
+        res = 0
         r_to_i = {
             'I': 1,
             'V': 5,
@@ -32,9 +28,11 @@ class Solution:
                 res -= curr_val
         return res
 
-r = Solution().romanToInt('III')
-print(r)
 
-print(int(set(1)))
+# r = Solution().romanToInt('III')
+# print(r)
+
+# print(int(set(1)))
+
 ```
 
