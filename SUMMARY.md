@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(30/50 Easy, 39/70 Medium, 4/5 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(30/50 Easy, 40/70 Medium, 4/5 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -55,7 +55,8 @@
     * [M322-coin-change](algorithms/techniques/14-dynamic-programming/m322-coin-change.md)
     * [M516-longest-palindromic-subsequence](algorithms/techniques/14-dynamic-programming/m516-longest-palindromic-subsequence.md)
     * [M673-number-of-longest-increasing-subsequence](algorithms/techniques/14-dynamic-programming/m673-number-of-longest-increasing-subsequence.md)
-  * [15. Topological Sort \(0E, 0M\)](algorithms/techniques/15-topological-sort.md)
+  * [15. Topological Sort \(0E, 1M\)](algorithms/techniques/15-topological-sort/README.md)
+    * [M208-course-schedule-II](algorithms/techniques/15-topological-sort/m208-course-schedule-ii.md)
 * [Topics](algorithms/topics/README.md)
   * [1. Searching and Sorting](algorithms/topics/1-searching-and-sorting.md)
   * [2. Lists, Dicts, Strings \(9E, 2M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
