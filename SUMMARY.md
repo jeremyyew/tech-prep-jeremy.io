@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(30/50 Easy, 42/70 Medium, 6/10 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(30/50 Easy, 43/70 Medium, 6/10 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -104,9 +104,10 @@
   * [7. Bitwise Manipulation \(1E, 1M\)](algorithms/topics/7-bitwise-manipulation/README.md)
     * [E461-hamming-distance](algorithms/topics/7-bitwise-manipulation/e461-hamming-distance.md)
     * [M338-counting-bits](algorithms/topics/7-bitwise-manipulation/m338-counting-bits.md)
-  * [8. Tries \(0E, 2M\)](algorithms/topics/8-tries/README.md)
+  * [8. Tries \(0E, 3M\)](algorithms/topics/8-tries/README.md)
     * [M208-implement-trie](algorithms/topics/8-tries/m208-implement-trie.md)
     * [M211-add-and-search-word](algorithms/topics/8-tries/m211-add-and-search-word.md)
+    * [M676-magic-dictionary](algorithms/topics/8-tries/m676-magic-dictionary.md)
   * [9. Miscellaneous \(2E, 0M\)](algorithms/topics/9-miscellaneous/README.md)
     * [E202-happy-number](algorithms/topics/9-miscellaneous/e202-happy-number.md)
     * [E892-surface-area-3D](algorithms/topics/9-miscellaneous/e892-surface-area-3d.md)
