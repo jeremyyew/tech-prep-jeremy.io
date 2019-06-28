@@ -1,11 +1,17 @@
 # Milestones
 
+
+
 {% hint style="info" %}
-## **July 1st-30th \(30d\): 75 Easy, 100 Mediu, Company list, Triplebyte.** 
+## **July 15th-30th \(15d\):  45 Easy, 100 Medium. Company list, Triplebyte prep start.** 
 {% endhint %}
 
 {% hint style="info" %}
-## **June 8th-30th \(23d\): 30 Easy, 75 Medium**
+## **July 1st-15th \(15d\): 40 Easy, 80 Medium**
+{% endhint %}
+
+{% hint style="info" %}
+## **June 8th-30th \(23d\): 35 Easy, 60 Medium**
 {% endhint %}
 
 {% hint style="success" %}
