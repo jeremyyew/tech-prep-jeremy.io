@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(31/50 Easy, 46/70 Medium, 6/10 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(31/50 Easy, 47/70 Medium, 6/10 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -42,7 +42,7 @@
     * [M33-search-in-rotated-sorted-array](algorithms/techniques/11-modified-binary-search/m33-search-in-rotated-sorted-array.md)
   * [12. Top K elements](algorithms/techniques/12-top-k-elements.md)
   * [13. K-way Merge](algorithms/techniques/13.-k-way-merge.md)
-  * [14. Dynamic Programming \(5E, 10M\)](algorithms/techniques/14-dynamic-programming/README.md)
+  * [14. Dynamic Programming \(5E, 11M\)](algorithms/techniques/14-dynamic-programming/README.md)
     * [E70-climbing-stairs](algorithms/techniques/14-dynamic-programming/e70-climbing-stairs.md)
     * [E121-buy-sell-stock](algorithms/techniques/14-dynamic-programming/e121-buy-sell-stock.md)
     * [E198-house-robber](algorithms/techniques/14-dynamic-programming/e198-house-robber-1.md)
@@ -54,6 +54,7 @@
     * [M139-word-break](algorithms/techniques/14-dynamic-programming/m139-word-break.md)
     * [M152-maximum-product-subarray](algorithms/techniques/14-dynamic-programming/m152-maximum-product-subarray.md)
     * [M213-house-robber-II](algorithms/techniques/14-dynamic-programming/m213-house-robber-ii.md)
+    * [M221-maximal-square](algorithms/techniques/14-dynamic-programming/m221-maximal-square.md)
     * [M300-longest-increasing-subsequence](algorithms/techniques/14-dynamic-programming/m300-longest-increasing-subsequence.md)
     * [M322-coin-change](algorithms/techniques/14-dynamic-programming/m322-coin-change.md)
     * [M516-longest-palindromic-subsequence](algorithms/techniques/14-dynamic-programming/m516-longest-palindromic-subsequence.md)
