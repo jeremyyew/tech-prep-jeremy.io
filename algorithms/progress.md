@@ -7,7 +7,7 @@ description: 'Total: 31 + 46 + 6 = 83/200.'
 1. [x] **2nd** 
    1. [ ] \*\*\*\*[**https://leetcode.com/problems/longest-increasing-subsequence/solution/**](https://leetcode.com/problems/longest-increasing-subsequence/solution/) **LIS binary search**
 2. [x] **1st**
-   1. [ ] \*\*\*\*[**https://leetcode.com/problems/subarray-sum-equals-k/submissions/**](https://leetcode.com/problems/subarray-sum-equals-k/submissions/) **\(put in code\)**
+   1. [x] \*\*\*\*[**https://leetcode.com/problems/subarray-sum-equals-k/submissions/**](https://leetcode.com/problems/subarray-sum-equals-k/submissions/) **\(put in code\)**
 3. [x] **28th**
    1. [ ] \*\*\*\*[**https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/**](https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/) **\(put in code\)** 
 4. [x] **27th** 
@@ -15,7 +15,7 @@ description: 'Total: 31 + 46 + 6 = 83/200.'
 5. [x] **26th \(2/6\)**
    1. [ ] \*\*\*\*[**https://leetcode.com/problems/sort-colors/**](https://leetcode.com/problems/sort-colors/)\*\*\*\*
    2. [x] \*\*\*\*[**https://leetcode.com/problems/trapping-rain-water/**](https://leetcode.com/problems/trapping-rain-water/)\*\*\*\*
-   3. [ ] [https://leetcode.com/problems/move-zeroes/](https://leetcode.com/problems/move-zeroes/) \(put in code\)
+   3. [x] [https://leetcode.com/problems/move-zeroes/](https://leetcode.com/problems/move-zeroes/) \(put in code\)
 6. [x] **24th \(1/6\)**
    1. [x] [https://leetcode.com/problems/longest-increasing-path-in-a-matrix/submissions/](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/submissions/)
 7. [x] 23rd **\(1/6\)**
@@ -140,13 +140,17 @@ By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355
     * [ ] [Count of Subset Sum \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/4874044023242752/preview)
     * [ ] [Target Sum \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/4686075182186496/preview)
 * [ ] **15. Topological Sort**
-  * [ ] [Topological Sort \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6010387461832704/preview)
-  * [ ] [Tasks Scheduling \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5590021564268544/preview)
-  * [ ] [Tasks Scheduling Order \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5066018374287360/preview)
-  * [ ] [All Tasks Scheduling Orders \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/4994209155121152/preview)
-  * [ ] [Alien Dictionary \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6610306698575872/preview)
-  * [ ] [Reconstructing a Sequence \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5792384199688192/preview)
-  * [ ] [Minimum Height Trees \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6545337986580480/preview)
+  * [ ] **Leetcode**
+    1. [x] [https://leetcode.com/problems/course-schedule/](https://leetcode.com/problems/course-schedule/)
+    2. [x] [https://leetcode.com/problems/course-schedule-ii/](https://leetcode.com/problems/course-schedule-ii/)
+  * [ ] **Grokking**
+    * [ ] [Topological Sort \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6010387461832704/preview)
+    * [ ] [Tasks Scheduling \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5590021564268544/preview)
+    * [ ] [Tasks Scheduling Order \(medium\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5066018374287360/preview)
+    * [ ] [All Tasks Scheduling Orders \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/4994209155121152/preview)
+    * [ ] [Alien Dictionary \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6610306698575872/preview)
+    * [ ] [Reconstructing a Sequence \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/5792384199688192/preview)
+    * [ ] [Minimum Height Trees \(hard\)](https://www.educative.io/collection/page/5668639101419520/5671464854355968/6545337986580480/preview)
 
 ## **Other Topics**
 
