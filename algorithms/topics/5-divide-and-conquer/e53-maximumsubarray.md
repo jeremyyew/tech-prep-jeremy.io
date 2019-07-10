@@ -15,6 +15,15 @@ from typing import List, Tuple
         OPT_SUM(i) = max(OPT_SUM(i-1),
                          OPT_WITH(i))
         '''
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        if not nums:
+            return 
+        maxSum =currentSum = nums[0]
+        for num in nums[1:]:
+            currentSum = max(currentSum+num, num)
+            maxSum = max(currentSum, maxSum)
+        return maxSum
 
 
 class SolutionDP:
@@ -73,7 +82,7 @@ class SolutionDP:
     '''
 
 
-class Solution:
+class SolutionDNC:
     def maxSubArray(self, nums: List[int]) -> int:
         start = 0
         end = len(nums) - 1
