@@ -1,2 +1,2 @@
-# 5. Cyclic Sort \(2E, 2M\)
+# 5. Cyclic Sort \(3E, 2M\)
 
