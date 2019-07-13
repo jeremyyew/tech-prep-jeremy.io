@@ -11,7 +11,7 @@ def exist(self, board, word):
         return False
     w = len(board)
     h = len(board[0])
-    
+
     def dfs(self, board, i, j, word):
         if len(word) == 0: 
             return True
@@ -23,13 +23,11 @@ def exist(self, board, word):
         or self.dfs(board, i, j+1, word[1:]) or self.dfs(board, i, j-1, word[1:])
         board[i][j] = tmp
         return res
-    
+
     for i in range(w):
         for j in range(h):
             if dfs(board, i, j, word):
                 return True
     return False
- 
-
 ```
 

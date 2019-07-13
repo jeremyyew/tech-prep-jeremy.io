@@ -18,6 +18,5 @@ class Solution:
             i = j
             if i == 0: 
                 break
-
 ```
 

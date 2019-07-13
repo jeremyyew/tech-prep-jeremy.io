@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(32/50 Easy, 49/70 Medium, 6/10 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(32/50 Easy, 50/70 Medium, 6/10 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -67,7 +67,7 @@
     * [H329-longest-increasing-path-in-a-matrix](algorithms/techniques/15-topological-sort/untitled.md)
 * [Topics](algorithms/topics/README.md)
   * [1. Searching and Sorting](algorithms/topics/1-searching-and-sorting.md)
-  * [2. Lists, Dicts, Strings \(10E, 4M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
+  * [2. Lists, Dicts, Strings \(10E, 5M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
     * [E1-two-sum](algorithms/topics/2-lists-dicts-strings/e001-two-sum.md)
     * [E7-reverse-integer](algorithms/topics/2-lists-dicts-strings/e007-reverse-integer.md)
     * [E14-longest-common-prefix](algorithms/topics/2-lists-dicts-strings/e14-longest-common-prefix.md)
@@ -82,6 +82,7 @@
     * [M238-product-of-array-except-self](algorithms/topics/2-lists-dicts-strings/m238-product-of-array-except-self.md)
     * [M524-longest-word-in-dictionary-through-deleting](algorithms/topics/2-lists-dicts-strings/m524-longest-word-in-dictionary-through-deleting.md)
     * [M560-subarray-sum-equals-k](algorithms/topics/2-lists-dicts-strings/m560-subarray-sum-equals-k.md)
+    * [M621-task-scheduler](algorithms/topics/2-lists-dicts-strings/m621-task-scheduler.md)
     * [H128-longest-consecutive-sequence](algorithms/topics/2-lists-dicts-strings/h128-longest-consecutive-sequence.md)
   * [3. Linked Lists \(2E, 3M\)](algorithms/topics/3-linked-lists/README.md)
     * [E141-linked-list-cycle](algorithms/topics/3-linked-lists/e141-linked-list-cycle.md)

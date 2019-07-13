@@ -112,6 +112,5 @@ class SolutionDNC:
 
 # print(Solution().maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
 # assert(SolutionDC().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]) == 6)
-
 ```
 
