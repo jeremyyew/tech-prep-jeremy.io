@@ -1,9 +1,11 @@
 '''
-- Total intervals = idle intervals + total tasks
-- There is a min number of cycles, which is max value of reps minus 1. 
-- For every other task, we replace that number of idle intervals.
-- In the special case where we have a task rep = max value, we only minus `cycle` (max value -1), since we are only filling up `cycle` number of idle intervals, the last extra task will be put beside the last non-idle cycle (see diagram).
-See https://leetcode.com/articles/task-scheduler/ solution 3. 
+1. **Total intervals = idle intervals + total tasks.**
+2. There is a minimum number of cycles, which is max value of reps minus 1, i.e. `cycles = reps[0] - 1`.
+3. For every other task, we replace an idle slot, therefore we subtract that number of idle intervals. 
+4. In the special case where we have a task `rep` equal to max value rep, we only minus `cycle` (max value -1). Since we are only filling up `cycle` number of idle intervals, the last extra task will be put beside the last non-idle cycle (see diagram). Therefore, we subtract `idle -= min(rep, cycle)`. 
+5. In the case where `idle` is negative (there are enough distinct tasks such that there were no idle slots), the answer is simply `len(tasks)`. Therefore we return`min(0, idle) + len(tasks)`.
+
+See https://leetcode.com/articles/task-scheduler/, solution 3. 
 '''
 from collections import Counter
 
@@ -14,10 +16,9 @@ class Solution:
             return len(tasks)
         task_counts = Counter(tasks)
         reps = sorted(task_counts.values(), reverse=True)
-        # Min num of cycles needed based on max-rep task.
+        # [2]
         cycles = reps[0] - 1
         idle = cycles * n
         for rep in reps[1:]:
-             # We have to get min because for rep = max_value, (i.e rep = cycles + 1), we only minus rep; the last task will be put beside the last non-idle cycle (see diagram).
-            idle -= min(rep, cycles)
-        return idle + len(tasks) if idle > 0 else len(tasks)
+            idle -= min(rep, cycles)  # [3], [4]
+        return len(tasks) + min(0, idle)  # [1], [5]
