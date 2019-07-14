@@ -7,21 +7,20 @@ class Solution:
     def minDistance(self, word1, word2):
         M = len(word1)
         N = len(word2)
-        m_prev = list(range(N+1))
-        m_curr = [None] * (N+1)
+        prev = list(range(N+1))
+        curr = [None] * (N+1)
         for m in range(1, M + 1):
-            m_curr[0] = m
+            curr[0] = m
             for n in range(1, N + 1):
                 if word1[m-1] == word2[n-1]:
-                    m_curr[n] = m_prev[n-1]  # Matching, no edit.
+                    curr[n] = prev[n-1]  # Matching, no edit.
                 else:
-                    m_curr[n] = 1 + min(m_prev[n],  # Delete nth char in word2.
-                                        # Insert mth char in word1.
-                                        m_curr[n-1],
-                                        m_prev[n-1])  # Replace either.
-            m_prev = m_curr.copy()
-
-        return m_prev[-1]
+                    curr[n] = 1 + min(prev[n],  # Delete nth char in word2.
+                                      # Insert mth char in word1.
+                                      curr[n-1],
+                                      prev[n-1])  # Replace either.
+            prev = curr.copy()
+        return prev[-1]
 
 
 class SolutionGrid:
