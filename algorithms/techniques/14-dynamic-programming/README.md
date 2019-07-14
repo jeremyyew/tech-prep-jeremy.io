@@ -1,8 +1,8 @@
 # 14. Dynamic Programming \(5E, 11M, 1H\)
 
-## Memoization 
+## Memoization
 
-### Built-in: 
+### Built-in:
 
 ```python
 import functools
@@ -11,7 +11,7 @@ def fn_to_memoize(n):
     pass
 ```
 
-### From scratch:  
+### From scratch:
 
 A simple `memoize` decorator from scratch, with unbounded storage.
 
@@ -34,57 +34,41 @@ def memoize(func):
 
 ## DP Strategies
 
-From [https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.](https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.) 
+From [https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.](https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.)
+
+| Strategy | Time complexity | Space Complexity |
+| :--- | :--- | :--- |
+
+
+| **1.Recursive \(top-down\)** | _**Depends on problem and inputs, possibly O\(N^2\) or more depending on how many repeated calls.**_ | **O\(N\) \(recursion stack\)** |
+| :--- | :--- | :--- |
+
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Strategy</th>
-      <th style="text-align:left">Time complexity</th>
-      <th style="text-align:left">Space Complexity</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>1.Recursive (top-down)</b>
-      </td>
-      <td style="text-align:left"><em><b>Depends on problem and inputs, possibly O(N^2) or more depending on how many repeated calls. </b></em>
-      </td>
-      <td style="text-align:left"><b>O(N) (recursion stack)</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>2. Recursive + memo (top-down)</b>
-      </td>
-      <td style="text-align:left"><b>O(N)</b>
-      </td>
-      <td style="text-align:left">
-        <p><b>O(N) </b>
+      <th style="text-align:left"><b>2. Recursive + memo (top-down)</b>
+      </th>
+      <th style="text-align:left"><b>O(N)</b>
+      </th>
+      <th style="text-align:left">
+        <p><b>O(N)</b>
         </p>
         <p><b>(memo and recursion stack)</b>
         </p>
-      </td>
+      </th>
     </tr>
-    <tr>
-      <td style="text-align:left"><b>3. Iterative + memo (bottom-up)</b>
-      </td>
-      <td style="text-align:left"><b>O(N)</b>
-      </td>
-      <td style="text-align:left"><b>O(N) (memo)</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>4. Iterative + N variables (bottom-up)</b>
-      </td>
-      <td style="text-align:left"><b>O(N)</b>
-      </td>
-      <td style="text-align:left"><b>O(1)</b>
-      </td>
-    </tr>
-  </tbody>
-</table>## Basic Approach
+  </thead>
+  <tbody></tbody>
+</table>| **3. Iterative + memo \(bottom-up\)** | **O\(N\)** | **O\(N\) \(memo\)** |
+| :--- | :--- | :--- |
 
-**From** [**https://dev.to/nikolaotasevic/dynamic-programming--7-steps-to-solve-any-dp-interview-problem-3870**](https://dev.to/nikolaotasevic/dynamic-programming--7-steps-to-solve-any-dp-interview-problem-3870)**.** 
+
+| **4. Iterative + N variables \(bottom-up\)** | **O\(N\)** | **O\(1\)** |
+| :--- | :--- | :--- |
+
+
+**From** [**https://dev.to/nikolaotasevic/dynamic-programming--7-steps-to-solve-any-dp-interview-problem-3870**](https://dev.to/nikolaotasevic/dynamic-programming--7-steps-to-solve-any-dp-interview-problem-3870)**.**
 
 1. **Identify DP: Can we obtain a solution using solutions to subproblems?** 
 2. **Identify problem variables.** 

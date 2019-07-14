@@ -44,7 +44,7 @@
     * [M33-search-in-rotated-sorted-array](algorithms/techniques/11-modified-binary-search/m33-search-in-rotated-sorted-array.md)
   * [12. Top K elements](algorithms/techniques/12-top-k-elements.md)
   * [13. K-way Merge](algorithms/techniques/13.-k-way-merge.md)
-  * [14. Dynamic Programming \(5E, 11M\)](algorithms/techniques/14-dynamic-programming/README.md)
+  * [14. Dynamic Programming \(5E, 11M, 1H\)](algorithms/techniques/14-dynamic-programming/README.md)
     * [E70-climbing-stairs](algorithms/techniques/14-dynamic-programming/e70-climbing-stairs.md)
     * [E121-buy-sell-stock](algorithms/techniques/14-dynamic-programming/e121-buy-sell-stock.md)
     * [E198-house-robber](algorithms/techniques/14-dynamic-programming/e198-house-robber-1.md)
