@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(32/50 Easy, 51/70 Medium, 8/10 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(32/50 Easy, 52/70 Medium, 8/10 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -87,12 +87,13 @@
     * [M560-subarray-sum-equals-k](algorithms/topics/2-lists-dicts-strings/m560-subarray-sum-equals-k.md)
     * [M621-task-scheduler](algorithms/topics/2-lists-dicts-strings/m621-task-scheduler.md)
     * [H128-longest-consecutive-sequence](algorithms/topics/2-lists-dicts-strings/h128-longest-consecutive-sequence.md)
-  * [3. Linked Lists \(2E, 3M\)](algorithms/topics/3-linked-lists/README.md)
+  * [3. Linked Lists \(2E, 4M\)](algorithms/topics/3-linked-lists/README.md)
     * [E141-linked-list-cycle](algorithms/topics/3-linked-lists/e141-linked-list-cycle.md)
     * [E206-reverse-linked-list](algorithms/topics/3-linked-lists/e206-reverse-linked-list.md)
     * [M19-remove-nth-node-from-end-of-list](algorithms/topics/3-linked-lists/m19-remove-nth-node-from-end-of-list.md)
     * [M86-partition-list](algorithms/topics/3-linked-lists/m86-partition-list.md)
     * [M143-reorder-list](algorithms/topics/3-linked-lists/m143-reorder-list.md)
+    * [M146-LRU-cache](algorithms/topics/3-linked-lists/m146-lru-cache.md)
   * [4. Trees and Graphs \(6E, 6M, 1H\)](algorithms/topics/4-trees-and-graphs/README.md)
     * [E104-maximum-depth-of-binary-tree](algorithms/topics/4-trees-and-graphs/e104-maximum-depth-of-binary-tree.md)
     * [E226-invert-binary-tree](algorithms/topics/4-trees-and-graphs/e226-invert-binary-tree.md)
