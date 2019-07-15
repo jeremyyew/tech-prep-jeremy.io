@@ -1,8 +1,8 @@
 ---
-description: 'Total: 32 + 50 + 8 = 90/200.'
+description: 'Total: 32 + 51 + 8 = 91/200.'
 ---
 
-# Progress Tracker \(32/50 Easy, 50/70 Medium, 8/10 Hard\)
+# Progress Tracker \(32/50 Easy, 51/70 Medium, 8/10 Hard\)
 
 1. [x] **15th** 
    1. [x] \*\*\*\*[**https://leetcode.com/problems/lru-cache/**](https://leetcode.com/problems/lru-cache/)\*\*\*\*
