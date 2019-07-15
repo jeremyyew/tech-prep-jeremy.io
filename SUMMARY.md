@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(32/50 Easy, 50/70 Medium, 7/10 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(32/50 Easy, 50/70 Medium, 8/10 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -44,7 +44,7 @@
     * [M33-search-in-rotated-sorted-array](algorithms/techniques/11-modified-binary-search/m33-search-in-rotated-sorted-array.md)
   * [12. Top K elements](algorithms/techniques/12-top-k-elements.md)
   * [13. K-way Merge](algorithms/techniques/13.-k-way-merge.md)
-  * [14. Dynamic Programming \(5E, 11M\)](algorithms/techniques/14-dynamic-programming/README.md)
+  * [14. Dynamic Programming \(5E, 11M, 2H\)](algorithms/techniques/14-dynamic-programming/README.md)
     * [E70-climbing-stairs](algorithms/techniques/14-dynamic-programming/e70-climbing-stairs.md)
     * [E121-buy-sell-stock](algorithms/techniques/14-dynamic-programming/e121-buy-sell-stock.md)
     * [E198-house-robber](algorithms/techniques/14-dynamic-programming/e198-house-robber-1.md)
@@ -61,6 +61,8 @@
     * [M322-coin-change](algorithms/techniques/14-dynamic-programming/m322-coin-change.md)
     * [M516-longest-palindromic-subsequence](algorithms/techniques/14-dynamic-programming/m516-longest-palindromic-subsequence.md)
     * [M673-number-of-longest-increasing-subsequence](algorithms/techniques/14-dynamic-programming/m673-number-of-longest-increasing-subsequence.md)
+    * [H72-edit-distance](algorithms/techniques/14-dynamic-programming/h72-edit-distance.md)
+    * [H97-interleaving-string](algorithms/techniques/14-dynamic-programming/h97-interleaving-string.md)
   * [15. Topological Sort \(0E, 2M, 1H\)](algorithms/techniques/15-topological-sort/README.md)
     * [M207-course-schedule](algorithms/techniques/15-topological-sort/m207-course-schedule.md)
     * [M208-course-schedule-II](algorithms/techniques/15-topological-sort/m208-course-schedule-ii.md)
