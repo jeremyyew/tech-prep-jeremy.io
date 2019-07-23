@@ -3,7 +3,6 @@
 * Use `OrderedDict` to get O\(1\) time insertion/deletion/lookup while maintaining FIFO order.
 * In `OrderedDictCustom`, we implement the same features \(the bare minimum\) using a doubly linked list and dict. Simply change the `self.cache` data structure.
 * `LRUCache` manipulates the cache but keeps track of the length for it, since we want to use a general-purpose `OrderedDict`. 
-* TODO: rename methods to indicate private/public.
 
 ```python
 from collections import OrderedDict
@@ -15,11 +14,11 @@ class LRUCache:
         # self.cache = OrderedDictCustom()
         self.len = 0
 
-    def remove(self, key):
+    def __remove(self, key):
         self.cache.pop(key)
         self.len -= 1
 
-    def add(self, key, value):
+    def __add(self, key, value):
         self.cache[key] = value
         self.len += 1
 
@@ -33,8 +32,8 @@ class LRUCache:
 
     def put(self, key: int, value: int) -> None:
         if key in self.cache:
-            self.remove(key)
-        self.add(key, value)
+            self.__remove(key)
+        self.__add(key, value)
         if self.len > self.capacity:
             self.cache.popitem(last=False)
             self.len -= 1
@@ -61,20 +60,20 @@ class OrderedDictCustom():
         self.dummy_head.next = self.dummy_tail
         self.dummy_tail.prev = self.dummy_head
 
-    def head(self):
+    def __head(self):
         return self.dummy_head.next
 
-    def tail(self):
+    def __tail(self):
         return self.dummy_tail.prev
 
-    def skip(self, node):
+    def __skip(self, node):
         parent = node.prev
         child = node.next
         parent.next = child
         child.prev = parent
 
-    def push(self, node):
-        head = self.head()
+    def __push(self, node):
+        head = self.__head()
         node.next = head
         head.prev = node
         self.dummy_head.next = node
@@ -82,21 +81,21 @@ class OrderedDictCustom():
 
     def popitem(self, last=True):
         if last:
-            self.map.pop(self.head().val)
-            self.skip(self.head())
+            self.map.pop(self.__head().val)
+            self.__skip(self.__head())
         else:
-            self.map.pop(self.tail().val)
-            self.skip(self.tail())
+            self.map.pop(self.__tail().val)
+            self.__skip(self.__tail())
 
     def pop(self, key):
         v, node = self.map[key]
-        self.skip(node)
+        self.__skip(node)
         self.map.pop(key)
 
     def move_to_end(self, key):
         v, mru = self.map[key]
-        self.skip(mru)
-        self.push(mru)
+        self.__skip(mru)
+        self.__push(mru)
 
     def __contains__(self, key):
         return key in self.map
@@ -107,7 +106,7 @@ class OrderedDictCustom():
 
     def __setitem__(self, key, value):
         node = Node(key)
-        self.push(node)
+        self.__push(node)
         self.map[key] = value, node
 
     def print(self):

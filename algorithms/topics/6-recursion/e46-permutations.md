@@ -1,32 +1,53 @@
-# E46-permutations
+# M46-permutations
 
 ```python
 from typing import List
+import itertools
+from functools import reduce
 
-# note assume no dups 
 
-class SolutionRec:
-    def permute(self, nums: List[int]) -> List[List[int]]:
-        if len(nums) == 1: 
-            return [nums]
-        perms = []   
-        for i in range(0, len(nums)):
-            first = nums[i] # pick every character to be the first
-            sub_nums = nums[0:i] + nums[i+1:] # get all other characters
-            sub_perms = self.permute(sub_nums)
-            for perm in sub_perms: 
-                perms.append([first] + perm) 
-        return perms
-# in iterative version, instead of forming new lists, we can keep track of the indexes of the elements to be left out in the original lists
+class SolutionItertools:
+    def permute(self, nums):
+        return list(itertools.permutations(nums))
+
+
 class Solution:
-    def permute(self, nums: List[int]) -> List[List[int]]:
-        perms = [[]] 
-        for n in nums: 
-            new_perms = []
-            for perm in perms:
-                for i in range(0, len(perm) + 1):
-                    new_perms.append(perm[:i] + [n] + perm[i:])
-            perms = new_perms
+    '''Given all permutations of a set `s`, we can obtain all permutations of `s` + `k` by inserting `k` into all positions of every permutation.'''
+
+    def permute(self, nums):
+        return reduce(lambda perms, n: [p[:i] + [n] + p[i:]
+                                        for p in perms for i in range(len(p)+1)],
+                      nums, [[]])
+
+
+class SolutionIterativeBottomUp:
+    '''Given all permutations of a set `s`, we can obtain all permutations of `s` + `k` by inserting `k` into all positions of every permutation.'''
+
+    def permute(self, nums):
+        perms = [[]]
+        for n in nums:
+            perms = [[p[:i] + [n] + p[i:]]
+                     for p in perms
+                     for i in range(len(p)+1)]
         return perms
+
+
+class SolutionRecBottomUp:
+    '''Given all permutations of a set `s`, we can obtain all permutations of `s` + `k` by inserting `k` into all positions of every permutation.'''
+
+    def permute(self, nums):
+        return nums and [p[:i] + [nums[0]] + p[i:]
+                         for p in self.permute(nums[1:])
+                         for i in range(len(nums))] or [[]]
+
+
+class SolutionRecTopDown:
+    '''To obtain all permutations of a set `s`, for each element `k` we get all permutations that start with that element.'''
+
+    def permute(self, nums):
+        return [[n] + p
+                for i, n in enumerate(nums)
+                for p in self.permute(nums[:i] + nums[i+1:])] or [[]]
+
 ```
 
