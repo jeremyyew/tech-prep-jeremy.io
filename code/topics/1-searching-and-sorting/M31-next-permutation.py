@@ -13,17 +13,17 @@ class Solution:
         if inv is None:
             nums.sort()
             return
-        next_biggest, k = math.inf, None
+        k = None
         for i in range(inv+1, len(nums)):
-            if nums[i] > nums[inv] and nums[i] < next_biggest:
-                next_biggest = nums[i]
+            if nums[i] > nums[inv] and (k is None or nums[i] < nums[k]):
                 k = i
         if k is not None:
+            temp = nums[k]
             nums[k] = nums[inv]
-            nums[inv] = next_biggest 
+            nums[inv] = temp
         nums[inv+1:] = sorted(nums[inv+1:])
         return
 
-l = [5,1,1]
+l = [1,2,3]
 Solution().nextPermutation(l)
 print(l)
