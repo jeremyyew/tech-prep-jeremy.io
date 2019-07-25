@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(31/50 Easy, 53/70 Medium, 8/10 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(32/50 Easy, 56/70 Medium, 8/10 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -68,7 +68,8 @@
     * [M208-course-schedule-II](algorithms/techniques/15-topological-sort/m208-course-schedule-ii.md)
     * [H329-longest-increasing-path-in-a-matrix](algorithms/techniques/15-topological-sort/untitled.md)
 * [Topics](algorithms/topics/README.md)
-  * [1. Searching and Sorting \(1M\)](algorithms/topics/1-searching-and-sorting/README.md)
+  * [1. Searching and Sorting \(2M\)](algorithms/topics/1-searching-and-sorting/README.md)
+    * [M31-next-permutation](algorithms/topics/1-searching-and-sorting/m31-next-permutation.md)
     * [M406-queue-reconstruction-by-height](algorithms/topics/1-searching-and-sorting/m406-queue-reconstruction-by-height.md)
   * [2. Lists, Dicts, Strings \(10E, 5M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
     * [E1-two-sum](algorithms/topics/2-lists-dicts-strings/e001-two-sum.md)
@@ -110,8 +111,9 @@
     * [H297-serialize-and-deserialize-binary-tree](algorithms/topics/4-trees-and-graphs/h297-serialize-and-deserialize-binary-tree.md)
   * [5. Divide & Conquer \(1E\)](algorithms/topics/5-divide-and-conquer/README.md)
     * [E53-maximum-subarray](algorithms/topics/5-divide-and-conquer/e53-maximumsubarray.md)
-  * [6. Recursion \(2M\)](algorithms/topics/6-recursion/README.md)
+  * [6. Recursion \(3M\)](algorithms/topics/6-recursion/README.md)
     * [M46-permutations](algorithms/topics/6-recursion/e46-permutations.md)
+    * [M47-permutations-II](algorithms/topics/6-recursion/m47-permutations-ii.md)
     * [M567-permutations-in-string](algorithms/topics/6-recursion/m567-permutations-in-string.md)
   * [7. Bitwise Manipulation \(1E, 1M\)](algorithms/topics/7-bitwise-manipulation/README.md)
     * [E461-hamming-distance](algorithms/topics/7-bitwise-manipulation/e461-hamming-distance.md)

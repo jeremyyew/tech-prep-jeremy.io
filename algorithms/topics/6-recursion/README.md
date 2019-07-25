@@ -1,2 +1,2 @@
-# 6. Recursion \(2M\)
+# 6. Recursion \(3M\)
 
