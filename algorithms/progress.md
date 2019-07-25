@@ -1,10 +1,10 @@
 ---
-description: 'Total: 32 + 55 + 8 = 95/200.'
+description: 'Total: 32 + 56 + 8 = 96/200.'
 ---
 
-# Progress Tracker \(32/50 Easy, 55/70 Medium, 8/10 Hard\)
+# Progress Tracker \(32/50 Easy, 56/70 Medium, 8/10 Hard\)
 
-1. [x] **24th**
+1. [x] **25th** [**https://leetcode.com/problems/non-overlapping-intervals/**](https://leetcode.com/problems/non-overlapping-intervals/)  **\(to add post\)**
 2. [x] **23rd** [**https://leetcode.com/problems/next-permutation**](https://leetcode.com/problems/next-permutation/)\*\*\*\*
 3. [x] **20th** 
    1. [x] \*\*\*\*[**https://leetcode.com/problems/permutations/submissions/**](https://leetcode.com/problems/permutations/submissions/)\*\*\*\*
