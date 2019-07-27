@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(32/50 Easy, 56/70 Medium, 8/10 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(33/50 Easy, 57/70 Medium, 8/10 Hard\)](algorithms/progress.md)
 * [Techniques \(about 10/15 explored\)](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -30,7 +30,8 @@
     * [M442-find-all-duplicates-in-an-array](algorithms/techniques/5-cyclic-sort/m442-find-all-duplicates-in-an-array.md)
   * [6. In-place Reversal Of Linked List](algorithms/techniques/6-in-place-reversal-of-linked-list.md)
   * [7. Trees BFS](algorithms/techniques/7-trees-bfs.md)
-  * [8. Trees DFS \(0E, 2M\)](algorithms/techniques/8-trees-dfs/README.md)
+  * [8. Trees DFS \(0E, 3M\)](algorithms/techniques/8-trees-dfs/README.md)
+    * [M200-number-of-islands](algorithms/techniques/8-trees-dfs/m200-number-of-islands.md)
     * [M79-word-search](algorithms/techniques/8-trees-dfs/m79-word-search.md)
     * [M207-course-schedule](algorithms/techniques/8-trees-dfs/m207-course-schedule.md)
   * [9. Two Heaps \(0E, 0M, 1H\)](algorithms/techniques/9-two-heaps/README.md)
@@ -116,6 +117,7 @@
     * [M46-permutations](algorithms/topics/6-recursion/e46-permutations.md)
     * [M47-permutations-II](algorithms/topics/6-recursion/m47-permutations-ii.md)
     * [M567-permutations-in-string](algorithms/topics/6-recursion/m567-permutations-in-string.md)
+    * [H301-remove-invalid-parentheses](algorithms/topics/6-recursion/h301-remove-invalid-parentheses.md)
   * [7. Bitwise Manipulation \(1E, 1M\)](algorithms/topics/7-bitwise-manipulation/README.md)
     * [E461-hamming-distance](algorithms/topics/7-bitwise-manipulation/e461-hamming-distance.md)
     * [M338-counting-bits](algorithms/topics/7-bitwise-manipulation/m338-counting-bits.md)
@@ -124,6 +126,7 @@
     * [M211-add-and-search-word](algorithms/topics/8-tries/m211-add-and-search-word.md)
     * [M676-magic-dictionary](algorithms/topics/8-tries/m676-magic-dictionary.md)
   * [9. Miscellaneous \(2E, 0M\)](algorithms/topics/9-miscellaneous/README.md)
+    * [E20-valid-parenthesis](algorithms/topics/9-miscellaneous/e20-valid-parenthesis.md)
     * [E202-happy-number](algorithms/topics/9-miscellaneous/e202-happy-number.md)
     * [E892-surface-area-3D](algorithms/topics/9-miscellaneous/e892-surface-area-3d.md)
 * [Others](algorithms/others/README.md)
