@@ -1,4 +1,4 @@
-# M435-merge-intervals
+# M435-non-overlapping-intervals
 
 * Between two overlapping intervals, we **always pick the one that ends first**, to maximize the amount of time left to pick more intervals. 
 * If the intervals are **sorted by end**, then every next `interval` will either end at the same time or later than the `last` one. 

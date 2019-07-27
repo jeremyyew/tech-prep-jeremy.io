@@ -20,7 +20,7 @@
   * [4. Merge Intervals \(0E, 4M\)](algorithms/techniques/4-merge-intervals/README.md)
     * [M56-merge-intervals](algorithms/techniques/4-merge-intervals/m56-merge-intervals.md)
     * [M57-insert-interval](algorithms/techniques/4-merge-intervals/m57-insert-interval.md)
-    * [M435-merge-intervals](algorithms/techniques/4-merge-intervals/m435-merge-intervals.md)
+    * [M435-non-overlapping-intervals](algorithms/techniques/4-merge-intervals/m435-merge-intervals.md)
     * [M986-interval-list-intersections](algorithms/techniques/4-merge-intervals/m986-interval-list-intersections.md)
   * [5. Cyclic Sort \(3E, 2M\)](algorithms/techniques/5-cyclic-sort/README.md)
     * [E189-rotate-array](algorithms/techniques/5-cyclic-sort/e189-rotate-array.md)
