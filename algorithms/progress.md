@@ -1,10 +1,12 @@
 ---
-description: 'Total: 33 + 58 + 9 = 100/200.'
+description: 'Total: 32 + 57 + 10 = 99/200.'
 ---
 
-# Progress Tracker \(33/50 Easy, 58/70 Medium, 9/10 Hard\)
+# Progress Tracker \(32/50 Easy, 57/70 Medium, 10/10 Hard\)
 
-1. [x] **28th** [**https://leetcode.com/problems/merge-k-sorted-lists/solution/**](https://leetcode.com/problems/merge-k-sorted-lists/solution/)\*\*\*\*
+1. [x] **28th**
+   1. [x] [**https://leetcode.com/problems/merge-k-sorted-lists/solution/**](https://leetcode.com/problems/merge-k-sorted-lists/solution/)\*\*\*\*
+   2. [x] \*\*\*\*[**https://leetcode.com/problems/group-anagrams/solution/**](https://leetcode.com/problems/group-anagrams/solution/)\*\*\*\*
 2. [x] **27th** [**https://leetcode.com/problems/number-of-islands/**](https://leetcode.com/problems/number-of-islands/)\*\*\*\*
 3. [x] **25th** [**https://leetcode.com/problems/non-overlapping-intervals/**](https://leetcode.com/problems/non-overlapping-intervals/)  **\(to add post\)**
 4. [x] **23rd** [**https://leetcode.com/problems/next-permutation**](https://leetcode.com/problems/next-permutation/)\*\*\*\*
