@@ -1,8 +1,8 @@
 ---
-description: 'Total: 33 + 57 + 8 = 98/200.'
+description: 'Total: 33 + 57 + 9 = 99/200.'
 ---
 
-# Progress Tracker \(33/50 Easy, 57/70 Medium, 8/10 Hard\)
+# Progress Tracker \(33/50 Easy, 57/70 Medium, 9/10 Hard\)
 
 1. [x] **27th** [**https://leetcode.com/problems/number-of-islands/**](https://leetcode.com/problems/number-of-islands/)\*\*\*\*
 2. [x] **25th** [**https://leetcode.com/problems/non-overlapping-intervals/**](https://leetcode.com/problems/non-overlapping-intervals/)  **\(to add post\)**
