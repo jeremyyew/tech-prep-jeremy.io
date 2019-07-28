@@ -1,8 +1,8 @@
 ---
-description: 'Total: 33 + 57 + 9 = 99/200.'
+description: 'Total: 33 + 58 + 9 = 100/200.'
 ---
 
-# Progress Tracker \(33/50 Easy, 57/70 Medium, 9/10 Hard\)
+# Progress Tracker \(33/50 Easy, 58/70 Medium, 9/10 Hard\)
 
 1. [x] **28th** [**https://leetcode.com/problems/merge-k-sorted-lists/solution/**](https://leetcode.com/problems/merge-k-sorted-lists/solution/)\*\*\*\*
 2. [x] **27th** [**https://leetcode.com/problems/number-of-islands/**](https://leetcode.com/problems/number-of-islands/)\*\*\*\*

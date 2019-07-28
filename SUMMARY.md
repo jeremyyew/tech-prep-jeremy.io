@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(33/50 Easy, 57/70 Medium, 9/10 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(33/50 Easy, 58/70 Medium, 9/10 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -73,7 +73,7 @@
   * [1. Searching and Sorting \(2M\)](algorithms/topics/1-searching-and-sorting/README.md)
     * [M31-next-permutation](algorithms/topics/1-searching-and-sorting/m31-next-permutation.md)
     * [M406-queue-reconstruction-by-height](algorithms/topics/1-searching-and-sorting/m406-queue-reconstruction-by-height.md)
-  * [2. Lists, Dicts, Strings \(9E, 5M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
+  * [2. Lists, Dicts, Strings \(9E, 6M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
     * [E1-two-sum](algorithms/topics/2-lists-dicts-strings/e001-two-sum.md)
     * [E7-reverse-integer](algorithms/topics/2-lists-dicts-strings/e007-reverse-integer.md)
     * [E14-longest-common-prefix](algorithms/topics/2-lists-dicts-strings/e14-longest-common-prefix.md)
@@ -84,6 +84,7 @@
     * [E599-minimum-index](algorithms/topics/2-lists-dicts-strings/e599-minimum-index.md)
     * [E771-jewels-and-stones](algorithms/topics/2-lists-dicts-strings/e771-jewels-and-stones.md)
     * [M12-integer-to-roman](algorithms/topics/2-lists-dicts-strings/m12-integer-to-roman.md)
+    * [M49-group-anagrams](algorithms/topics/2-lists-dicts-strings/m49-group-anagrams.md)
     * [M238-product-of-array-except-self](algorithms/topics/2-lists-dicts-strings/m238-product-of-array-except-self.md)
     * [M524-longest-word-in-dictionary-through-deleting](algorithms/topics/2-lists-dicts-strings/m524-longest-word-in-dictionary-through-deleting.md)
     * [M560-subarray-sum-equals-k](algorithms/topics/2-lists-dicts-strings/m560-subarray-sum-equals-k.md)
