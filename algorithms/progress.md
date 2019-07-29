@@ -1,8 +1,8 @@
 ---
-description: 'Total: 32 + 57 + 10 = 99/200.'
+description: 'Total: 32 + 58 + 10 = 100/200.'
 ---
 
-# Progress Tracker \(32/50 Easy, 57/70 Medium, 10/10 Hard\)
+# Progress Tracker \(32/50 Easy, 58/70 Medium, 10/10 Hard\)
 
 1. [x] **28th**
    1. [x] [**https://leetcode.com/problems/merge-k-sorted-lists/solution/**](https://leetcode.com/problems/merge-k-sorted-lists/solution/)\*\*\*\*
