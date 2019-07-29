@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(32/50 Easy, 57/70 Medium, 10/10 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(32/40 Easy, 59/85 Medium, 10/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -29,7 +29,7 @@
     * [E448-find-all-numbers-disappeared-in-an-array](algorithms/techniques/5-cyclic-sort/e448-find-all-numbers-disappeared-in-an-array.md)
     * [M287-find-duplicate-number](algorithms/techniques/5-cyclic-sort/m287-find-duplicate-number.md)
     * [M442-find-all-duplicates-in-an-array](algorithms/techniques/5-cyclic-sort/m442-find-all-duplicates-in-an-array.md)
-  * [6. In-place Reversal Of Linked List \(1E\)](algorithms/techniques/6-in-place-reversal-of-linked-list/README.md)
+  * [6. In-place Reversal Of Linked List \(1E, 1M\)](algorithms/techniques/6-in-place-reversal-of-linked-list/README.md)
     * [E206-reverse-linked-list](algorithms/techniques/6-in-place-reversal-of-linked-list/e206-reverse-linked-list.md)
     * [M92-reverse-linked-list-II](algorithms/techniques/6-in-place-reversal-of-linked-list/m92-reverse-linked-list-ii.md)
   * [7. Trees BFS](algorithms/techniques/7-trees-bfs.md)
@@ -128,10 +128,11 @@
     * [M208-implement-trie](algorithms/topics/8-tries/m208-implement-trie.md)
     * [M211-add-and-search-word](algorithms/topics/8-tries/m211-add-and-search-word.md)
     * [M676-magic-dictionary](algorithms/topics/8-tries/m676-magic-dictionary.md)
-  * [9. Miscellaneous \(3E, 0M\)](algorithms/topics/9-miscellaneous/README.md)
+  * [9. Miscellaneous \(3E, 1M\)](algorithms/topics/9-miscellaneous/README.md)
     * [E20-valid-parenthesis](algorithms/topics/9-miscellaneous/e20-valid-parenthesis.md)
     * [E202-happy-number](algorithms/topics/9-miscellaneous/e202-happy-number.md)
     * [E892-surface-area-3D](algorithms/topics/9-miscellaneous/e892-surface-area-3d.md)
+    * [M380-insert-delete-get-random-o1](algorithms/topics/9-miscellaneous/m380-insert-delete-get-random-o1.md)
 * [Others](algorithms/others/README.md)
   * [Python](algorithms/others/python.md)
   * [P, NP, NP-complete](algorithms/others/p-np-np-complete.md)
