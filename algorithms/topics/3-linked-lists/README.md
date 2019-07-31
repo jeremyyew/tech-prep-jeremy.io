@@ -1,2 +1,2 @@
-# 3. Linked Lists \(2E, 4M\)
+# 3. Linked Lists \(1E, 4M, 0H\)
 
