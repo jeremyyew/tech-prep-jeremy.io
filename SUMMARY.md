@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(32/40 Easy, 59/85 Medium, 10/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(34/40 Easy, 60/85 Medium, 10/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -33,7 +33,8 @@
     * [E206-reverse-linked-list](algorithms/techniques/6-in-place-reversal-of-linked-list/e206-reverse-linked-list.md)
     * [M92-reverse-linked-list-II](algorithms/techniques/6-in-place-reversal-of-linked-list/m92-reverse-linked-list-ii.md)
   * [7. Trees BFS](algorithms/techniques/7-trees-bfs.md)
-  * [8. Trees DFS \(0E, 3M\)](algorithms/techniques/8-trees-dfs/README.md)
+  * [8. Trees DFS \(0E, 4M\)](algorithms/techniques/8-trees-dfs/README.md)
+    * [M341-flatten-nested-list-iterator](algorithms/techniques/8-trees-dfs/m341-flatten-nested-list-iterator.md)
     * [M200-number-of-islands](algorithms/techniques/8-trees-dfs/m200-number-of-islands.md)
     * [M79-word-search](algorithms/techniques/8-trees-dfs/m79-word-search.md)
     * [M207-course-schedule](algorithms/techniques/8-trees-dfs/m207-course-schedule.md)
@@ -77,11 +78,13 @@
   * [1. Searching and Sorting \(2M\)](algorithms/topics/1-searching-and-sorting/README.md)
     * [M31-next-permutation](algorithms/topics/1-searching-and-sorting/m31-next-permutation.md)
     * [M406-queue-reconstruction-by-height](algorithms/topics/1-searching-and-sorting/m406-queue-reconstruction-by-height.md)
-  * [2. Lists, Dicts, Strings \(9E, 6M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
+  * [2. Lists, Dicts, Strings \(11E, 6M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)
     * [E1-two-sum](algorithms/topics/2-lists-dicts-strings/e001-two-sum.md)
     * [E7-reverse-integer](algorithms/topics/2-lists-dicts-strings/e007-reverse-integer.md)
     * [E14-longest-common-prefix](algorithms/topics/2-lists-dicts-strings/e14-longest-common-prefix.md)
     * [E13-roman-to-integer](algorithms/topics/2-lists-dicts-strings/e13-roman-to-integer.md)
+    * [E26-remove-duplicates-from-sorted-array](algorithms/topics/2-lists-dicts-strings/e26-remove-duplicates-from-sorted-array.md)
+    * [E27-remove-element](algorithms/topics/2-lists-dicts-strings/e27-remove-element.md)
     * [E205-isomorphic-strings](algorithms/topics/2-lists-dicts-strings/e205-isomorphic-strings.md)
     * [E217-contains-duplicate](algorithms/topics/2-lists-dicts-strings/e217-contains-duplicate.py.md)
     * [E283-move-zeroes](algorithms/topics/2-lists-dicts-strings/e283-move-zeroes.md)
