@@ -1,17 +1,15 @@
 # Milestones
 
-
-
 {% hint style="info" %}
-## **July 15th-30th \(15d\):  45 Easy, 100 Medium. Company list, Triplebyte prep start.** 
+## **Aug 8-12th \(5d\):  32/40 Easy, 85/85 Medium, 10/15 Hard. Company list, Triplebyte prep start.** 
 {% endhint %}
 
 {% hint style="info" %}
-## **July 1st-15th \(15d\): 40 Easy, 80 Medium**
+## **Aug 1st-7th \(7d\): 32/40 Easy, 77/85 Medium, 10/15 Hard.**
 {% endhint %}
 
 {% hint style="info" %}
-## **June 8th-30th \(23d\): 35 Easy, 60 Medium**
+## **Jul 8th-30th \(23d\): 32/40 Easy, 63/85 Medium, 10/15 Hard.**
 {% endhint %}
 
 {% hint style="success" %}
