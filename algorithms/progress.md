@@ -1,129 +1,131 @@
 ---
-description: 'Total: 34 + 61 + 10 = 105/200.'
+description: 'Total: 34 + 62 + 10 = 106/200.'
 ---
 
-# Progress Tracker \(34/40 Easy, 61/85 Medium, 10/15 Hard\)
+# Progress Tracker \(34/40 Easy, 62/85 Medium, 10/15 Hard\)
 
-1. [x] **6th** 
+1. [x] 6th
+   1. [x] [https://leetcode.com/problems/binary-tree-right-side-view](https://leetcode.com/problems/binary-tree-right-side-view/submissions/)
+2. [x] **5th  \(to add\)**
    1. [ ] [https://leetcode.com/problems/palindrome-pairs/](https://leetcode.com/problems/palindrome-pairs/) \(still digesting solution\)
    2. [ ] [https://leetcode.com/problems/summary-ranges](https://leetcode.com/problems/summary-ranges/discuss/?currentPage=1&orderBy=most_votes&query=) \(O\(N\), just traverse and keep track. Consider binary search, best case O\(KlogN\)\). 
    3. [ ] [https://leetcode.com/problems/pancake-sorting/](https://leetcode.com/problems/pancake-sorting/) \(Series of flips to shift max number to the back. However must always find location of the next max number - even if we initially sort and keep track of shifting indexes, and even if we can flip and preserve the rest of the order, we still need O\(N\) each time to update indexes.\)
-2. [x] **4th** 
+3. [x] **4th** 
    1. [x] \*\*\*\*[**https://leetcode.com/problems/word-ladder/submissions/**](https://leetcode.com/problems/word-ladder/submissions/)\*\*\*\*
-3. [x] **31st**
+4. [x] **31st**
    1. [x] \*\*\*\*[**https://leetcode.com/problems/flatten-nested-list-iterator/**](https://leetcode.com/problems/flatten-nested-list-iterator/)\*\*\*\*
    2. [x] \*\*\*\*[**https://leetcode.com/problems/remove-duplicates-from-sorted-array/**](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)\*\*\*\*
    3. [x] \*\*\*\*[**https://leetcode.com/problems/remove-element/**](https://leetcode.com/problems/remove-element/)\*\*\*\*
-4. [x] **29th** 
+5. [x] **29th** 
    1. [x] \*\*\*\*[**https://leetcode.com/problems/insert-delete-getrandom-o1/**](https://leetcode.com/problems/insert-delete-getrandom-o1/)\*\*\*\*
    2. [x] \*\*\*\*[**https://leetcode.com/problems/reverse-linked-list-ii/submissions/**](https://leetcode.com/problems/reverse-linked-list-ii/submissions/)\*\*\*\*
-5. [x] **28th**
+6. [x] **28th**
    1. [x] [**https://leetcode.com/problems/merge-k-sorted-lists/solution/**](https://leetcode.com/problems/merge-k-sorted-lists/solution/)\*\*\*\*
    2. [x] \*\*\*\*[**https://leetcode.com/problems/group-anagrams/solution/**](https://leetcode.com/problems/group-anagrams/solution/)\*\*\*\*
-6. [x] **27th** [**https://leetcode.com/problems/number-of-islands/**](https://leetcode.com/problems/number-of-islands/)\*\*\*\*
-7. [x] **25th** [**https://leetcode.com/problems/non-overlapping-intervals/**](https://leetcode.com/problems/non-overlapping-intervals/)  **\(to add post\)**
-8. [x] **23rd** [**https://leetcode.com/problems/next-permutation**](https://leetcode.com/problems/next-permutation/)\*\*\*\*
-9. [x] **20th** 
-   1. [x] \*\*\*\*[**https://leetcode.com/problems/permutations/submissions/**](https://leetcode.com/problems/permutations/submissions/)\*\*\*\*
-   2. [x] [https://leetcode.com/problems/permutations-ii/](https://leetcode.com/problems/permutations-ii/)
-10. [x] **16th**
+7. [x] **27th** [**https://leetcode.com/problems/number-of-islands/**](https://leetcode.com/problems/number-of-islands/)\*\*\*\*
+8. [x] **25th** [**https://leetcode.com/problems/non-overlapping-intervals/**](https://leetcode.com/problems/non-overlapping-intervals/)  **\(to add post\)**
+9. [x] **23rd** [**https://leetcode.com/problems/next-permutation**](https://leetcode.com/problems/next-permutation/)\*\*\*\*
+10. [x] **20th** 
+    1. [x] \*\*\*\*[**https://leetcode.com/problems/permutations/submissions/**](https://leetcode.com/problems/permutations/submissions/)\*\*\*\*
+    2. [x] [https://leetcode.com/problems/permutations-ii/](https://leetcode.com/problems/permutations-ii/)
+11. [x] **16th**
     1. [ ] \*\*\*\*[**https://leetcode.com/problems/daily-temperatures/solution/**](https://leetcode.com/problems/daily-temperatures/solution/) **\(to code\)**
-11. [x] **15th** 
+12. [x] **15th** 
     1. [x] \*\*\*\*[**https://leetcode.com/problems/lru-cache/**](https://leetcode.com/problems/lru-cache/) **\(to post\)**
     2. [x] \*\*\*\*[**https://leetcode.com/problems/queue-reconstruction-by-height/discuss/89359/Explanation-of-the-neat-Sort%2BInsert-solution**](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/89359/Explanation-of-the-neat-Sort%2BInsert-solution)\*\*\*\*
-12. [x] **14th** 
+13. [x] **14th** 
     1. [x] \*\*\*\*[**https://leetcode.com/problems/interleaving-string/submissions/**](https://leetcode.com/problems/interleaving-string/submissions/)\*\*\*\*
-13. [x] **13th** 
+14. [x] **13th** 
     1. [x] \*\*\*\*[**https://leetcode.com/problems/edit-distance/**](https://leetcode.com/problems/edit-distance/submissions/)\*\*\*\*
-14. [x] **12th**
+15. [x] **12th**
     1. [x] \*\*\*\*[**https://leetcode.com/articles/task-scheduler/**](https://leetcode.com/articles/task-scheduler/)\*\*\*\*
-15. [x] **11th**
+16. [x] **11th**
     1. [x] \*\*\*\*[**https://leetcode.com/problems/rotate-array/**](https://leetcode.com/problems/rotate-array/) _\*\*_
     2. [x] \*\*\*\*[**https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/**](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/)
-16. [x] **10th** 
+17. [x] **10th** 
     1. [x] \*\*\*\*[**https://leetcode.com/problems/word-search/**](https://leetcode.com/problems/word-search/) _\*\*_
-17. [x] **3rd** 
+18. [x] **3rd** 
     1. [x] [**https://leetcode.com/problems/maximal-square/submissions/**](https://leetcode.com/problems/maximal-square/submissions/)\*\*\*\*
-18. [x] **2nd** 
+19. [x] **2nd** 
     1. [x] \*\*\*\*[**https://leetcode.com/problems/longest-increasing-subsequence/solution/**](https://leetcode.com/problems/longest-increasing-subsequence/solution/) **LIS binary search**
-19. [x] **1st**
+20. [x] **1st**
     1. [x] \*\*\*\*[**https://leetcode.com/problems/subarray-sum-equals-k/submissions/**](https://leetcode.com/problems/subarray-sum-equals-k/submissions/) **\(put in code\)**
-20. [x] **28th**
+21. [x] **28th**
     1. [ ] \*\*\*\*[**https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/**](https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/) **\(put in code\)** 
-21. [x] **27th** 
+22. [x] **27th** 
     1. [x] \*\*\*\*[**https://leetcode.com/problems/implement-magic-dictionary/**](https://leetcode.com/problems/implement-magic-dictionary/)\*\*\*\*
-22. [x] **26th \(2/6\)**
+23. [x] **26th \(2/6\)**
     1. [ ] \*\*\*\*[**https://leetcode.com/problems/sort-colors/**](https://leetcode.com/problems/sort-colors/)\*\*\*\*
     2. [x] \*\*\*\*[**https://leetcode.com/problems/trapping-rain-water/**](https://leetcode.com/problems/trapping-rain-water/)\*\*\*\*
     3. [x] [https://leetcode.com/problems/move-zeroes/](https://leetcode.com/problems/move-zeroes/) \(put in code\)
-23. [x] **24th \(1/6\)**
+24. [x] **24th \(1/6\)**
     1. [x] [https://leetcode.com/problems/longest-increasing-path-in-a-matrix/submissions/](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/submissions/)
-24. [x] 23rd **\(1/6\)**
+25. [x] 23rd **\(1/6\)**
     1. [x] [https://leetcode.com/problems/course-schedule/](https://leetcode.com/problems/course-schedule/)
     2. [x] [https://leetcode.com/problems/course-schedule-ii/](https://leetcode.com/problems/course-schedule-ii/)
-25. [x] 1-20th 
+26. [x] 1-20th 
     1. [x] E13-roman-to-int
     2. [x] M12-integer-to-roman
     3. [x] M86-partition-list
     4. [x] E14-longest-common-prefix
-26. [x] **2nd Mock Interview** 
-27. [x] **1st Algos + System Design Review** 
-28. [x] **31st Algos Review30th \(0/2 Easy, 0/6 Medium\)**
-29. [x] **29th \(0/2 Easy, 0/6 Medium\)**
+27. [x] **2nd Mock Interview** 
+28. [x] **1st Algos + System Design Review** 
+29. [x] **31st Algos Review30th \(0/2 Easy, 0/6 Medium\)**
+30. [x] **29th \(0/2 Easy, 0/6 Medium\)**
     1. [x] Databases, CAP
-30. [x] **28th \(1/2 Easy, 2/6 Medium\)**
+31. [x] **28th \(1/2 Easy, 2/6 Medium\)**
     1. [x] SDQ 4
-31. [x] **27th \(0/2 Easy, 1/6 Medium\)**
+32. [x] **27th \(0/2 Easy, 1/6 Medium\)**
     1. [x] Go move fridge, meet malik  
-32. [x] **26th \(0/2 Easy, 2/6 Medium\)**
+33. [x] **26th \(0/2 Easy, 2/6 Medium\)**
     1. [x] System Design 4
-33. [x] **25th \(1/2 Easy, 0/6 Medium\)**
+34. [x] **25th \(1/2 Easy, 0/6 Medium\)**
     1. [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) \(E\)
     2. [x] **System Design 2, 3**
-34. [x] **24th \(0/2 Easy, 2/6 Medium\)**
+35. [x] **24th \(0/2 Easy, 2/6 Medium\)**
     1. [x] **System Design 1** 
     2. [x] [https://leetcode.com/problems/implement-trie-prefix-tree/solution/](https://leetcode.com/problems/implement-trie-prefix-tree/solution/)
     3. [x] [https://leetcode.com/problems/add-and-search-word-data-structure-design/](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
-35. [x] **23rd  \(0/2 Easy, 3/6 Medium\)**
+36. [x] **23rd  \(0/2 Easy, 3/6 Medium\)**
     1. [x] [https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)
     2. [x] [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
     3. [x] [https://leetcode.com/problems/longest-palindromic-subsequence/](https://leetcode.com/problems/longest-palindromic-subsequence/)
-36. [x] **22nd \(0/2 Easy, 2/6 Medium\)**
+37. [x] **22nd \(0/2 Easy, 2/6 Medium\)**
     1. [x] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) \(H\)
     2. [x] [https://leetcode.com/problems/minimum-window-substring/](https://leetcode.com/problems/minimum-window-substring/)
-37. [x] 2**1st \(0/2 Easy, 3/8 Medium\)**
+38. [x] 2**1st \(0/2 Easy, 3/8 Medium\)**
     1. [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)
     2. [x] [Unique Paths](https://leetcode.com/problems/unique-paths/)
     3. [x] [Jump Game](https://leetcode.com/problems/jump-game/)
-38. [x] **18th \(1/2 Easy, 2/8 Medium\)** 
+39. [x] **18th \(1/2 Easy, 2/8 Medium\)** 
     1. [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
     2. [x] [House Robber](https://leetcode.com/problems/house-robber/) and [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-39. [x] **17th \(1/2 Easy, 4/8 Medium\)**
+40. [x] **17th \(1/2 Easy, 4/8 Medium\)**
     1. [x] [https://leetcode.com/problems/longest-continuous-increasing-subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) \(E\)
     2. [x] [https://leetcode.com/problems/longest-consecutive-sequence/](https://leetcode.com/problems/longest-consecutive-sequence/) \(H\)
     3. [x] [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
     4. [x] [https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
     5. [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
-40. [x] **16th \(1/2 Easy, 5/8 Medium\)** 
+41. [x] **16th \(1/2 Easy, 5/8 Medium\)** 
     1. [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) 
     2. [x] [kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
     3. [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) \(E\)
     4. [x] [Coin Change](https://leetcode.com/problems/coin-change/)
     5. [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
     6. [x] [https://leetcode.com/problems/number-of-longest-increasing-subsequence/](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
-41. [x] **15th \(1/2 Easy, 3/8 Medium\)**
+42. [x] **15th \(1/2 Easy, 3/8 Medium\)**
     1. [x] [Missing Number](https://leetcode.com/problems/missing-number/) \(Easy\)
     2. [x] [https://leetcode.com/problems/remove-nth-node-from-end-of-list/](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
     3. [x] [Counting Bi](https://leetcode.com/problems/counting-bits/)[ts](https://leetcode.com/problems/linked-list-cycle/)
     4. [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-42. [x] **14th \(0/2 Easy, 6/8 Medium\)**
+43. [x] **14th \(0/2 Easy, 6/8 Medium\)**
     1. [x] [https://leetcode.com/problems/3sum](https://leetcode.com/problems/3sum/)
     2. [x] [https://leetcode.com/problems/maximum-product-subarray/](https://leetcode.com/problems/maximum-product-subarray/)
     3. [x] [https://leetcode.com/problems/reorder-list/](https://leetcode.com/problems/reorder-list/)
     4. [x] [https://leetcode.com/problems/container-with-most-wate](https://leetcode.com/problems/container-with-most-water/)[r/](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
     5. [x] [https://leetcode.com/problems/find-minimum-in-rotated-sorted-arra](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)[y/](https://leetcode.com/problems/search-in-rotated-sorted-array/)
     6. [x] [https://leetcode.com/problems/search-in-rotated-sorted-array/](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-43. [x] **13th \(0/2 Easy, 1/8 Medium\)**
+44. [x] **13th \(0/2 Easy, 1/8 Medium\)**
     1. [x] [https://leetcode.com/problems/maximum-subarray/](https://leetcode.com/problems/maximum-subarray/) \(divide & conquer version\)
 
 ## From Daniel:
