@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(34/40 Easy, 61/85 Medium, 10/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(34/40 Easy, 62/85 Medium, 10/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -34,11 +34,12 @@
     * [M92-reverse-linked-list-II](algorithms/techniques/6-in-place-reversal-of-linked-list/m92-reverse-linked-list-ii.md)
   * [7. BFS \(1M\)](algorithms/techniques/7-bfs/README.md)
     * [M127-word-ladder](algorithms/techniques/7-bfs/m127-word-ladder.md)
-  * [8. DFS \(0E, 4M\)](algorithms/techniques/8-dfs/README.md)
-    * [M341-flatten-nested-list-iterator](algorithms/techniques/8-dfs/m341-flatten-nested-list-iterator.md)
-    * [M200-number-of-islands](algorithms/techniques/8-dfs/m200-number-of-islands.md)
+  * [8. DFS \(0E, 5M\)](algorithms/techniques/8-dfs/README.md)
     * [M79-word-search](algorithms/techniques/8-dfs/m79-word-search.md)
+    * [M199-binary-tree-right-side-view](algorithms/techniques/8-dfs/m199-binary-tree-right-side-view.md)
+    * [M200-number-of-islands](algorithms/techniques/8-dfs/m200-number-of-islands.md)
     * [M207-course-schedule](algorithms/techniques/8-dfs/m207-course-schedule.md)
+    * [M341-flatten-nested-list-iterator](algorithms/techniques/8-dfs/m341-flatten-nested-list-iterator.md)
   * [9. Two Heaps \(0E, 0M, 1H\)](algorithms/techniques/9-two-heaps/README.md)
     * [H295-find-median-from-data-stream](algorithms/techniques/9-two-heaps/h295-find-median-from-data-stream.md)
   * [10. Subsets \(0E, 2M\)](algorithms/techniques/10-subsets/README.md)
