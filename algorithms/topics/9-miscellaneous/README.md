@@ -1,4 +1,4 @@
-# 9. Miscellaneous \(3E, 1M\)
+# 9. Miscellaneous \(3E, 2M\)
 
 ## Memo 
 
