@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(34/40 Easy, 63/85 Medium, 10/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(34/40 Easy, 64/85 Medium, 10/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -133,10 +133,11 @@
     * [M208-implement-trie](algorithms/topics/8-tries/m208-implement-trie.md)
     * [M211-add-and-search-word](algorithms/topics/8-tries/m211-add-and-search-word.md)
     * [M676-magic-dictionary](algorithms/topics/8-tries/m676-magic-dictionary.md)
-  * [9. Miscellaneous \(3E, 2M\)](algorithms/topics/9-miscellaneous/README.md)
+  * [9. Miscellaneous \(3E, 3M\)](algorithms/topics/9-miscellaneous/README.md)
     * [E20-valid-parenthesis](algorithms/topics/9-miscellaneous/e20-valid-parenthesis.md)
     * [E202-happy-number](algorithms/topics/9-miscellaneous/e202-happy-number.md)
     * [E892-surface-area-3D](algorithms/topics/9-miscellaneous/e892-surface-area-3d.md)
+    * [M73-set-matrix-zeroes](algorithms/topics/9-miscellaneous/m73-set-matrix-zeroes.md)
     * [M763-partition-labels](algorithms/topics/9-miscellaneous/m763-partition-labels.md)
     * [M380-insert-delete-get-random-o1](algorithms/topics/9-miscellaneous/m380-insert-delete-get-random-o1.md)
 * [Others](algorithms/others/README.md)
