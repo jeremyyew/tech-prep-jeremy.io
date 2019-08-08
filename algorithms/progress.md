@@ -1,11 +1,11 @@
 ---
-description: 'Total: 34 + 63 + 10 = 107/200.'
+description: 'Total: 34 + 64 + 10 = 108/200.'
 ---
 
-# Progress Tracker \(34/40 Easy, 63/85 Medium, 10/15 Hard\)
+# Progress Tracker \(34/40 Easy, 64/85 Medium, 10/15 Hard\)
 
 1. [x] 7th 
-   1. [ ] [https://leetcode.com/problems/set-matrix-zeroes/solution/](https://leetcode.com/problems/set-matrix-zeroes/solution/)
+   1. [x] [https://leetcode.com/problems/set-matrix-zeroes/solution/](https://leetcode.com/problems/set-matrix-zeroes/solution/)
    2. [x] [https://leetcode.com/problems/partition-labels/submissions/](https://leetcode.com/problems/partition-labels/submissions/)
 2. [x] 6th
    1. [x] [https://leetcode.com/problems/binary-tree-right-side-view](https://leetcode.com/problems/binary-tree-right-side-view/submissions/)
