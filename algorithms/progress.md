@@ -1,8 +1,8 @@
 ---
-description: 'Total: 34 + 65 + 11 = 110/200.'
+description: 'Total: 34 + 65 + 10 = 109/200.'
 ---
 
-# Progress Tracker \(34/40 Easy, 65/85 Medium, 11/15 Hard\)
+# Progress Tracker \(34/40 Easy, 65/85 Medium, 10/15 Hard\)
 
 1. [x] 8th [https://leetcode.com/problems/sort-list/](https://leetcode.com/problems/sort-list/)
 2. [x] 7th 
@@ -11,7 +11,7 @@ description: 'Total: 34 + 65 + 11 = 110/200.'
 3. [x] 6th
    1. [x] [https://leetcode.com/problems/binary-tree-right-side-view](https://leetcode.com/problems/binary-tree-right-side-view/submissions/)
 4. [x] **5th  \(to add\)**
-   1. [x] [https://leetcode.com/problems/palindrome-pairs/](https://leetcode.com/problems/palindrome-pairs/)
+   1. [ ] [https://leetcode.com/problems/palindrome-pairs/](https://leetcode.com/problems/palindrome-pairs/) \(still digesting solution\)
    2. [ ] [https://leetcode.com/problems/summary-ranges](https://leetcode.com/problems/summary-ranges/discuss/?currentPage=1&orderBy=most_votes&query=) \(O\(N\), just traverse and keep track. Consider binary search, best case O\(KlogN\)\). 
    3. [x] [https://leetcode.com/problems/pancake-sorting/](https://leetcode.com/problems/pancake-sorting/)
 5. [x] **4th** 

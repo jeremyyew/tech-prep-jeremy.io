@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(34/40 Easy, 65/85 Medium, 11/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(34/40 Easy, 65/85 Medium, 10/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
