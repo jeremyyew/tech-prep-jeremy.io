@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(34/40 Easy, 64/85 Medium, 10/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(34/40 Easy, 65/85 Medium, 10/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -77,7 +77,8 @@
     * [M208-course-schedule-II](algorithms/techniques/15-topological-sort/m208-course-schedule-ii.md)
     * [H329-longest-increasing-path-in-a-matrix](algorithms/techniques/15-topological-sort/untitled.md)
 * [Topics](algorithms/topics/README.md)
-  * [1. Searching and Sorting \(2M\)](algorithms/topics/1-searching-and-sorting/README.md)
+  * [1. Searching and Sorting \(3M\)](algorithms/topics/1-searching-and-sorting/README.md)
+    * [M969-pancake-sorting](algorithms/topics/1-searching-and-sorting/m969-pancake-sorting.md)
     * [M31-next-permutation](algorithms/topics/1-searching-and-sorting/m31-next-permutation.md)
     * [M406-queue-reconstruction-by-height](algorithms/topics/1-searching-and-sorting/m406-queue-reconstruction-by-height.md)
   * [2. Lists, Dicts, Strings \(11E, 6M, 1H\)](algorithms/topics/2-lists-dicts-strings/README.md)

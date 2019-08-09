@@ -1,8 +1,8 @@
 ---
-description: 'Total: 34 + 64 + 10 = 108/200.'
+description: 'Total: 34 + 65 + 10 = 109/200.'
 ---
 
-# Progress Tracker \(34/40 Easy, 64/85 Medium, 10/15 Hard\)
+# Progress Tracker \(34/40 Easy, 65/85 Medium, 10/15 Hard\)
 
 1. [x] 8th [https://leetcode.com/problems/sort-list/](https://leetcode.com/problems/sort-list/)
 2. [x] 7th 
@@ -13,7 +13,7 @@ description: 'Total: 34 + 64 + 10 = 108/200.'
 4. [x] **5th  \(to add\)**
    1. [ ] [https://leetcode.com/problems/palindrome-pairs/](https://leetcode.com/problems/palindrome-pairs/) \(still digesting solution\)
    2. [ ] [https://leetcode.com/problems/summary-ranges](https://leetcode.com/problems/summary-ranges/discuss/?currentPage=1&orderBy=most_votes&query=) \(O\(N\), just traverse and keep track. Consider binary search, best case O\(KlogN\)\). 
-   3. [ ] [https://leetcode.com/problems/pancake-sorting/](https://leetcode.com/problems/pancake-sorting/) \(Series of flips to shift max number to the back. However must always find location of the next max number - even if we initially sort and keep track of shifting indexes, and even if we can flip and preserve the rest of the order, we still need O\(N\) each time to update indexes.\)
+   3. [x] [https://leetcode.com/problems/pancake-sorting/](https://leetcode.com/problems/pancake-sorting/)
 5. [x] **4th** 
    1. [x] \*\*\*\*[**https://leetcode.com/problems/word-ladder/submissions/**](https://leetcode.com/problems/word-ladder/submissions/)\*\*\*\*
 6. [x] **31st**
