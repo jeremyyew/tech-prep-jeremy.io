@@ -2,7 +2,7 @@
 description: 'Merge sort, quick sort, bin sort, binary search, sorted merge.'
 ---
 
-# 1. Searching and Sorting \(3M\)
+# 1. Searching and Sorting \(4M\)
 
 ```python
 import unittest
