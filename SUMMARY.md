@@ -108,6 +108,7 @@
     * [M143-reorder-list](algorithms/topics/3-linked-lists/m143-reorder-list.md)
     * [M146-LRU-cache](algorithms/topics/3-linked-lists/m146-lru-cache.md)
   * [4. Trees and Graphs \(6E, 6M, 1H\)](algorithms/topics/4-trees-and-graphs/README.md)
+    * [E100-same-tree](algorithms/topics/4-trees-and-graphs/e100-same-tree.md)
     * [E104-maximum-depth-of-binary-tree](algorithms/topics/4-trees-and-graphs/e104-maximum-depth-of-binary-tree.md)
     * [E226-invert-binary-tree](algorithms/topics/4-trees-and-graphs/e226-invert-binary-tree.md)
     * [E235-lowest-common-ancestor-of-a-binary-search-tree](algorithms/topics/4-trees-and-graphs/e235-lowest-common-ancestor-of-a-binary-search-tree.md)
