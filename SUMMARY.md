@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(34/40 Easy, 66/85 Medium, 11/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(35/40 Easy, 66/85 Medium, 11/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -107,7 +107,7 @@
     * [M86-partition-list](algorithms/topics/3-linked-lists/m86-partition-list.md)
     * [M143-reorder-list](algorithms/topics/3-linked-lists/m143-reorder-list.md)
     * [M146-LRU-cache](algorithms/topics/3-linked-lists/m146-lru-cache.md)
-  * [4. Trees and Graphs \(6E, 6M, 1H\)](algorithms/topics/4-trees-and-graphs/README.md)
+  * [4. Trees and Graphs \(7E, 6M, 1H\)](algorithms/topics/4-trees-and-graphs/README.md)
     * [E100-same-tree](algorithms/topics/4-trees-and-graphs/e100-same-tree.md)
     * [E104-maximum-depth-of-binary-tree](algorithms/topics/4-trees-and-graphs/e104-maximum-depth-of-binary-tree.md)
     * [E226-invert-binary-tree](algorithms/topics/4-trees-and-graphs/e226-invert-binary-tree.md)
