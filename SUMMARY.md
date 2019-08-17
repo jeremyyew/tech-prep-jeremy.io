@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(35/40 Easy, 69/85 Medium, 11/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(35/40 Easy, 70/85 Medium, 11/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -108,7 +108,7 @@
     * [M86-partition-list](algorithms/topics/3-linked-lists/m86-partition-list.md)
     * [M143-reorder-list](algorithms/topics/3-linked-lists/m143-reorder-list.md)
     * [M146-LRU-cache](algorithms/topics/3-linked-lists/m146-lru-cache.md)
-  * [4. Trees and Graphs \(7E, 6M, 1H\)](algorithms/topics/4-trees-and-graphs/README.md)
+  * [4. Trees and Graphs \(7E, 7M, 1H\)](algorithms/topics/4-trees-and-graphs/README.md)
     * [E100-same-tree](algorithms/topics/4-trees-and-graphs/e100-same-tree.md)
     * [E104-maximum-depth-of-binary-tree](algorithms/topics/4-trees-and-graphs/e104-maximum-depth-of-binary-tree.md)
     * [E226-invert-binary-tree](algorithms/topics/4-trees-and-graphs/e226-invert-binary-tree.md)
@@ -118,6 +118,7 @@
     * [E617-merge-two-binary-trees](algorithms/topics/4-trees-and-graphs/e617-merge-two-binary-trees.md)
     * [M98-validate-binary-search-tree](algorithms/topics/4-trees-and-graphs/m98-valdiate-binary-search-tree.md)
     * [M102-binary-tree-level-order-traversal](algorithms/topics/4-trees-and-graphs/m102-binary-tree-level-order-traversal.md)
+    * [M105-construct-binary-tree-from-preorder-and-inorder-traversal](algorithms/topics/4-trees-and-graphs/m105-construct-binary-tree-from-preorder-and-inorder-traversal.md)
     * [M114-flatten-binary-tree](algorithms/topics/4-trees-and-graphs/m114-flatten-binary-tree.md)
     * [M133-clone-graph](algorithms/topics/4-trees-and-graphs/m133-clone-graph.md)
     * [M230-kth-smallest-element-in-a-BST](algorithms/topics/4-trees-and-graphs/m230-kth-smallest-element-in-a-bst.md)

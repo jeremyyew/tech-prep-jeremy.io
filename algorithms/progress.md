@@ -1,13 +1,13 @@
 ---
-description: 'Total: 35 + 69 + 11 = 115/200.'
+description: 'Total: 35 + 70 + 11 = 116/200.'
 ---
 
-# Progress Tracker \(35/40 Easy, 69/85 Medium, 11/15 Hard\)
+# Progress Tracker \(35/40 Easy, 70/85 Medium, 11/15 Hard\)
 
 1. [x] 14th
    1. [x] [https://leetcode.com/problems/palindromic-substrings/](https://leetcode.com/problems/palindromic-substrings/)
    2. [x] [https://leetcode.com/problems/top-k-frequent-elements/](https://leetcode.com/problems/top-k-frequent-elements/)
-   3. [ ] [https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+   3. [x] [https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
    4. [x] [https://leetcode.com/problems/clone-graph/](https://leetcode.com/problems/clone-graph/)
    5. [ ] [https://leetcode.com/problems/binary-tree-maximum-path-sum/](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
    6. [ ] [https://leetcode.com/problems/longest-valid-parentheses/](https://leetcode.com/problems/longest-valid-parentheses/)

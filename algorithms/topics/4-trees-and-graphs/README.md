@@ -1,4 +1,4 @@
-# 4. Trees and Graphs \(7E, 6M, 1H\)
+# 4. Trees and Graphs \(7E, 7M, 1H\)
 
 
 
