@@ -146,6 +146,7 @@
     * [M380-insert-delete-get-random-o1](algorithms/topics/9-miscellaneous/m380-insert-delete-get-random-o1.md)
     * [M647-palindromic-substrings](algorithms/topics/9-miscellaneous/m647-palindromic-substrings.md)
     * [H336-palindrome-pairs](algorithms/topics/9-miscellaneous/h336-palindrome-pairs.md)
+* [Python Time Complexity](algorithms/python-time-complexity.md)
 * [Others](algorithms/others/README.md)
   * [Python](algorithms/others/python.md)
   * [P, NP, NP-complete](algorithms/others/p-np-np-complete.md)
@@ -153,6 +154,7 @@
 ## Systems Design
 
 * [Overview](systems-design/systems-design.md)
+* [Triplebyte](systems-design/triplebyte.md)
 * [Example Questions \(4/6\)](systems-design/example-questions-0-3/README.md)
   * [Instagram](systems-design/example-questions-0-3/instagram.md)
   * [Twitter](systems-design/example-questions-0-3/twitter.md)
