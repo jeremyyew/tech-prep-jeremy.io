@@ -1,6 +1,6 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        stk, mapping = [], {'(': ')', '[': ']', '{': '}'},
+        stk, mapping = [], {'(': ')', '[': ']', '{': '}'}
         for c in s:
             if c in ('(', '{', '['):
                 stk.append(c)
