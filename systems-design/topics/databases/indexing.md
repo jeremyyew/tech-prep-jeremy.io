@@ -7,10 +7,15 @@ In a **relational database**, an **index** is a **data structure** that increase
 {% endhint %}
 
 * Indices are usually represented as **self-balancing** [**B-tree**](https://en.wikipedia.org/wiki/B-tree) ****that keeps data sorted and allows **searches, sequential access, insertions, and deletions** in **logarithmic time.**
-* It is one way of improving **DB read times without scaling horizontally.**
-* Note: A b-tree is NOT a binary tree. [**https://en.wikipedia.org/wiki/B-tree**](https://en.wikipedia.org/wiki/B-tree)\*\*\*\*
-  * The B-tree is a generalization of a [binary search tree](https://en.wikipedia.org/wiki/Binary_search_tree) - a node can have more than two children.
-  * Each node's keys act as separation values which define the range of values contained by each of its [subtrees](https://en.wikipedia.org/wiki/Subtree). 
+* It is one way of ****improving DB read times **without scaling horizontally.**
+
+{% hint style="info" %}
+* A b-tree is NOT a binary tree.
+* It is a generalization of a binary search tree - a node can have **more than one key, and more than two children.** 
+* Each node's keys act as **separation values which define the range of values contained by each of its subtrees.** 
+{% endhint %}
+
+![](../../../.gitbook/assets/image%20%282%29.png)
 
 ## How does it work? 
 
@@ -23,14 +28,15 @@ Example: A library catalog.
 
 ## What are the tradeoffs of DB indexing? 
 
-* More memory. 
-* Slower writes due to updating index.
-  * Inserting and updating data requires the indexes to be update and inserted as well, so more write operations. 
-  * Applies to all insert, update, and delete operations for the table. 
+1. Slower writes due to updating index.
+   1. Inserting and updating data requires the indexes to be update and inserted as well \(logarithmic time\). 
+   2. Applies to all insert, update, and delete operations for the table. 
+2. **More memory.** 
+   1. In general, size of an index is going to be **proportional to the cardinality of the column.** 
 
 ## When to use single indexes? 
 
-* High read, low write. 
+* **High read, low write.** 
   * If write is higher than read, may not be worth it. 
 * **High cardinality.** 
   * If you create an index in a column that has low cardinality, that’s not going to be beneficial since the index should reduce search space. Low cardinality does not significantly reduce search space.  Example: if you create an index on a boolean \( `int` `1` or `0` only \) type column, the index will be very skewed since cardinality is less \(cardinality is 2 here\). But if this boolean field can be combined with other columns to produce high cardinality, go for that index when necessary.

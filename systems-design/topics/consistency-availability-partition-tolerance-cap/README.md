@@ -25,7 +25,7 @@ Only 2/3: **Consistency, Availability, and Partition tolerance.** But networks a
    * "The system continues to operate despite arbitrary partitioning due to network failures"
    * Data is sufficiently replicated across combinations of nodes and networks to keep the system up through intermittent outages.
 
-![From Grokking the System Design Interview. The definition of availability seems off though. ](../../../.gitbook/assets/image%20%283%29.png)
+![From Grokking the System Design Interview. The definition of availability seems off though. ](../../../.gitbook/assets/image%20%284%29.png)
 
 
 

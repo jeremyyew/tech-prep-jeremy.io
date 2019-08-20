@@ -94,17 +94,17 @@ In the context of **database/application** caching, usually we cache to offload 
       <td style="text-align:left">
         <p></p>
         <p>
-          <img src="../../.gitbook/assets/image (4).png" alt="Cache Aside" />
+          <img src="../../.gitbook/assets/image (5).png" alt="Cache Aside" />
         </p>
+      </td>
+      <td style="text-align:left">
+        <img src="../../.gitbook/assets/image (11).png" alt="Cache Aside" />
       </td>
       <td style="text-align:left">
         <img src="../../.gitbook/assets/image (9).png" alt="Cache Aside" />
       </td>
       <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (7).png" alt="Cache Aside" />
-      </td>
-      <td style="text-align:left">
-        <img src="../../.gitbook/assets/image (15).png" alt="Cache Aside" />
+        <img src="../../.gitbook/assets/image (18).png" alt="Cache Aside" />
       </td>
     </tr>
     <tr>

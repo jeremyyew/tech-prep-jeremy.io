@@ -88,5 +88,5 @@ From [https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-gre
 6. **Add memoization**
 7. **Determine time complexity**
 
-![](../../../.gitbook/assets/image%20%2814%29.png)
+![](../../../.gitbook/assets/image%20%2816%29.png)
 
