@@ -156,7 +156,9 @@
 ## Systems Design
 
 * [Overview](systems-design/systems-design.md)
-* [Triplebyte](systems-design/triplebyte.md)
+* [Triplebyte](systems-design/triplebyte/README.md)
+  * [Hash Map Implementations](systems-design/triplebyte/hash-map-implementations.md)
+  * [Binary Tree Implementations](systems-design/triplebyte/binary-trees.md)
 * [Example Questions \(4/6\)](systems-design/example-questions-0-3/README.md)
   * [Instagram](systems-design/example-questions-0-3/instagram.md)
   * [Twitter](systems-design/example-questions-0-3/twitter.md)

@@ -1,17 +1,24 @@
 # Triplebyte
 
-* **Tic tac toe**
-* **Database short answer**
-  * Foreign keys
-  * Compound indexes, benefits/drawbacks, implementation
-* **HTTP/Web short answer** 
-  * Web
-    * Characteristics of different REST verbs  
-    * Headers
-    * CDN's 
-    * Browser caching - controlled by headers
-  * Hashing - might be slow, bcrypt 
-  * Salting 
+## Binary trees: red black, AVL, balancing, preorder vs inorder
+
+## Web
+
+* [ ] Tic Tac Toe 
+* [ ] AWS 
+* [ ] Probabilistic data structures - countMin, bloom filter
+* [ ] B+ vs B trees
+* [ ] Stack n heap diagram 
+* [ ] Deadlock resolution 
+* [ ] Low level 
+  * [ ] Mutex vs semaphore 
+* [x] **Database**
+* [ ] Web 
+  * [ ] Salting and Hashing
+  * Characteristics of different REST verbs  
+  * Headers
+  * CDN's 
+  * Browser caching - controlled by headers
 * **Data structures short answer** 
   * Hashmap
     * insert, probing, chaining, collision resolution 
