@@ -1,4 +1,4 @@
-# SQL and NoSQL \(TODO\)
+# SQL and NoSQL
 
 ## What are the main differences? 
 
