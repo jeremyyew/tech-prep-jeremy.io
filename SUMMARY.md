@@ -161,6 +161,7 @@
   * [Binary Tree Implementations](systems-design/triplebyte/binary-trees.md)
   * [Used Cars App - System Design](systems-design/triplebyte/used-cars-system-design.md)
   * [Salting and Hashing](systems-design/triplebyte/salting-and-hashing.md)
+  * [Heap theory](systems-design/triplebyte/heap-theory.md)
   * [Web communication protocols \(TODO\)](systems-design/triplebyte/web-protocols-dns/README.md)
     * [TCP vs UDP \(TODO\)](systems-design/triplebyte/web-protocols-dns/tcp-vs-udp.md)
     * [HTTP \(TODO\)](systems-design/triplebyte/web-protocols-dns/http.md)
