@@ -12,23 +12,15 @@ from collections import Counter
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        l = r = max_len = 0
-        counts = Counter()
-        repeats = False
-
+        l, r, max_l, d = 0, 0, 0, Counter()
         while r < len(s):
-            counts[s[r]] += 1
-            if counts[s[r]] > 1:
-                repeats = True
-            r += 1
-            while repeats:
-                counts[s[l]] -= 1
-                if counts[s[l]] == 1:
-                    repeats = False
+            d[s[r]] += 1
+            while d[s[r]] > 1:
+                d[s[l]] -= 1
                 l += 1
-            max_len = max(max_len, r - l)
-        return max_len
-
+            r += 1
+            max_l = max(max_l, r-l)
+        return max_l
 
 class SolutionSet:
     def lengthOfLongestSubstring(self, s):
