@@ -1,35 +1,26 @@
 # Triplebyte
 
-## Binary trees: red black, AVL, balancing, preorder vs inorder
-
 ## Web
 
-* [ ] Tic Tac Toe 
-* [ ] AWS 
-* [ ] Probabilistic data structures - countMin, bloom filter
 * [ ] B+ vs B trees
+* [ ] HTTP, UDP vs TCP 
+  * [ ] Restful, Headers, Cross-origin? 
+  * [ ] Cookies, local storage
+  * [ ] Browser caching and headers
+* [ ] Probabilistic data structures - countMin, bloom filter
+* [ ] Hashmap resizing and collision resolution
+* [ ] Salting and hashing
+* [ ] Tic Tac Toe - practice
+* [ ] AWS - terms 
 * [ ] Stack n heap diagram 
-* [ ] Deadlock resolution 
 * [ ] Low level 
   * [ ] Mutex vs semaphore 
-* [x] **Database**
-* [ ] Web 
-  * [ ] Salting and Hashing
-  * Characteristics of different REST verbs  
-  * Headers
-  * CDN's 
-  * Browser caching - controlled by headers
-* **Data structures short answer** 
-  * Hashmap
-    * insert, probing, chaining, collision resolution 
-    * Key stored as well 
-    * Resizing still gives hashmaps amortized constant time 
-  * BST 
-    * ordering invariant, performance 
-    * Definition of balanced tree
-    * Self-balancing tree - rotations done to maintain balance 
-    * Performance of finding k-th smallest with in-order traversal 
-      * augment the tree? add height? 
+* [ ] Trees - kth smallest
+
+
+
+
+
 * **Low level short answer**
   * malloc allocates memory on the heap - they seemed rather lost - thinking that ptr/stack would just print 10. They knew the basics around concurrency, like what deadlock and mutexes are - but didn't seem to know much beyond that.
 * **Debug section**
