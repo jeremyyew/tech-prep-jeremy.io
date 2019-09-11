@@ -156,38 +156,34 @@ class TestBinarySearch(unittest.TestCase):
         self.assertEqual(BinarySearchRecursive().search(case1, 42), result1)
         self.assertIsNone(BinarySearchRecursive().search(case1, 200))
 
-class BinarySearchIterative():
-    def search(self, arr, x):
-        start, end = 0, len(arr) - 1 
-        while start <= end: 
-            mid = (start + end) // 2
-            if arr[mid] < x:
-                start = mid + 1
-            elif arr[mid] > x:
-                end = mid -1
-            else: 
-                return mid
-        return None
-
 
 class BinarySearchRecursive():
-    def search(self, arr, x):
-        self.x = x
-        self.arr = arr
-        return self.search_rec(0, len(arr) - 1)
+    def search(self, nums, x):
+        def search_rec(l,r):
+            if l > r: 
+                return -1
+            m = l + ((r-l) // 2)
+            if nums[m] < x:
+                l = m + 1
+            elif nums[m] > x:
+                r = m -1
+            else: 
+                return m
+        return search_rec(0, len(nums)-1)
+        
+class BinarySearchIterative():
+    def search(self, nums, x):
+        l, r = 0, len(nums) - 1 
+        while l <= r: 
+            m = (l + r) // 2
+            if nums[m] < x:
+                l = m + 1
+            elif nums[m] > x:
+                r = m -1
+            else: 
+                return m
+        return -1
 
-    def search_rec(self, start, end):
-        # print(start, end)
-        if start > end: 
-            return None
-        mid = (start + end) // 2
-        if self.arr[mid] < self.x:
-            start = mid + 1
-        elif self.arr[mid] > self.x:
-            end = mid -1
-        else: 
-            return mid
-        return self.search_rec(start, end)
 
 
 # Sorted Merge: You are given two sorted arrays, A and B, where A has a large enough buffer at the end to hold B. Write a method to merge B into A in sorted order.
