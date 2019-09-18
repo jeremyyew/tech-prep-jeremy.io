@@ -1,17 +1,13 @@
 # M11-container-with-most-water
 
+\[1\] Start with two pointers on the ends as container with max value. 
+
+\[2\] Get new values by shifting the shorter end inwards.
+
+* The intuition is that shifting the taller end will never get us higher area, but shifting the shorter end might. 
+* The current value is the max value for any container with the shorter end. 
+
 ```python
-'''
-[1] Start with two pointers on the ends as container with max value. 
-[2] Get new values by shifting the shorter end inwards.
-
-
-- The intuition is that shifting the taller end will never get us higher area, but shifting the shorter end might. 
-- The current value is the max value for any container with the shorter end. 
-
-'''
-
-
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         maxArea = 0

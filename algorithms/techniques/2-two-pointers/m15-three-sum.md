@@ -1,12 +1,36 @@
 # M15-three-sum
 
+Two-pointer solution, non-modularized. O\(N^2\), O\(1\).
+
+* We sort, and for each negative number, find two numbers on the right that add to the complement of that number. We shift `l` and `r` pointers since we know to increase or decrease the two-sum.
+
+Notes: 
+
+1. We always start the left pointer from i+1 because the combination of 0~i has already been tried. 
+2. Now we calculate the total: If the total is less than zero, we need it to be larger, so we move the left pointer. 
+3. If the total is greater than zero, we need it to be smaller, so we move the right pointer. 
+4. If the total is zero, bingo! 
+5. We need to move the left and right pointers to the next different numbers, so we do not get repeating result.
+6. We do not need to consider i after nums\[i\]&gt;0, since sum of 3 positive will be always greater than zero. 
+7. We do not need to try the last two, since there are no rooms for l and r pointers. You can think of it as, the last two have been tried by all others. 
+
+Two-pointer solution, modularized. O\(N^2\), O\(1\).
+
+* My version of someone else's solution below. 
+* For modularity, I abstract the two-sum scan, and pass it an array slice instead of indices. We simply require the twoSum to return the values that add up to the target \(instead of indices\), with no duplicates, and it cannot assume sorted values in general. 
+* Keep in mind we must also give it the complement of the target, not the target itself, since we are aiming for zero-sum.
+* Two Sum: 
+  * Scans sorted array nums from left and right to find two numbers that sum to the the target, i.e. so that we have a zero sum. 
+  * We know it is better to sort once in threeSum, so we don't re-sort here - this is an optimization which doesn't break modularity, since we don't necessarily assume sorted for other twoSums. 
+  * Also skips repeated numbers, so we won't have duplicates.
+
+
+
 ```python
 import itertools
 from typing import List
 
 
-# My version of someone else's solution below. For modularity, I abstract the two-sum scan, and pass it an array slice instead of indices.
-# We simply require the twoSum to return the values that add up to the target (instead of indices), with no duplicates, and it cannot assume sorted values in general. Keep in mind we must also give it the complement of the target, not the target itself, since we are aiming for zero-sum.
 
 class Solution(object):
     # Scans sorted array nums from left and right to find two numbers that sum to the the target, i.e. so that we have a zero sum. We know it is better to sort once in threeSum, so we don't re-sort here - this is an optimization which doesn't break modularity, since we don't necessarily assume sorted for other twoSums.
@@ -18,7 +42,6 @@ class Solution(object):
         r = len(nums) - 1
         while l < r:
             diff = nums[l] + nums[r] - target
-
             if diff < 0:  # [3]
                 l += 1
             elif diff > 0:  # [4]
@@ -39,7 +62,7 @@ class Solution(object):
         length = len(nums)
         for i in range(length-2):  # [8]
             if nums[i] > 0:
-                break  # [7]
+                continue  # [7]
             if i > 0 and nums[i] == nums[i-1]:
                 continue  # [1]
             # We need to make target negative since we are trying to find the twoSum of its complement, so that target + x + y = 0.
