@@ -164,7 +164,7 @@
   * [Heap theory](systems-design/triplebyte/heap-theory.md)
   * [Web communication protocols \(TODO\)](systems-design/triplebyte/web-protocols-dns/README.md)
     * [TCP vs UDP \(TODO\)](systems-design/triplebyte/web-protocols-dns/tcp-vs-udp.md)
-    * [HTTP \(TODO\)](systems-design/triplebyte/web-protocols-dns/http.md)
+    * [HTTP and REST \(TODO\)](systems-design/triplebyte/web-protocols-dns/http.md)
     * [Long-Polling vs WebSockets vs Server-Sent Events \(TODO\)](systems-design/triplebyte/web-protocols-dns/long-polling-vs-websockets-vs-server-sent-events.md)
     * [DNS](systems-design/triplebyte/web-protocols-dns/dns.md)
 * [Example Questions \(4/6\)](systems-design/example-questions-0-3/README.md)
