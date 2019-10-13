@@ -40,6 +40,24 @@ class SolutionDetectCycle:
             p1 = nums[p1]
             p2 = nums[p2]
         return p1
+        
+
+class SolutionDetectCycleAlt:
+    def findDuplicate(self, nums):
+        slow = fast = 0
+        while not (nums[slow] == nums[fast] and slow != fast):
+            print(slow, fast)
+            slow = nums[slow]
+            fast = nums[fast]
+            if nums[slow] == nums[fast]:
+                break
+            fast = nums[fast]
+        return nums[slow]
+
+
+r = SolutionDetectCycle().findDuplicate([1, 1, 2, 3, 4])
+print(r)
+
 
 ```
 
