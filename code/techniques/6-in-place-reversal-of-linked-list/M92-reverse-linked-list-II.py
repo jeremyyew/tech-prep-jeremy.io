@@ -14,27 +14,32 @@
 
 class Solution:
     def reverseBetween(self, head, m, n):
-        # if m == n:
-        #     return head
+        if m == n:
+            return head
         node = dummy = ListNode(None)
         dummy.next = head
-        prev_node, i = None, 0
+        i = 0
+        node_m = node_m_pred = node_prev = None
         while node:
-            next_node = node.next
-            if i < n:
-                if i == m - 1:
-                    node_m_minus_one = node
-                    node_m = next_node
-                elif m < i < n:
-                    node.next = prev_node
-                prev_node = node
-                node = next_node
-                i += 1
-            else:
-                node.next = prev_node
-                node_m_minus_one.next = node
-                node_m.next = next_node
+            if i < m - 1:
+                node = node.next
+            elif i == m - 1:
+                node_m_pred = node
+                node = node.next
+            elif i == m:
+                node_m = node_prev = node
+                node = node.next
+            elif m <= i < n:
+                node_next = node.next
+                node.next = node_prev
+                node_prev = node
+                node = node_next
+            elif i == n:
+                node_m_pred.next = node
+                node_m.next = node.next
+                node.next = node_prev
                 break
+            i += 1
         return dummy.next
 
 
