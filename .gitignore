@@ -1,3 +1,6 @@
 .vs/
 .vscode/
 .DS_Store
+
+scrape-urls/htmls
+scrape-urls/pdfs
