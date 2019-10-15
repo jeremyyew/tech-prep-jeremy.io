@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(35/40 Easy, 70/85 Medium, 11/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(35/40 Easy, 71/85 Medium, 11/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -139,7 +139,7 @@
     * [M208-implement-trie](algorithms/topics/8-tries/m208-implement-trie.md)
     * [M211-add-and-search-word](algorithms/topics/8-tries/m211-add-and-search-word.md)
     * [M676-magic-dictionary](algorithms/topics/8-tries/m676-magic-dictionary.md)
-  * [9. Miscellaneous \(3E, 4M, 1H\)](algorithms/topics/9-miscellaneous/README.md)
+  * [9. Miscellaneous \(3E, 5M, 1H\)](algorithms/topics/9-miscellaneous/README.md)
     * [E20-valid-parenthesis](algorithms/topics/9-miscellaneous/e20-valid-parenthesis.md)
     * [E202-happy-number](algorithms/topics/9-miscellaneous/e202-happy-number.md)
     * [E892-surface-area-3D](algorithms/topics/9-miscellaneous/e892-surface-area-3d.md)
@@ -147,6 +147,7 @@
     * [M763-partition-labels](algorithms/topics/9-miscellaneous/m763-partition-labels.md)
     * [M380-insert-delete-get-random-o1](algorithms/topics/9-miscellaneous/m380-insert-delete-get-random-o1.md)
     * [M647-palindromic-substrings](algorithms/topics/9-miscellaneous/m647-palindromic-substrings.md)
+    * [M1007-minimum-domino-rotations-for-equal-row](algorithms/topics/9-miscellaneous/m1007-minimum-domino-rotations-for-equal-row.md)
     * [H336-palindrome-pairs](algorithms/topics/9-miscellaneous/h336-palindrome-pairs.md)
 * [Python Time Complexity](algorithms/python-time-complexity.md)
 * [Others](algorithms/others/README.md)
@@ -164,7 +165,7 @@
   * [Heap theory](systems-design/triplebyte/heap-theory.md)
   * [Web communication protocols \(TODO\)](systems-design/triplebyte/web-protocols-dns/README.md)
     * [TCP vs UDP \(TODO\)](systems-design/triplebyte/web-protocols-dns/tcp-vs-udp.md)
-    * [HTTP \(TODO\)](systems-design/triplebyte/web-protocols-dns/http.md)
+    * [HTTP and REST \(TODO\)](systems-design/triplebyte/web-protocols-dns/http.md)
     * [Long-Polling vs WebSockets vs Server-Sent Events \(TODO\)](systems-design/triplebyte/web-protocols-dns/long-polling-vs-websockets-vs-server-sent-events.md)
     * [DNS](systems-design/triplebyte/web-protocols-dns/dns.md)
 * [Example Questions \(4/6\)](systems-design/example-questions-0-3/README.md)
