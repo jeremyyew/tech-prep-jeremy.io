@@ -9,7 +9,6 @@
   * [ ] Flashcards
   * [ ] Dynamic programming
 * [ ] **Tues 5th:** 8am-10am
-  * [ ] OOP Design patterns
   * [ ] Google Doc setup
   * [ ] Union find ****[**https://algs4.cs.princeton.edu/15uf/**](https://algs4.cs.princeton.edu/15uf/)
   * [ ] Segment trees/fenwick trees
