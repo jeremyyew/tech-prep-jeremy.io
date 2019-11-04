@@ -170,7 +170,6 @@ By Grokking: [https://www.educative.io/collection/5668639101419520/5671464854355
 * [ ] **7. Trees BFS** 
 * [ ] **8. Trees DFS**
 * [ ] **9. Two Heaps**
-  * [ ] \*\*\*\*
 * [ ] **10. Subsets** 
 * [ ] **11. Modified Binary Search** 
 * [ ] **12. Top 'K' Elements**

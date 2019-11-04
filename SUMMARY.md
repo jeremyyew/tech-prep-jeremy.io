@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Milestones](README.md)
+* [TODO](README.md)
 * [Reading List](reading-list.md)
 
 ## Algorithms
