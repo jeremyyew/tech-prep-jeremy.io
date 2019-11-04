@@ -1,5 +1,51 @@
 # Example Questions \(4/6\)
 
+## **Approach**
+
+* **Scoping/Functional requirements**
+  * No. of users
+  * Possible use cases
+  * Final features
+    * **Tradeoffs,** justification on decision 
+  * Inputs/outputs - sketch API 
+  * Read/write ratio 
+  * Number of requests per second 
+    * Concurrent connections per web server - 500? 
+  * Size of requests/responses
+    * Change over time, scalability 
+  * Persistence
+    * Memory requirements
+  * MVP vs production
+* **Design Goals/Non-functional Requirements**
+  * CAP, simplicity, extensibility
+  * Clarify
+  * Prioritize 
+* **Components + Schema**
+  * Firm up API if necessary
+  * Justify based on design goals
+  * SQL or NoSQL
+  * Scalability
+    * Latency
+      * **Horizontal scaling - load balancers**
+      * **Caching - client,  web server,  intermediate cache, CDN**
+        * **Replicas?**  
+
+        1. **Read-first/Cache-aside**
+        2. **Write-through**
+        3. **Write-back**
+        4. **Refresh-ahead**
+      * **Database sharding/data partitioning**
+        * **Vertical, horizontal - cons \(joining\)** 
+        * **Consistent hashing** 
+        * **Directory-based partitioning** 
+        * **How to handle non-uniform distribution?** 
+    * Fault tolerance 
+      * Replicas, redundancy 
+* **Others**
+  * Pseudocode
+  * Feature Implementation 
+  * Edge cases/error handling 
+
 ## Handy ballpark figures
 
 * [https://github.com/donnemartin/system-design-primer\#latency-numbers-every-programmer-should-know](https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know)
@@ -44,15 +90,5 @@
 * Educative
   * [https://www.educative.io/collection/5668639101419520/5649050225344512](https://www.educative.io/collection/5668639101419520/5649050225344512)
 
-## Scoping
-
-## **Design Goals**
-
-## **Schema**
-
-## Pseudocode
-
-## Feature Implementation 
-
-## Scalability
+## 
 
