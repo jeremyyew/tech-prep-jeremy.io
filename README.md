@@ -14,10 +14,25 @@
   * [ ] Union find ****[**https://algs4.cs.princeton.edu/15uf/**](https://algs4.cs.princeton.edu/15uf/)
   * [ ] Segment trees/fenwick trees
   * [ ] Time complexity
-* [ ] **Wed 6th:** 8am-9am
+* [ ] **Wed 6th:** 8am-9am, 11am-5pm
   * [ ] Djikstra's shortest path
   * [ ] Max flow
   * [ ] P/NP \(travelling salesman, knapsack\)
+  * [ ] Graphs
+    * [ ] DFS with adjacency list \(recursive\)
+    * [ ] DFS with adjacency list \(iterative with stack\)
+    * [ ] DFS with adjacency matrix \(recursive\)
+    * [ ] DFS with adjacency matrix \(iterative with stack\)
+    * [ ] BFS with adjacency list
+    * [ ] BFS with adjacency matrix
+    * [ ] single-source shortest path \(Dijkstra\)
+    * [ ] minimum spanning tree
+    * [ ] DFS-based algorithms \(see Aduni videos above\):
+    * [ ] check for cycle \(needed for topological sort, since we'll check for cycle before starting\)
+    * [ ] topological sort
+    * [ ] count connected components in a graph
+    * [ ]  list strongly connected components
+    * [ ] check for bipartite graph
 * [ ] **Thurs 7th:** 8am-10am
   * [ ] Two pointers/sliding window
   * [ ] OS - processes, threads, semaphores, mutexes, locks, context switching, scheduling
@@ -26,7 +41,7 @@
   * [ ] Tree traversal, bitmasks, binary search
 * [ ] **Sat 9th**
   * [ ] Tries
-  * [ ] BFS/DFS/Flood fill
+  * [ ] \*\*\*\*
 * [ ] **Sun 10th**
   * [ ] [https://google.github.io/styleguide/pyguide.html](https://google.github.io/styleguide/pyguide.html)
 
