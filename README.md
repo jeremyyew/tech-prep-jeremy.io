@@ -4,9 +4,9 @@
 
 * [ ] **Mon 4th:** 1130-1230, 8-9pm
   * [x] Schedule
-  * [ ] [https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html](https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
-  * [ ] [https://github.com/jwasham/coding-interview-university/blob/master/README.md\#google-interview-university](https://github.com/jwasham/coding-interview-university/blob/master/README.md#google-interview-university)
-  * [ ] Flashcards
+  * [x] [https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html](https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
+  * [x] [https://github.com/jwasham/coding-interview-university/blob/master/README.md\#google-interview-university](https://github.com/jwasham/coding-interview-university/blob/master/README.md#google-interview-university)
+  * [x] Flashcards
   * [ ] Dynamic programming
 * [ ] **Tues 5th:** 8am-10am
   * [ ] Google Doc setup
