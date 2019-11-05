@@ -2,19 +2,17 @@
 
 ## **Revision**
 
-* [ ] **Mon 4th:** 1130-1230, 8-9pm
+* [x] **Mon 4th:** 1130-1230, 8-9pm
   * [x] Schedule
   * [x] [https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html](https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
   * [x] [https://github.com/jwasham/coding-interview-university/blob/master/README.md\#google-interview-university](https://github.com/jwasham/coding-interview-university/blob/master/README.md#google-interview-university)
   * [x] Flashcards
-  * [ ] Dynamic programming
 * [ ] **Tues 5th:** 8am-10am
-  * [ ] Google Doc setup
-  * [ ] Union find ****[**https://algs4.cs.princeton.edu/15uf/**](https://algs4.cs.princeton.edu/15uf/)
-  * [ ] Segment trees/fenwick trees
-  * [ ] Time complexity
+  * [x] Google Doc setup
+  * [x] 445-630pm, 8-930pm Union find ****[**https://algs4.cs.princeton.edu/15uf/**](https://algs4.cs.princeton.edu/15uf/)
 * [ ] **Wed 6th:** 8am-9am, 11am-5pm
   * [ ] Djikstra's shortest path
+  * [ ] Segment trees/fenwick trees
   * [ ] Max flow
   * [ ] P/NP \(travelling salesman, knapsack\)
   * [ ] Graphs
@@ -24,23 +22,26 @@
     * [ ] DFS with adjacency matrix \(iterative with stack\)
     * [ ] BFS with adjacency list
     * [ ] BFS with adjacency matrix
-    * [ ] single-source shortest path \(Dijkstra\)
     * [ ] minimum spanning tree
     * [ ] DFS-based algorithms \(see Aduni videos above\):
-    * [ ] check for cycle \(needed for topological sort, since we'll check for cycle before starting\)
     * [ ] topological sort
-    * [ ] count connected components in a graph
-    * [ ]  list strongly connected components
     * [ ] check for bipartite graph
 * [ ] **Thurs 7th:** 8am-10am
+  * [ ] Binary search, merge sort, quicksort
   * [ ] Two pointers/sliding window
   * [ ] OS - processes, threads, semaphores, mutexes, locks, context switching, scheduling
+  * [ ] Heaps
+  * [ ] Bitmasks
 * [ ] **Fri 8th:** 8am-10am
-  * [ ] Binary heaps, Linked List 
-  * [ ] Tree traversal, bitmasks, binary search
+  * [ ] Tree traversal, bitmasks
+  * [ ] Dynamic programming
 * [ ] **Sat 9th**
-  * [ ] Tries
-  * [ ] \*\*\*\*
+  * [ ] **Google coding**
 * [ ] **Sun 10th**
   * [ ] [https://google.github.io/styleguide/pyguide.html](https://google.github.io/styleguide/pyguide.html)
+* [ ] **Mon 11th**
+  * [ ] Linked List, Tree traversal
+* [ ] **Tues 12th**
+  * [ ] Tries
+* [ ] **Wed 13th Warmup** 
 
