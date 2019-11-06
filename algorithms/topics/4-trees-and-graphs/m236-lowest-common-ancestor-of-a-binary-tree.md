@@ -1,5 +1,20 @@
 # M236-lowest-common-ancestor-of-a-binary-tree
 
+1. Filter Up: Most elegant and concise. DF recursive, but returns trees only.
+   * Return root if root is p, q, or None
+   * If one is in left, return left
+   * If one is in right, return right
+   * If both, return self.
+
+     This way, all subtrees which contain left or right eventually merge at their LCA, and the only value that 'filters up' to the original root node is the LCA, since every parent will pass the LCA up as a result \(they only receive None from others\).
+
+     See [https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/65225/4-lines-C%2B%2BJavaPythonRuby](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/65225/4-lines-C%2B%2BJavaPythonRuby).
+2. DF recursive traversal, return containment, write to memory once found. Most simple and understandable.
+   * O\(N\) time and space. 
+   * Use coerced addition to count number of True values. 
+3. Iterative DF search with Parent Pointers: Decently simple. No recursion. O\(N\) time and space.
+4. Iterative Post-order Traversal with Parent Stack: Tricky. No pointers. O\(N\) time and space.
+
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -7,38 +22,16 @@
 #         self.val = x
 #         self.left = None
 #         self.right = None
-'''
-1. Filter Up: Most elegant and concise. 
-    DF recursive, but returns trees only. 
-    - Return root if root is p, q, or None
-    - If one is in left, return left
-    - If one is in right, return right
-    - If both, return self. 
-    
-    This way, all subtrees which contain left or right eventually merge at their LCA, and the only value that 'filters up' to the original root node is the LCA, since every parent will pass the LCA up as a result (they only receive None from others). 
-
-    See https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/65225/4-lines-C%2B%2BJavaPythonRuby. 
-
-2. DF recursive traversal, return containment, write to memory once found. Most simple and understandable.
-    - O(N) time and space. 
-    - Use coerced addition to count number of True values. 
-
-3. Iterative DF search with Parent Pointers: Decently simple. No recursion. 
-    O(N) time and space. 
-
-4. Iterative Post-order Traversal with Parent Stack: Tricky. No pointers.
-    O(N) time and space. 
-
-'''
-
 
 class Solution:
-    def lowestCommonAncestor(self, root, p, q):
-        if root in (None, p, q):
-            return root
-        left, right = (self.lowestCommonAncestor(kid, p, q)
-                       for kid in (root.left, root.right))
-        return root if left and right else left or right
+    def lowestCommonAncestor(self, node, p, q):
+        def helper(node):
+            if node in (None, p, q):
+                return node
+            l = helper(node.right)
+            r = helper(node.left)
+            return node if l and r else l or r
+        return helper(node)
 
 
 class SolutionRec:
