@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(35/40 Easy, 71/85 Medium, 11/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(35/40 Easy, 73/85 Medium, 12/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -149,6 +149,8 @@
     * [M647-palindromic-substrings](algorithms/topics/9-miscellaneous/m647-palindromic-substrings.md)
     * [M1007-minimum-domino-rotations-for-equal-row](algorithms/topics/9-miscellaneous/m1007-minimum-domino-rotations-for-equal-row.md)
     * [H336-palindrome-pairs](algorithms/topics/9-miscellaneous/h336-palindrome-pairs.md)
+  * [10. Union Find \(0E, 2M, 1H\)](algorithms/topics/10-union-find/README.md)
+    * [Union Find Problems](algorithms/topics/10-union-find/union-find-problems.md)
 * [Python Time Complexity](algorithms/python-time-complexity.md)
 * [Others](algorithms/others/README.md)
   * [Python](algorithms/others/python.md)
