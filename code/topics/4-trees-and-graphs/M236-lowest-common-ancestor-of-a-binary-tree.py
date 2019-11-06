@@ -30,12 +30,14 @@
 
 
 class Solution:
-    def lowestCommonAncestor(self, root, p, q):
-        if root in (None, p, q):
-            return root
-        left, right = (self.lowestCommonAncestor(kid, p, q)
-                       for kid in (root.left, root.right))
-        return root if left and right else left or right
+    def lowestCommonAncestor(self, node, p, q):
+        def helper(node):
+            if node in (None, p, q):
+                return node
+            l = helper(node.right)
+            r = helper(node.left)
+            return node if l and r else l or r
+        return helper(node)
 
 
 class SolutionRec:
