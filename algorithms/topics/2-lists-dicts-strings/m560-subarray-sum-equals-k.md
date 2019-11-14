@@ -9,21 +9,20 @@
 * Procedurally, we can do a one-pass, keeping a counter of how many of each sums we have seen \(since the current partial sum could form `k` with multiple other previous indices.\)
 
 ```python
-from typing import List
-import collections
+from collections import Counter
+
 
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        sums = collections.Counter()
-        total = 0
-        res = 0
-        for i, n in enumerate(nums):
-            total += n
-            res += sums[total - k]
-            sums[total] += 1
-            if total ==k:
-                res += 1
+        # Base case: when the current sum is equal to the target, we will add sum_counts[0] = 1.
+        sum_counts = Counter([0])
+        res, curr_sum = 0, 0
+        for n in nums:
+            curr_sum += n
+            comp_sum = curr_sum - k
+            if comp_sum in sum_counts:
+                res += sum_counts[comp_sum]
+            sum_counts[curr_sum] += 1
         return res
-
 ```
 
