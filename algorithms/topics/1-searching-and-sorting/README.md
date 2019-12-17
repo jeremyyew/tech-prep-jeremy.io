@@ -9,104 +9,81 @@ import unittest
 
 class TestMergeSort(unittest.TestCase):
     def test_MergeSort(self):
-        result1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-        case1 = [10, 1, 9, 2, 8 ,3, 7, 4, 6, 5, 0]
+        case1 = [10, 1, 9, 2, 8, 3, 7, 4, 6, 5, 0]
+        result1 = list(sorted(case1))
+        case2 = [9, 1, 9, 1, 8, 3, 7, 4, 6, 5, 0]
+        result2 = list(sorted(case2))
 
-        result2 = [0, 1, 1, 3, 4, 5, 6, 7, 8, 9, 9]
-        case2 = [9, 1, 9, 1, 8 ,3, 7, 4, 6, 5, 0]
+        mergeSort(case1)
+        self.assertEqual(case1, result1)
+        mergeSort(case2)
+        self.assertEqual(case2, result2)
 
 
-        self.assertEqual(MergeSort().mergeSort(case1), result1)
-        self.assertEqual(MergeSort().mergeSort(case2), result2)
+def mergeSort(arr):
+    temp = [None for _ in range(len(arr))]
 
-
-class MergeSort():
-    def mergeSort(self, arr):
-        self.helper = [None] * len(arr)
-        self.arr = arr
-        self.sort(0, len(arr) - 1)
-        return self.arr
-
-    def sort(self, start, end):
-        # print(f'arr: {arr}, start: {start}, end: {end}')
-        if start >= end:
+    def sort(l, r):  # l-inclusive, r-exclusive.
+        if r - l < 2:
             return
-        mid = (start + end) // 2
-        self.sort(start, mid)
-        self.sort(mid + 1, end) # The plus one is super important, else you get infinite loop
-        self.merge(start, mid, end)
+        m = (l + r) // 2
+        sort(l, m)
+        sort(m, r)
+        merge(l, m, r)
 
-    def merge(self, start, mid, end):
-        # Copy both halves into a helper array. 
-        # We can safely access the class members because our recursion will copy and merge in the correct order (left to right, bottom up).
-        for i in range(start, end + 1):
-            self.helper[i] = self.arr[i]
+    def merge(l, m, r):
+        # LHS: (l-inclusive, m-exclusive).  # RHS: (m-inclusive, r-exclusive).
+        temp[l:r] = arr[l:r]
 
-        left = start
-        right = mid + 1 
-        current = start
+        curr = a = l
+        b = m
+        while a < m and b < r:
+            if temp[a] <= temp[b]:
+                arr[curr] = temp[a]
+                a += 1
+            else:
+                arr[curr] = temp[b]
+                b += 1
+            curr += 1
 
-        # Iterate through helper array. Compare the left and right half, copying back the smaller element from the two halves into the original array.
-        while left <= mid and right <= end: 
-            if self.helper[left] <= self.helper[right]:
-                self.arr[current] = self.helper[left]
-                left += 1
-            else:   
-                self.arr[current] = self.helper[right]
-                right += 1
-            current += 1
+        rem = m - a
+        arr[curr:curr+rem] = temp[a:a+rem]
 
-        #  Either LHS or RHS arr will still have remaining elements, which now simply need to be appended. However, we only need to continue copying if the remaining elements are on LHS - otherwise RHS elements are already there. 
-        remaining = mid - left
-        for i in range(0, remaining + 1):
-            self.arr[current + i] = self.helper[left + i]
+    sort(0, len(arr))
 
 
 class TestQuickSort(unittest.TestCase):
     def test_QuickSort(self):
-        result1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-        case1 = [10, 1, 9, 2, 8 ,3, 7, 4, 6, 5, 0]
+        case1 = [10, 1, 9, 2, 8, 3, 7, 4, 6, 5, 0]
+        result1 = list(sorted(case1))
 
-        result2 = [0, 1, 1, 3, 4, 5, 6, 7, 8, 9, 9]
-        case2 = [9, 1, 9, 1, 8 ,3, 7, 4, 6, 5, 0]
+        case2 = [9, 1, 9, 1, 8, 3, 7, 4, 6, 5, 0]
+        result2 = list(sorted(case2))
 
-        self.assertEqual(QuickSort().quickSort(case1), result1)
-        self.assertEqual(QuickSort().quickSort(case2), result2) 
+        quickSort(case1)
+        self.assertEqual(case1, result1)
+        quickSort(case2)
+        self.assertEqual(case2, result2)
 
-class QuickSort(): 
-    def quickSort(self, arr):
-        self.arr = arr
-        self.sort(0, len(arr) - 1)
-        return self.arr
 
-    def sort(self, left, right):
-        index = self.partition(left, right)
-        # print(self.arr)
-        if left < index - 1: # Sort left half 
-            self.sort(left, index - 1)
-        if index < right: # Sort right half
-            self.sort(index, right)
+def quickSort(arr):
+    def partition(l, r):  # l and r inclusive.
+        pivot = arr[r]     # pivot
+        for j in range(l, r):
+            if arr[j] < pivot:
+                arr[l], arr[j] = arr[j], arr[l]
+                l += 1
+        arr[l], arr[r] = arr[r], arr[l]
+        return l
 
-    def partition(self, left, right):
-        pivot = self.arr[(left + right)//2]
-        # In order to swap in place, we need to find pairs that are both on the wrong side.
-        # Keep going to the middle. 
-        while left <= right:
-            # starting from left, look for the index of the next LHS value greater than partition
-            while self.arr[left] < pivot and left <= right: 
-                left += 1 
-            # vice-versa for RHS
-            while self.arr[right] > pivot and left <= right: 
-                # print(f'right: {right}, len: {len(self.arr)}')
-                right -= 1
-            # Swap. But check if left is still <= right. 
-            if left <= right: 
-                temp = self.arr[left]
-                self.arr[left] = self.arr[right]
-                self.arr[right] = temp
-                left += 1
-                right -= 1
-        return left
+    def helper(l, r):  # l and r inclusive.
+        if l >= r:
+            return
+        pi = partition(l, r)
+        helper(l, pi-1)
+        helper(pi+1, r)
+
+    helper(0, len(arr) - 1)
 
 
 class TestBinSort(unittest.TestCase):
@@ -170,20 +147,20 @@ class BinarySearchRecursive():
             else: 
                 return m
         return search_rec(0, len(nums)-1)
-        
-class BinarySearchIterative():
-    def search(self, nums, x):
-        l, r = 0, len(nums) - 1 
-        while l <= r: 
-            m = (l + r) // 2
-            if nums[m] < x:
-                l = m + 1
-            elif nums[m] > x:
-                r = m -1
-            else: 
-                return m
-        return -1
 
+
+class BinarySearchIterative():
+    def search(self, nums, k):
+        l, r = 0, len(nums) - 1
+        while l <= r:
+            m = (l + r) // 2
+            if nums[m] == k:
+                return k
+            elif nums[m] > k:
+                r = m - 1
+            else:
+                l = m + 1
+        return None
 
 
 # Sorted Merge: You are given two sorted arrays, A and B, where A has a large enough buffer at the end to hold B. Write a method to merge B into A in sorted order.

@@ -8,12 +8,11 @@ Linearly scanning from our first occurence is O\(N\) since all the elements migh
 class Solution:
     def searchRange(self, nums, target):
         LEFT, RIGHT = 0, 1
-
         def searchModified(direction):
             t = -1
             l, r = 0, len(nums) - 1
             while l <= r:
-                m = l + ((r-l) // 2)
+                m = (l + r) // 2
                 if target == nums[m]:
                     t = m
                     if direction == RIGHT:
