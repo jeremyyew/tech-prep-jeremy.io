@@ -1,20 +1,32 @@
 import unittest
 
 
-class TestMergeSort(unittest.TestCase):
-    def test_MergeSort(self):
+class TestSort(unittest.TestCase):
+    def test_quicksort(self):
+        case1 = [10, 1, 9, 2, 8, 3, 7, 4, 6, 5, 0]
+        result1 = list(sorted(case1))
+
+        case2 = [9, 1, 9, 1, 8, 3, 7, 4, 6, 5, 0]
+        result2 = list(sorted(case2))
+
+        quicksort(case1)
+        self.assertEqual(case1, result1)
+        quicksort(case2)
+        self.assertEqual(case2, result2)
+
+    def test_mergesort(self):
         case1 = [10, 1, 9, 2, 8, 3, 7, 4, 6, 5, 0]
         result1 = list(sorted(case1))
         case2 = [9, 1, 9, 1, 8, 3, 7, 4, 6, 5, 0]
         result2 = list(sorted(case2))
 
-        mergeSort(case1)
+        mergesort(case1)
         self.assertEqual(case1, result1)
-        mergeSort(case2)
+        mergesort(case2)
         self.assertEqual(case2, result2)
 
 
-def mergeSort(arr):
+def mergesort(arr):
     temp = [None for _ in range(len(arr))]
 
     def sort(l, r):  # l-inclusive, r-exclusive.
@@ -46,38 +58,24 @@ def mergeSort(arr):
     sort(0, len(arr))
 
 
-class TestQuickSort(unittest.TestCase):
-    def test_QuickSort(self):
-        case1 = [10, 1, 9, 2, 8, 3, 7, 4, 6, 5, 0]
-        result1 = list(sorted(case1))
-
-        case2 = [9, 1, 9, 1, 8, 3, 7, 4, 6, 5, 0]
-        result2 = list(sorted(case2))
-
-        quickSort(case1)
-        self.assertEqual(case1, result1)
-        quickSort(case2)
-        self.assertEqual(case2, result2)
-
-
-def quickSort(arr):
+def quicksort(arr):
     def partition(l, r):  # l and r inclusive.
         pivot = arr[r]     # pivot
-        for j in range(l, r):
-            if arr[j] < pivot:
-                arr[l], arr[j] = arr[j], arr[l]
+        for i in range(l, r):
+            if arr[i] < pivot:
+                arr[l], arr[i] = arr[i], arr[l]
                 l += 1
         arr[l], arr[r] = arr[r], arr[l]
         return l
 
-    def helper(l, r):  # l and r inclusive.
+    def search(l, r):  # l and r inclusive.
         if l >= r:
             return
         pi = partition(l, r)
-        helper(l, pi-1)
-        helper(pi+1, r)
+        search(l, pi-1)
+        search(pi+1, r)
 
-    helper(0, len(arr) - 1)
+    search(0, len(arr) - 1)
 
 
 class TestBinarySearch(unittest.TestCase):
@@ -85,22 +83,21 @@ class TestBinarySearch(unittest.TestCase):
         result1 = 42
         case1 = [i for i in range(100)]
 
-        self.assertEqual(BinarySearchIterative().search(case1, 42), result1)
-        self.assertIsNone(BinarySearchIterative().search(case1, 200))
+        self.assertEqual(binary_search(case1, 42), result1)
+        self.assertIsNone(binary_search(case1, 200))
 
 
-class BinarySearchIterative():
-    def search(self, nums, k):
-        l, r = 0, len(nums) - 1
-        while l <= r:
-            m = (l + r) // 2
-            if nums[m] == k:
-                return k
-            elif nums[m] > k:
-                r = m - 1
-            else:
-                l = m + 1
-        return None
+def binary_search(nums, k):
+    l, r = 0, len(nums) - 1
+    while l <= r:
+        m = (l + r) // 2
+        if nums[m] == k:
+            return k
+        elif nums[m] > k:
+            r = m - 1
+        else:
+            l = m + 1
+    return None
 
 
 class TestSearchFirstLast(unittest.TestCase):

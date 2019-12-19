@@ -4,35 +4,32 @@ from collections import defaultdict
 
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        course_to_prereqs = defaultdict(list)
+        c_to_p = defaultdict(list)
         visited = defaultdict(int)
-        for c, p in prerequisites:
-            course_to_prereqs[c].append(p)
-
         order = []
+        for c, p in prerequisites:
+            c_to_p[c].append(p)
 
-        def satisfy_prereqs(c):
+        def satisfy_p(c):
             if visited[c] == 1:
                 return
             elif visited[c] == -1:
-                raise Exception("CycleFound")
+                raise Exception("cycle found")
             visited[c] = -1
-            for p in course_to_prereqs[c]:
-                satisfy_prereqs(p)
+            for p in c_to_p[c]:
+                satisfy_p(p)
             visited[c] = 1
             order.append(c)
-            # print(order)
 
         for c in range(numCourses):
             try:
-                satisfy_prereqs(c)
+                satisfy_p(c)
             except Exception as e:
-                if str(e) == ("CycleFound"):
-                    # print("except")
+                if str(e) == "cycle found":
                     return []
                 raise e
         return order
 
 
-# r = Solution().findOrder(2, [[1, 0]])
-# print(r)
+r = Solution().findOrder(2, [[1, 0]])
+print(r)
