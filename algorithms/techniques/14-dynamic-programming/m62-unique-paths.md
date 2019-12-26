@@ -1,5 +1,7 @@
 # M62-unique-paths
 
+
+
 {% hint style="info" %}
 Observe that to get to some cell `(i, j)`, we can only travel from two adjacent cells `(i-1, j)` or `(i, j-1)`. Hence, the number of ways to get to cell `(i,j)` is the number of ways to get to `(i-1, j)` plus the number of ways to get to `(i, j-1)`.
 {% endhint %}

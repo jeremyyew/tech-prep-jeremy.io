@@ -1,5 +1,24 @@
 # M55-jump-game
 
+_Given an array of non-negative integers, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index._
+
+**Example 1:**
+
+```text
+Input: [2,3,1,1,4]
+Output: true
+Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+```
+
+**Example 2:**
+
+```text
+Input: [3,2,1,0,4]
+Output: false
+Explanation: You will always arrive at index 3 no matter what. Its maximum
+             jump length is 0, which makes it impossible to reach the last index.
+```
+
 {% hint style="info" %}
 Keep track of the minimal \(leftmost\) 'edge' that we must be able to jump to, such that we can eventually jump to`N`. If we can jump to an edge from `i`, `i` becomes our new edge.
 {% endhint %}

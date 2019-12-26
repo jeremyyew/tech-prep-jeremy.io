@@ -1,5 +1,7 @@
 # E70-climbing-stairs
 
+_You are climbing a stair case. It takes n steps to reach to the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top? **Note:** Given n will be a positive integer._
+
 * Base cases:
   * `n = 1`, so `1`.
   * `n = 2`, so `1+1` or `2`.
