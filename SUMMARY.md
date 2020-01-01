@@ -7,6 +7,7 @@
 
 * [Progress Tracker \(35/40 Easy, 73/85 Medium, 12/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
+  * [Untitled](algorithms/techniques/untitled.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
     * [M395-longest-substring-with-at-least-K-repeating-characters](algorithms/techniques/1-sliding-window/m395-longest-substring-with-at-least-k-repeating-characters.md)

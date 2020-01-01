@@ -1,27 +1,6 @@
 # M62-unique-paths
 
-_A robot is located at the top-left corner of a m x n grid \(marked 'Start' in the diagram below\)._
 
-_The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid \(marked 'Finish' in the diagram below\)._
-
-_How many possible unique paths are there?_
-
-\_\_![](https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png)  
-_Above is a 7 x 3 grid. How many possible unique paths are there?_
-
-_**Note:** m and n will be at most 100._
-
-_**Example 1:**_
-
-```text
-Input: m = 3, n = 2
-Output: 3
-Explanation:
-From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
-1. Right -> Right -> Down
-2. Right -> Down -> Right
-3. Down -> Right -> Right
-```
 
 {% hint style="info" %}
 Observe that to get to some cell `(i, j)`, we can only travel from two adjacent cells `(i-1, j)` or `(i, j-1)`. Hence, the number of ways to get to cell `(i,j)` is the number of ways to get to `(i-1, j)` plus the number of ways to get to `(i, j-1)`.
