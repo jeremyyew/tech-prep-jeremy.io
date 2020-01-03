@@ -31,26 +31,26 @@ Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 Output: false
 ```
 
-```python
-'''
-
 1. Brute Force? 
+
     Test all combinations of words that are equal to the length of s. 
 
-2.
-    Let OPT(i) be the possibility of segmenting the prefix of s of length i, and s[:i] be the substring from 0 to i (non-inclusive). 
-    Then, for OPT(i) to be true, 
-    1. there exists some word that is a suffix of s[:i]
-    2. we can segment the remaining prefix s[:i-w], i.e. OPT(i-w) is true
-    3. the word is not longer than the substring itself (ensured by 1), else we get negative indexes. 
+2.  Let OPT\(i\) be the possibility of segmenting the prefix of s of length i, and s\[:i\] be the substring from 0 to i \(non-inclusive\). Then, for OPT\(i\) to be true, 
+   1. there exists some word that is a suffix of s\[:i\] 
+   2. we can segment the remaining prefix s\[:i-w\], i.e. OPT\(i-w\) is true 
+   3. the word is not longer than the substring itself \(ensured by 1\), else we get negative indexes.
 
-    Formally, 
-    OPT(i) = s[:i].endswith(word) and i >= w and OPT(i - w) for some word in wordDict with length w.
-'''
+Formally, `OPT(i) = s[:i].endswith(word) and i >= w and OPT(i - w)` for some word in wordDict with length w.
+
+```python
 from typing import List
 
 
+
 class Solution:
+    def wordBreakRec(self, s, d):
+        
+    
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         S = len(s)
         OPT = [False] * (S + 1)
