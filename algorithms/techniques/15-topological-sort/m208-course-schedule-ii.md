@@ -42,7 +42,5 @@ class Solution:
 
 r = Solution().findOrder(2, [[1, 0]])
 print(r)
-
-
 ```
 

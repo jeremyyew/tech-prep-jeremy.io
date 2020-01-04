@@ -27,6 +27,5 @@ class Solution:
         lo = searchModified(LEFT)
         hi = searchModified(RIGHT)
         return [lo, hi]
-
 ```
 

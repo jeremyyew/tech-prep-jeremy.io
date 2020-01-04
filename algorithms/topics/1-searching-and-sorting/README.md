@@ -185,7 +185,7 @@ class SortedMerge():
         print(self.A)
         self.right_shift(shift_from, len(self.B))
         print(self.A)
-        
+
         # Same as merge sort except we copy into A.
         # Invariant: for all current = i, we will not be overwriting an element of A that has not already been merged. 
         # For i from 0 to len(B) we only overwrite None. 
@@ -201,14 +201,14 @@ class SortedMerge():
                 self.A[current] = self.B[B_index]
                 B_index += 1
             current += 1
-        
+
         if B_index < len(B):
             while B_index < len(B):
                 self.A[current] = self.B[B_index]
                 B_index += 1
                 current += 1
         # else: A is in place and we're done 
-    
+
         return self.A
 
     def right_shift(self, start, offset):
@@ -217,9 +217,5 @@ class SortedMerge():
 
 
 unittest.main()
-
-
-        
-        
 ```
 
