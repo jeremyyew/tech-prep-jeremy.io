@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(35/40 Easy, 73/85 Medium, 12/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(35/40 Easy, 74/85 Medium, 12/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -54,7 +54,7 @@
     * [M347-top-k-frequent-elements](algorithms/techniques/12-top-k-elements/m347-top-k-frequent-elements.md)
   * [13. K-way Merge \(1H\)](algorithms/techniques/13.-k-way-merge/README.md)
     * [H23-merge-k-sorted-lists](algorithms/techniques/13.-k-way-merge/h23-merge-k-sorted-lists.md)
-  * [14. Dynamic Programming \(5E, 11M, 3H\)](algorithms/techniques/14-dynamic-programming/README.md)
+  * [14. Dynamic Programming \(5E, 12M, 3H\)](algorithms/techniques/14-dynamic-programming/README.md)
     * [E70-climbing-stairs](algorithms/techniques/14-dynamic-programming/e70-climbing-stairs.md)
     * [E121-buy-sell-stock](algorithms/techniques/14-dynamic-programming/e121-buy-sell-stock.md)
     * [E198-house-robber](algorithms/techniques/14-dynamic-programming/e198-house-robber-1.md)
@@ -70,6 +70,7 @@
     * [M300-longest-increasing-subsequence](algorithms/techniques/14-dynamic-programming/m300-longest-increasing-subsequence.md)
     * [M322-coin-change](algorithms/techniques/14-dynamic-programming/m322-coin-change.md)
     * [M516-longest-palindromic-subsequence](algorithms/techniques/14-dynamic-programming/m516-longest-palindromic-subsequence.md)
+    * [M1143-longest-common-subsequence](algorithms/techniques/14-dynamic-programming/m1143-longest-common-subsequence.md)
     * [M673-number-of-longest-increasing-subsequence](algorithms/techniques/14-dynamic-programming/m673-number-of-longest-increasing-subsequence.md)
     * [H72-edit-distance](algorithms/techniques/14-dynamic-programming/h72-edit-distance.md)
     * [H97-interleaving-string](algorithms/techniques/14-dynamic-programming/h97-interleaving-string.md)
@@ -159,6 +160,7 @@
 
 * [Overview](systems-design/systems-design.md)
 * [OS](systems-design/os.md)
+* [Concurrency](systems-design/concurrency.md)
 * [Triplebyte](systems-design/triplebyte/README.md)
   * [Hash Map Implementations](systems-design/triplebyte/hash-map-implementations.md)
   * [Binary Tree Implementations](systems-design/triplebyte/binary-trees.md)

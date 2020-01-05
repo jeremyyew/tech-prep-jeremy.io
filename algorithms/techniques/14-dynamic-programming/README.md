@@ -1,4 +1,4 @@
-# 14. Dynamic Programming \(5E, 11M, 3H\)
+# 14. Dynamic Programming \(5E, 12M, 3H\)
 
 ## Memoization
 
