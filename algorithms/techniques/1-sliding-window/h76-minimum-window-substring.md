@@ -1,19 +1,5 @@
 # H76-minimum-window-substring
 
-_Given a string S and a string T, find the minimum window in S which will contain all the characters in T in complexity O\(n\)._
-
-_**Example:**_
-
-```text
-Input: S = "ADOBECODEBANC", T = "ABC"
-Output: "BANC"
-```
-
-_**Note:**_
-
-* _If there is no such window in S that covers all characters in T, return the empty string `""`._
-* _If there is such window, you are guaranteed that there will always be only one unique minimum window in S._
-
 {% hint style="info" %}
 * The key idea is to **shift `r` until we get a valid window, and then try to shorten that window by shifting `l` until our window is invalid**, and then continue shifting `r` again until we get the next valid window. 
 * Use a **counter** to keep track of elements we need to account for, **decrementing them when they are added** to a window. 
