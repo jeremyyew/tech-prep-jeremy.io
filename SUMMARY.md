@@ -5,7 +5,7 @@
 
 ## Algorithms
 
-* [Progress Tracker \(35/40 Easy, 74/85 Medium, 12/15 Hard\)](algorithms/progress.md)
+* [Progress Tracker \(35/40 Easy, 74/85 Medium, 13/15 Hard\)](algorithms/progress.md)
 * [Techniques](algorithms/techniques/README.md)
   * [1. Sliding Window \(0E, 2M, 1H\)](algorithms/techniques/1-sliding-window/README.md)
     * [M3-longest-substring-without-repeating-characters](algorithms/techniques/1-sliding-window/m3-longest-substring-without-repeating-characters.md)
@@ -77,7 +77,7 @@
     * [H329-longest-increasing-path-in-a-matrix](algorithms/techniques/14-dynamic-programming/untitled.md)
   * [15. Topological Sort \(0E, 2M, 0H\)](algorithms/techniques/15-topological-sort/README.md)
     * [M207-course-schedule](algorithms/techniques/15-topological-sort/m207-course-schedule.md)
-    * [M208-course-schedule-II](algorithms/techniques/15-topological-sort/m208-course-schedule-ii.md)
+    * [M210-course-schedule-II](algorithms/techniques/15-topological-sort/m208-course-schedule-ii.md)
 * [Topics](algorithms/topics/README.md)
   * [1. Searching and Sorting \(4M\)](algorithms/topics/1-searching-and-sorting/README.md)
     * [M31-next-permutation](algorithms/topics/1-searching-and-sorting/m31-next-permutation.md)
@@ -140,7 +140,7 @@
     * [M208-implement-trie](algorithms/topics/8-tries/m208-implement-trie.md)
     * [M211-add-and-search-word](algorithms/topics/8-tries/m211-add-and-search-word.md)
     * [M676-magic-dictionary](algorithms/topics/8-tries/m676-magic-dictionary.md)
-  * [9. Miscellaneous \(3E, 5M, 1H\)](algorithms/topics/9-miscellaneous/README.md)
+  * [9. Miscellaneous \(3E, 5M, 2H\)](algorithms/topics/9-miscellaneous/README.md)
     * [E20-valid-parenthesis](algorithms/topics/9-miscellaneous/e20-valid-parenthesis.md)
     * [E202-happy-number](algorithms/topics/9-miscellaneous/e202-happy-number.md)
     * [E892-surface-area-3D](algorithms/topics/9-miscellaneous/e892-surface-area-3d.md)
@@ -149,6 +149,8 @@
     * [M380-insert-delete-get-random-o1](algorithms/topics/9-miscellaneous/m380-insert-delete-get-random-o1.md)
     * [M647-palindromic-substrings](algorithms/topics/9-miscellaneous/m647-palindromic-substrings.md)
     * [M1007-minimum-domino-rotations-for-equal-row](algorithms/topics/9-miscellaneous/m1007-minimum-domino-rotations-for-equal-row.md)
+    * [H84-largest-rectangle-in-histogram](algorithms/topics/9-miscellaneous/h84-largest-rectangle-in-histogram.md)
+    * [H85-maximal-rectangle](algorithms/topics/9-miscellaneous/h85-maximal-rectangle.md)
     * [H336-palindrome-pairs](algorithms/topics/9-miscellaneous/h336-palindrome-pairs.md)
   * [10. Union Find \(0E, 2M, 1H\)](algorithms/topics/10-union-find/README.md)
     * [Union Find Problems](algorithms/topics/10-union-find/union-find-problems.md)
@@ -156,8 +158,9 @@
 * [P, NP, NP-complete](algorithms/p-np-np-complete.md)
 * [Python](algorithms/python.md)
 
-## Systems Design
+## Others <a id="systems-design"></a>
 
+* [OOP](systems-design/oop.md)
 * [Overview](systems-design/systems-design.md)
 * [OS](systems-design/os.md)
 * [Concurrency](systems-design/concurrency.md)

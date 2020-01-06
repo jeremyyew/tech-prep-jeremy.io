@@ -2,7 +2,7 @@
 description: 'Total: 35 + 70 + 11 = 116/200.'
 ---
 
-# Progress Tracker \(35/40 Easy, 74/85 Medium, 12/15 Hard\)
+# Progress Tracker \(35/40 Easy, 74/85 Medium, 13/15 Hard\)
 
 1. [x] 14th
    1. [x] [https://leetcode.com/problems/palindromic-substrings/](https://leetcode.com/problems/palindromic-substrings/)
