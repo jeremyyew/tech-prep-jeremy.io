@@ -10,15 +10,14 @@ description: 'https://gist.github.com/bshlgrs/cc35193f9a13bcf158b82a02aa261bbe'
 * **Every path to leaf contains same number of black nodes.** 
 * Invariant: height of sibling subtrees differ by **max factor two.** 
 * Re-balancing:
-  * O\(1\) to restructure/rotate.
-  * O\(logN\) to recolor, which is recursive. But amortized O\(1\). Why? 
+  * Worst case O\(logN\) to rotate up to parent. 
   * [https://www.cs.auckland.ac.nz/software/AlgAnim/AVL.html](https://www.cs.auckland.ac.nz/software/AlgAnim/AVL.html)
 * Store color. 
 
 ## **A**delson-**V**elskii and **L**andis \(AVL\) Trees
 
 * **No two sibling subtrees differ by more than 1 in height.** 
-* Re-balancing: log\(N\) since we may have to rebalance parents as well, up to the root. 
+* Re-balancing: O\(1\). At most two rotations to fix deepest imbalance. 
 * Store balance factor \(2 bits\) 
 
 {% hint style="info" %}
@@ -28,7 +27,7 @@ description: 'https://gist.github.com/bshlgrs/cc35193f9a13bcf158b82a02aa261bbe'
 ## Comparison
 
 * **Frequent insertions and deletions -&gt; red-black.**
-* **Frequent search -&gt;  AVL.** 
-* AVL trees are more balanced than RB \(differ by 1 vs factor of 2\)
-* AVL trees require up to log\(n\) rotations \(but O\(1\) if amortized, maybe\) whereas RB trees require O\(1\) rotations. 
+  * RB tree rebalancing is O\(logN\),  but happens less often. 
+* **Frequent search -&gt;  AVL.**
+  * AVL trees are more balanced than RB \(differ by 1 vs factor of 2\), so faster lookup. 
 

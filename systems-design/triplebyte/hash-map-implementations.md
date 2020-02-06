@@ -20,10 +20,16 @@ It's okay to have collisions. It's all about the distribution of that collision.
 * Open addressing
   * Probing 
     * Probe sequences: What is the interval to the next possible location? 
-    * Linear, Quadratic, Double Hashing \(second hash function\). 
-      * Cuckoo, Hopscotch, Robin hood 
+    * Linear - go to next. 
+    * Quadratic - jump quadratically. 
+    * **Double Hashing** - interval computed by another hash. 
+    * **Cuckoo -** a set of hash functions, we rotate amongst them to insert/lookup. If still cannot, we relocate recursively. 
+    * **Robin hood** - displace based on probe distance. 
+    * 2-choice. 
+  * Resizing - all at once, incremental \(insert only into new table\)
   * You cant have more values than the number of keys. 
   * We have to worry not just about collision but clustering. 
+* MinHash. 
 
 ## Resizing
 
