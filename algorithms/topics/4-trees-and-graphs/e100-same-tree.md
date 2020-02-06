@@ -11,20 +11,23 @@ class SolutionRec:
             self.isSameTree(p.left, q.left) and \
             self.isSameTree(p.right, q.right)
 
-
+# Note I use one stack here as opposed to the example during the session where I used two stacks.
+# I also make the conditional branching more explicit than in the example (if-else instead of implicitly doing nothing) for readability, this is subjective.
+# Lastly I also use 'p is None' as opposed to boolean coercion in the above i.e. 'not p', this is also subjective.  
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
-        stk_p, stk_q = [p], [q]
-        while stk_p and stk_q:
-            p, q = stk_p.pop(), stk_q.pop()
-            if (not p and q) or (p and not q):
+        stk = [(p, q)]
+        while stk:
+            p, q = stk.pop()
+            if p is None and q is None:
+                continue
+            elif p is None or q is None:
                 return False
-            if p and q:
+            else:
                 if p.val != q.val:
                     return False
-                stk_p += [p.left, p.right]
-                stk_q += [q.left, q.right]
+                else:
+                    stk += [(p.right, q.right), (p.left, q.left)]
         return True
-
 ```
 
